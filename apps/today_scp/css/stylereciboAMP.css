@@ -1,0 +1,97 @@
+body{
+    text-align:center;
+    width:100%;
+    padding:0;
+    margin:0;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+#cuerpo{
+    width:185mm;
+    padding:0;
+    font-size:10pt;
+    margin:0 auto;
+}
+
+h2{
+    width:100%;
+    font-weight:bold;
+    text-align:center;
+    display:block;
+    font-size:19pt;
+    padding:0;
+    margin:0;
+    margin-top:10mm;
+}
+h3{
+    width:100%;
+    font-weight:bold;
+    text-align:center;
+    display:block;
+    font-size:10pt;
+    padding:0;
+    margin:0;
+    text-decoration: underline;
+}
+#info{
+    width:100%;
+    font-weight:bold;
+    text-align:left;
+    display:block;
+    margin:5mm auto;
+    box-sizing: border-box;
+}
+#datos table{
+    width:100%;
+    border-collapse:collapse;
+    text-align:center;
+    font-size:7pt;
+    margin:0 auto;
+    border:solid 1px;
+    white-space: pre-wrap;
+    box-sizing: border-box;
+}
+#datos th{
+    border:solid 1px;
+}
+#datos td{
+    text-align:left;
+    padding:0.5mm;
+    border:solid 1px;
+    box-sizing:border-box;
+}
+/*,#datos tr td:nth-child(2)*/
+#datos tr td:last-child,tfoot tr th:last-child{
+    text-align:right;
+}
+#obs{
+    width:100%;
+    margin:8mm auto;
+    text-align:left;
+}
+#legend{
+    width:90%;
+    margin:8mm auto;
+    text-align:left;
+}
+#firma{
+    width:100%;
+    margin:0 auto;
+    text-align:center;
+    font-size:9pt;
+    /*text-decoration: overline;*/
+}
+#firma span{
+    display:block;
+    font-family: monospace;
+}
+.valor{
+    font-weight:normal;
+    padding-right:8mm;
+}
+#selloqr{
+    margin:0 auto;
+}
+#logoctr{
+    margin:10mm 0 0 0;
+    text-align:right;
+}

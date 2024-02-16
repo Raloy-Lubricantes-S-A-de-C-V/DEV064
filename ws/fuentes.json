@@ -1,0 +1,26 @@
+{
+    "pedidos": {
+        "zarkruse": {
+            "url": "http://www.zar-kruse.com/intranet/ws/wsPedidosZK_consolida.php?t=$2y$10$wgy6SiqmSMLJm7cqlJUEhuzY.idpgiiUR3IEFMUXOBKU9.K/hJF.2"
+        },
+        "odooRaloy": {
+            "url": "https://odoo-bi.raloy.com.mx/services/pedidos_adblue.php"
+        }
+    },
+    "ventas": {
+        "zarkruse": {
+            "url": "www.zar-kruse.com/wsPedidosZK.php",
+            "data": {
+                "from": "fec1",
+                "to": "fec2"
+            }
+        },
+        "odooRaloy": {
+            "url": "https://odoo-bi.raloy.com.mx/services/total_cliente_determinante_adblue.php",
+            "data": {
+                "from": "from",
+                "to": "to"
+            }
+        }
+    }
+}

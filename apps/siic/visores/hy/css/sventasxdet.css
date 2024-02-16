@@ -1,0 +1,33 @@
+.lts,.pzas,#totalLtsVal{
+    text-align: right;
+}
+
+#subHeader{
+    height:9vh;
+    box-sizing:border-box;
+    padding:1vh 1vw;
+    background:rgba(255,255,255,0.8);
+}
+#reportContainer{
+    width:100%;
+    height:100%;
+    box-sizing: border-box;
+    padding:1vh 1%;
+    text-align:center;
+}
+table{
+    font-size:9pt;
+}
+table thead{
+    background: #004080;
+    color:#fff;
+    margin-top:1vh;
+}
+button{
+    background:#004080;
+    color:#fff;
+    font-weight:bold;
+    border:none;
+    padding:2vh 2vw;
+    float:right;
+}

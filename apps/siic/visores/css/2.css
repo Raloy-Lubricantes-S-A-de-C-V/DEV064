@@ -1,0 +1,33 @@
+h5{
+    text-align: center;
+}
+
+#nomcliente{
+    color: #041E41;
+    font-weight: bold;
+}
+
+/*.mdl-layout__container{*/
+/*    width: auto;*/
+/*}*/
+
+
+.siic-content{
+    width: 150vh;
+    max-height: 25vh;
+    margin: 0 auto;
+}
+
+.siic-loading{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -250px;
+
+}
+
+
+
+
+/*inicia edicion de tabla con encabezados fijos*/
+

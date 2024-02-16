@@ -1,0 +1,198 @@
+[26-Mar-2021 17:36:06 America/Mexico_City] PHP Notice:  Undefined index: sessionInfo in /home/zarkruse/public_html/intranet/apps/smartRoad/hojaCostos/hojaCostos.php on line 8
+[26-Mar-2021 17:36:06 America/Mexico_City] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/zarkruse/public_html/intranet/apps/smartRoad/hojaCostos/hojaCostos.php on line 8
+[26-Mar-2021 17:36:06 America/Mexico_City] PHP Notice:  Undefined index: sessionInfo in /home/zarkruse/public_html/intranet/apps/smartRoad/hojaCostos/hojaCostos.php on line 60
+[26-Mar-2021 17:36:06 America/Mexico_City] PHP Notice:  Undefined index: sessionInfo in /home/zarkruse/public_html/intranet/apps/smartRoad/hojaCostos/hojaCostos.php on line 61
+[26-Mar-2021 17:36:06 America/Mexico_City] PHP Notice:  Undefined variable: plantas in /home/zarkruse/public_html/intranet/apps/smartRoad/hojaCostos/hojaCostos.php on line 158
+[26-Mar-2021 17:36:06 America/Mexico_City] PHP Notice:  Undefined variable: permisos in /home/zarkruse/public_html/intranet/apps/smartRoad/hojaCostos/hojaCostos.php on line 175
+[26-Mar-2021 17:36:06 America/Mexico_City] PHP Notice:  Undefined variable: reportes in /home/zarkruse/public_html/intranet/apps/smartRoad/hojaCostos/hojaCostos.php on line 192
+[26-Mar-2021 17:36:19 America/Mexico_City] PHP Notice:  Undefined variable: plantas in /home/zarkruse/public_html/intranet/apps/smartRoad/hojaCostos/hojaCostos.php on line 158
+[26-Mar-2021 17:36:19 America/Mexico_City] PHP Notice:  Undefined variable: permisos in /home/zarkruse/public_html/intranet/apps/smartRoad/hojaCostos/hojaCostos.php on line 175
+[26-Mar-2021 17:36:19 America/Mexico_City] PHP Notice:  Undefined variable: reportes in /home/zarkruse/public_html/intranet/apps/smartRoad/hojaCostos/hojaCostos.php on line 192
+[26-Mar-2021 17:37:17 America/Mexico_City] PHP Notice:  Undefined variable: plantas in /home/zarkruse/public_html/intranet/apps/smartRoad/hojaCostos/hojaCostos.php on line 158
+[26-Mar-2021 17:37:17 America/Mexico_City] PHP Notice:  Undefined variable: permisos in /home/zarkruse/public_html/intranet/apps/smartRoad/hojaCostos/hojaCostos.php on line 175
+[26-Mar-2021 17:37:17 America/Mexico_City] PHP Notice:  Undefined variable: reportes in /home/zarkruse/public_html/intranet/apps/smartRoad/hojaCostos/hojaCostos.php on line 192
+[26-Mar-2021 17:37:48 America/Mexico_City] PHP Notice:  Undefined variable: plantas in /home/zarkruse/public_html/intranet/apps/smartRoad/hojaCostos/hojaCostos.php on line 158
+[26-Mar-2021 17:37:48 America/Mexico_City] PHP Notice:  Undefined variable: permisos in /home/zarkruse/public_html/intranet/apps/smartRoad/hojaCostos/hojaCostos.php on line 175
+[26-Mar-2021 17:37:48 America/Mexico_City] PHP Notice:  Undefined variable: reportes in /home/zarkruse/public_html/intranet/apps/smartRoad/hojaCostos/hojaCostos.php on line 192
+[26-Mar-2021 17:38:26 America/Mexico_City] PHP Notice:  Undefined variable: plantas in /home/zarkruse/public_html/intranet/apps/smartRoad/hojaCostos/hojaCostos.php on line 158
+[26-Mar-2021 17:38:26 America/Mexico_City] PHP Notice:  Undefined variable: permisos in /home/zarkruse/public_html/intranet/apps/smartRoad/hojaCostos/hojaCostos.php on line 175
+[26-Mar-2021 17:38:26 America/Mexico_City] PHP Notice:  Undefined variable: reportes in /home/zarkruse/public_html/intranet/apps/smartRoad/hojaCostos/hojaCostos.php on line 192
+[26-Mar-2021 17:38:45 America/Mexico_City] PHP Notice:  Undefined variable: plantas in /home/zarkruse/public_html/intranet/apps/smartRoad/hojaCostos/hojaCostos.php on line 158
+[26-Mar-2021 17:38:45 America/Mexico_City] PHP Notice:  Undefined variable: permisos in /home/zarkruse/public_html/intranet/apps/smartRoad/hojaCostos/hojaCostos.php on line 175
+[26-Mar-2021 17:38:45 America/Mexico_City] PHP Notice:  Undefined variable: reportes in /home/zarkruse/public_html/intranet/apps/smartRoad/hojaCostos/hojaCostos.php on line 192
+[26-Mar-2021 17:39:01 America/Mexico_City] PHP Notice:  Undefined variable: plantas in /home/zarkruse/public_html/intranet/apps/smartRoad/hojaCostos/hojaCostos.php on line 158
+[26-Mar-2021 17:39:01 America/Mexico_City] PHP Notice:  Undefined variable: permisos in /home/zarkruse/public_html/intranet/apps/smartRoad/hojaCostos/hojaCostos.php on line 175
+[26-Mar-2021 17:39:01 America/Mexico_City] PHP Notice:  Undefined variable: reportes in /home/zarkruse/public_html/intranet/apps/smartRoad/hojaCostos/hojaCostos.php on line 192
+[26-Mar-2021 17:42:28 America/Mexico_City] PHP Notice:  Undefined variable: plantas in /home/zarkruse/public_html/intranet/apps/smartRoad/hojaCostos/hojaCostos.php on line 158
+[26-Mar-2021 17:42:28 America/Mexico_City] PHP Notice:  Undefined variable: permisos in /home/zarkruse/public_html/intranet/apps/smartRoad/hojaCostos/hojaCostos.php on line 175
+[26-Mar-2021 17:42:28 America/Mexico_City] PHP Notice:  Undefined variable: reportes in /home/zarkruse/public_html/intranet/apps/smartRoad/hojaCostos/hojaCostos.php on line 192
+[26-Mar-2021 17:51:10 America/Mexico_City] PHP Notice:  Undefined variable: plantas in /home/zarkruse/public_html/intranet/apps/smartRoad/hojaCostos/hojaCostos.php on line 162
+[26-Mar-2021 17:51:10 America/Mexico_City] PHP Notice:  Undefined variable: permisos in /home/zarkruse/public_html/intranet/apps/smartRoad/hojaCostos/hojaCostos.php on line 179
+[26-Mar-2021 17:51:10 America/Mexico_City] PHP Notice:  Undefined variable: reportes in /home/zarkruse/public_html/intranet/apps/smartRoad/hojaCostos/hojaCostos.php on line 196
+[26-Mar-2021 17:51:28 America/Mexico_City] PHP Notice:  Undefined variable: plantas in /home/zarkruse/public_html/intranet/apps/smartRoad/hojaCostos/hojaCostos.php on line 162
+[26-Mar-2021 17:51:28 America/Mexico_City] PHP Notice:  Undefined variable: permisos in /home/zarkruse/public_html/intranet/apps/smartRoad/hojaCostos/hojaCostos.php on line 179
+[26-Mar-2021 17:51:28 America/Mexico_City] PHP Notice:  Undefined variable: reportes in /home/zarkruse/public_html/intranet/apps/smartRoad/hojaCostos/hojaCostos.php on line 196
+[29-Mar-2021 17:33:44 America/Mexico_City] PHP Notice:  Undefined variable: plantas in /home/zarkruse/public_html/intranet/apps/smartRoad/hojaCostos/hojaCostos.php on line 175
+[29-Mar-2021 17:33:44 America/Mexico_City] PHP Notice:  Undefined variable: permisos in /home/zarkruse/public_html/intranet/apps/smartRoad/hojaCostos/hojaCostos.php on line 192
+[29-Mar-2021 17:33:44 America/Mexico_City] PHP Notice:  Undefined variable: reportes in /home/zarkruse/public_html/intranet/apps/smartRoad/hojaCostos/hojaCostos.php on line 209
+[29-Mar-2021 17:37:11 America/Mexico_City] PHP Notice:  Undefined variable: plantas in /home/zarkruse/public_html/intranet/apps/smartRoad/hojaCostos/hojaCostos.php on line 175
+[29-Mar-2021 17:37:11 America/Mexico_City] PHP Notice:  Undefined variable: permisos in /home/zarkruse/public_html/intranet/apps/smartRoad/hojaCostos/hojaCostos.php on line 192
+[29-Mar-2021 17:37:11 America/Mexico_City] PHP Notice:  Undefined variable: reportes in /home/zarkruse/public_html/intranet/apps/smartRoad/hojaCostos/hojaCostos.php on line 209
+[13-Apr-2021 18:35:58 America/Mexico_City] PHP Notice:  Undefined variable: plantas in /home/zarkruse/public_html/intranet/apps/smartRoad/hojaCostos/hojaCostos.php on line 175
+[13-Apr-2021 18:35:58 America/Mexico_City] PHP Notice:  Undefined variable: permisos in /home/zarkruse/public_html/intranet/apps/smartRoad/hojaCostos/hojaCostos.php on line 192
+[13-Apr-2021 18:35:58 America/Mexico_City] PHP Notice:  Undefined variable: reportes in /home/zarkruse/public_html/intranet/apps/smartRoad/hojaCostos/hojaCostos.php on line 209
+[13-Apr-2021 18:39:22 America/Mexico_City] PHP Notice:  Undefined variable: plantas in /home/zarkruse/public_html/intranet/apps/smartRoad/hojaCostos/hojaCostos.php on line 187
+[13-Apr-2021 18:39:22 America/Mexico_City] PHP Notice:  Undefined variable: permisos in /home/zarkruse/public_html/intranet/apps/smartRoad/hojaCostos/hojaCostos.php on line 204
+[13-Apr-2021 18:39:22 America/Mexico_City] PHP Notice:  Undefined variable: reportes in /home/zarkruse/public_html/intranet/apps/smartRoad/hojaCostos/hojaCostos.php on line 221
+[13-Apr-2021 18:40:18 America/Mexico_City] PHP Notice:  Undefined variable: plantas in /home/zarkruse/public_html/intranet/apps/smartRoad/hojaCostos/hojaCostos.php on line 187
+[13-Apr-2021 18:40:18 America/Mexico_City] PHP Notice:  Undefined variable: permisos in /home/zarkruse/public_html/intranet/apps/smartRoad/hojaCostos/hojaCostos.php on line 204
+[13-Apr-2021 18:40:18 America/Mexico_City] PHP Notice:  Undefined variable: reportes in /home/zarkruse/public_html/intranet/apps/smartRoad/hojaCostos/hojaCostos.php on line 221
+[13-Apr-2021 18:41:06 America/Mexico_City] PHP Notice:  Undefined variable: plantas in /home/zarkruse/public_html/intranet/apps/smartRoad/hojaCostos/hojaCostos.php on line 187
+[13-Apr-2021 18:41:06 America/Mexico_City] PHP Notice:  Undefined variable: permisos in /home/zarkruse/public_html/intranet/apps/smartRoad/hojaCostos/hojaCostos.php on line 204
+[13-Apr-2021 18:41:06 America/Mexico_City] PHP Notice:  Undefined variable: reportes in /home/zarkruse/public_html/intranet/apps/smartRoad/hojaCostos/hojaCostos.php on line 221
+[13-Apr-2021 18:41:29 America/Mexico_City] PHP Notice:  Undefined variable: plantas in /home/zarkruse/public_html/intranet/apps/smartRoad/hojaCostos/hojaCostos.php on line 187
+[13-Apr-2021 18:41:29 America/Mexico_City] PHP Notice:  Undefined variable: permisos in /home/zarkruse/public_html/intranet/apps/smartRoad/hojaCostos/hojaCostos.php on line 204
+[13-Apr-2021 18:41:29 America/Mexico_City] PHP Notice:  Undefined variable: reportes in /home/zarkruse/public_html/intranet/apps/smartRoad/hojaCostos/hojaCostos.php on line 221
+[13-Apr-2021 18:41:34 America/Mexico_City] PHP Notice:  Undefined variable: plantas in /home/zarkruse/public_html/intranet/apps/smartRoad/hojaCostos/hojaCostos.php on line 187
+[13-Apr-2021 18:41:34 America/Mexico_City] PHP Notice:  Undefined variable: permisos in /home/zarkruse/public_html/intranet/apps/smartRoad/hojaCostos/hojaCostos.php on line 204
+[13-Apr-2021 18:41:34 America/Mexico_City] PHP Notice:  Undefined variable: reportes in /home/zarkruse/public_html/intranet/apps/smartRoad/hojaCostos/hojaCostos.php on line 221
+[13-Apr-2021 18:42:10 America/Mexico_City] PHP Notice:  Undefined variable: plantas in /home/zarkruse/public_html/intranet/apps/smartRoad/hojaCostos/hojaCostos.php on line 187
+[13-Apr-2021 18:42:10 America/Mexico_City] PHP Notice:  Undefined variable: permisos in /home/zarkruse/public_html/intranet/apps/smartRoad/hojaCostos/hojaCostos.php on line 204
+[13-Apr-2021 18:42:10 America/Mexico_City] PHP Notice:  Undefined variable: reportes in /home/zarkruse/public_html/intranet/apps/smartRoad/hojaCostos/hojaCostos.php on line 221
+[13-Apr-2021 18:42:26 America/Mexico_City] PHP Notice:  Undefined variable: plantas in /home/zarkruse/public_html/intranet/apps/smartRoad/hojaCostos/hojaCostos.php on line 187
+[13-Apr-2021 18:42:26 America/Mexico_City] PHP Notice:  Undefined variable: permisos in /home/zarkruse/public_html/intranet/apps/smartRoad/hojaCostos/hojaCostos.php on line 204
+[13-Apr-2021 18:42:26 America/Mexico_City] PHP Notice:  Undefined variable: reportes in /home/zarkruse/public_html/intranet/apps/smartRoad/hojaCostos/hojaCostos.php on line 221
+[13-Apr-2021 18:42:59 America/Mexico_City] PHP Notice:  Undefined variable: plantas in /home/zarkruse/public_html/intranet/apps/smartRoad/hojaCostos/hojaCostos.php on line 187
+[13-Apr-2021 18:42:59 America/Mexico_City] PHP Notice:  Undefined variable: permisos in /home/zarkruse/public_html/intranet/apps/smartRoad/hojaCostos/hojaCostos.php on line 204
+[13-Apr-2021 18:42:59 America/Mexico_City] PHP Notice:  Undefined variable: reportes in /home/zarkruse/public_html/intranet/apps/smartRoad/hojaCostos/hojaCostos.php on line 221
+[14-Apr-2021 19:05:56 America/Mexico_City] PHP Notice:  Undefined variable: plantas in /home/zarkruse/public_html/intranet/apps/smartRoad/hojaCostos/hojaCostos.php on line 187
+[14-Apr-2021 19:05:56 America/Mexico_City] PHP Notice:  Undefined variable: permisos in /home/zarkruse/public_html/intranet/apps/smartRoad/hojaCostos/hojaCostos.php on line 204
+[14-Apr-2021 19:05:56 America/Mexico_City] PHP Notice:  Undefined variable: reportes in /home/zarkruse/public_html/intranet/apps/smartRoad/hojaCostos/hojaCostos.php on line 221
+[14-Apr-2021 19:26:41 America/Mexico_City] PHP Notice:  Undefined variable: plantas in /home/zarkruse/public_html/intranet/apps/smartRoad/hojaCostos/hojaCostos.php on line 187
+[14-Apr-2021 19:26:41 America/Mexico_City] PHP Notice:  Undefined variable: reportes in /home/zarkruse/public_html/intranet/apps/smartRoad/hojaCostos/hojaCostos.php on line 220
+[14-Apr-2021 19:28:08 America/Mexico_City] PHP Notice:  Undefined variable: plantas in /home/zarkruse/public_html/intranet/apps/smartRoad/hojaCostos/hojaCostos.php on line 187
+[14-Apr-2021 19:28:08 America/Mexico_City] PHP Notice:  Undefined variable: reportes in /home/zarkruse/public_html/intranet/apps/smartRoad/hojaCostos/hojaCostos.php on line 220
+[14-Apr-2021 19:37:39 America/Mexico_City] PHP Notice:  Undefined variable: plantas in /home/zarkruse/public_html/intranet/apps/smartRoad/hojaCostos/hojaCostos.php on line 187
+[14-Apr-2021 19:37:39 America/Mexico_City] PHP Notice:  Undefined variable: tiros in /home/zarkruse/public_html/intranet/apps/smartRoad/hojaCostos/hojaCostos.php on line 211
+[14-Apr-2021 19:37:39 America/Mexico_City] PHP Notice:  Undefined variable: reportes in /home/zarkruse/public_html/intranet/apps/smartRoad/hojaCostos/hojaCostos.php on line 234
+[14-Apr-2021 19:38:10 America/Mexico_City] PHP Notice:  Undefined variable: plantas in /home/zarkruse/public_html/intranet/apps/smartRoad/hojaCostos/hojaCostos.php on line 187
+[14-Apr-2021 19:38:10 America/Mexico_City] PHP Notice:  Undefined variable: tiros in /home/zarkruse/public_html/intranet/apps/smartRoad/hojaCostos/hojaCostos.php on line 211
+[14-Apr-2021 19:38:10 America/Mexico_City] PHP Notice:  Undefined variable: reportes in /home/zarkruse/public_html/intranet/apps/smartRoad/hojaCostos/hojaCostos.php on line 234
+[14-Apr-2021 19:40:09 America/Mexico_City] PHP Notice:  Undefined variable: plantas in /home/zarkruse/public_html/intranet/apps/smartRoad/hojaCostos/hojaCostos.php on line 187
+[14-Apr-2021 19:40:09 America/Mexico_City] PHP Notice:  Undefined variable: tiros in /home/zarkruse/public_html/intranet/apps/smartRoad/hojaCostos/hojaCostos.php on line 211
+[14-Apr-2021 19:40:09 America/Mexico_City] PHP Notice:  Undefined variable: reportes in /home/zarkruse/public_html/intranet/apps/smartRoad/hojaCostos/hojaCostos.php on line 233
+[14-Apr-2021 19:41:46 America/Mexico_City] PHP Notice:  Undefined variable: plantas in /home/zarkruse/public_html/intranet/apps/smartRoad/hojaCostos/hojaCostos.php on line 187
+[14-Apr-2021 19:41:46 America/Mexico_City] PHP Notice:  Undefined variable: tiros in /home/zarkruse/public_html/intranet/apps/smartRoad/hojaCostos/hojaCostos.php on line 211
+[14-Apr-2021 19:41:46 America/Mexico_City] PHP Notice:  Undefined variable: reportes in /home/zarkruse/public_html/intranet/apps/smartRoad/hojaCostos/hojaCostos.php on line 235
+[14-Apr-2021 19:42:58 America/Mexico_City] PHP Notice:  Undefined variable: plantas in /home/zarkruse/public_html/intranet/apps/smartRoad/hojaCostos/hojaCostos.php on line 187
+[14-Apr-2021 19:42:58 America/Mexico_City] PHP Notice:  Undefined variable: tiros in /home/zarkruse/public_html/intranet/apps/smartRoad/hojaCostos/hojaCostos.php on line 211
+[14-Apr-2021 19:42:58 America/Mexico_City] PHP Notice:  Undefined variable: reportes in /home/zarkruse/public_html/intranet/apps/smartRoad/hojaCostos/hojaCostos.php on line 240
+[14-Apr-2021 19:43:49 America/Mexico_City] PHP Notice:  Undefined variable: plantas in /home/zarkruse/public_html/intranet/apps/smartRoad/hojaCostos/hojaCostos.php on line 187
+[14-Apr-2021 19:43:49 America/Mexico_City] PHP Notice:  Undefined variable: tiros in /home/zarkruse/public_html/intranet/apps/smartRoad/hojaCostos/hojaCostos.php on line 211
+[14-Apr-2021 19:43:49 America/Mexico_City] PHP Notice:  Undefined variable: reportes in /home/zarkruse/public_html/intranet/apps/smartRoad/hojaCostos/hojaCostos.php on line 241
+[14-Apr-2021 19:44:29 America/Mexico_City] PHP Notice:  Undefined variable: plantas in /home/zarkruse/public_html/intranet/apps/smartRoad/hojaCostos/hojaCostos.php on line 187
+[14-Apr-2021 19:44:29 America/Mexico_City] PHP Notice:  Undefined variable: tiros in /home/zarkruse/public_html/intranet/apps/smartRoad/hojaCostos/hojaCostos.php on line 211
+[14-Apr-2021 19:44:29 America/Mexico_City] PHP Notice:  Undefined variable: reportes in /home/zarkruse/public_html/intranet/apps/smartRoad/hojaCostos/hojaCostos.php on line 241
+[14-Apr-2021 19:44:59 America/Mexico_City] PHP Notice:  Undefined variable: plantas in /home/zarkruse/public_html/intranet/apps/smartRoad/hojaCostos/hojaCostos.php on line 187
+[14-Apr-2021 19:44:59 America/Mexico_City] PHP Notice:  Undefined variable: tiros in /home/zarkruse/public_html/intranet/apps/smartRoad/hojaCostos/hojaCostos.php on line 211
+[14-Apr-2021 19:44:59 America/Mexico_City] PHP Notice:  Undefined variable: reportes in /home/zarkruse/public_html/intranet/apps/smartRoad/hojaCostos/hojaCostos.php on line 241
+[14-Apr-2021 19:45:52 America/Mexico_City] PHP Notice:  Undefined variable: plantas in /home/zarkruse/public_html/intranet/apps/smartRoad/hojaCostos/hojaCostos.php on line 187
+[14-Apr-2021 19:45:52 America/Mexico_City] PHP Notice:  Undefined variable: tiros in /home/zarkruse/public_html/intranet/apps/smartRoad/hojaCostos/hojaCostos.php on line 211
+[14-Apr-2021 19:45:52 America/Mexico_City] PHP Notice:  Undefined variable: reportes in /home/zarkruse/public_html/intranet/apps/smartRoad/hojaCostos/hojaCostos.php on line 241
+[14-Apr-2021 19:47:17 America/Mexico_City] PHP Notice:  Undefined variable: plantas in /home/zarkruse/public_html/intranet/apps/smartRoad/hojaCostos/hojaCostos.php on line 187
+[14-Apr-2021 19:47:17 America/Mexico_City] PHP Notice:  Undefined variable: tiros in /home/zarkruse/public_html/intranet/apps/smartRoad/hojaCostos/hojaCostos.php on line 211
+[14-Apr-2021 19:47:17 America/Mexico_City] PHP Notice:  Undefined variable: reportes in /home/zarkruse/public_html/intranet/apps/smartRoad/hojaCostos/hojaCostos.php on line 240
+[14-Apr-2021 19:48:34 America/Mexico_City] PHP Notice:  Undefined variable: plantas in /home/zarkruse/public_html/intranet/apps/smartRoad/hojaCostos/hojaCostos.php on line 187
+[14-Apr-2021 19:48:34 America/Mexico_City] PHP Notice:  Undefined variable: tiros in /home/zarkruse/public_html/intranet/apps/smartRoad/hojaCostos/hojaCostos.php on line 211
+[14-Apr-2021 19:48:34 America/Mexico_City] PHP Notice:  Undefined variable: reportes in /home/zarkruse/public_html/intranet/apps/smartRoad/hojaCostos/hojaCostos.php on line 240
+[14-Apr-2021 19:51:14 America/Mexico_City] PHP Notice:  Undefined variable: tiros in /home/zarkruse/public_html/intranet/apps/smartRoad/hojaCostos/hojaCostos.php on line 188
+[14-Apr-2021 19:51:14 America/Mexico_City] PHP Notice:  Undefined variable: reportes in /home/zarkruse/public_html/intranet/apps/smartRoad/hojaCostos/hojaCostos.php on line 217
+[14-Apr-2021 19:52:03 America/Mexico_City] PHP Notice:  Undefined variable: tiros in /home/zarkruse/public_html/intranet/apps/smartRoad/hojaCostos/hojaCostos.php on line 187
+[14-Apr-2021 19:52:03 America/Mexico_City] PHP Notice:  Undefined variable: reportes in /home/zarkruse/public_html/intranet/apps/smartRoad/hojaCostos/hojaCostos.php on line 216
+[14-Apr-2021 19:53:49 America/Mexico_City] PHP Notice:  Undefined variable: tiros in /home/zarkruse/public_html/intranet/apps/smartRoad/hojaCostos/hojaCostos.php on line 187
+[14-Apr-2021 19:53:49 America/Mexico_City] PHP Notice:  Undefined variable: reportes in /home/zarkruse/public_html/intranet/apps/smartRoad/hojaCostos/hojaCostos.php on line 216
+[14-Apr-2021 19:54:23 America/Mexico_City] PHP Notice:  Undefined variable: tiros in /home/zarkruse/public_html/intranet/apps/smartRoad/hojaCostos/hojaCostos.php on line 187
+[14-Apr-2021 19:54:23 America/Mexico_City] PHP Notice:  Undefined variable: reportes in /home/zarkruse/public_html/intranet/apps/smartRoad/hojaCostos/hojaCostos.php on line 216
+[14-Apr-2021 19:54:56 America/Mexico_City] PHP Notice:  Undefined variable: tiros in /home/zarkruse/public_html/intranet/apps/smartRoad/hojaCostos/hojaCostos.php on line 187
+[14-Apr-2021 19:54:56 America/Mexico_City] PHP Notice:  Undefined variable: reportes in /home/zarkruse/public_html/intranet/apps/smartRoad/hojaCostos/hojaCostos.php on line 215
+[14-Apr-2021 19:55:36 America/Mexico_City] PHP Notice:  Undefined variable: tiros in /home/zarkruse/public_html/intranet/apps/smartRoad/hojaCostos/hojaCostos.php on line 187
+[14-Apr-2021 19:55:36 America/Mexico_City] PHP Notice:  Undefined variable: reportes in /home/zarkruse/public_html/intranet/apps/smartRoad/hojaCostos/hojaCostos.php on line 215
+[14-Apr-2021 19:56:17 America/Mexico_City] PHP Notice:  Undefined variable: tiros in /home/zarkruse/public_html/intranet/apps/smartRoad/hojaCostos/hojaCostos.php on line 187
+[14-Apr-2021 19:56:17 America/Mexico_City] PHP Notice:  Undefined variable: reportes in /home/zarkruse/public_html/intranet/apps/smartRoad/hojaCostos/hojaCostos.php on line 215
+[14-Apr-2021 19:56:49 America/Mexico_City] PHP Notice:  Undefined variable: tiros in /home/zarkruse/public_html/intranet/apps/smartRoad/hojaCostos/hojaCostos.php on line 187
+[14-Apr-2021 19:56:49 America/Mexico_City] PHP Notice:  Undefined variable: reportes in /home/zarkruse/public_html/intranet/apps/smartRoad/hojaCostos/hojaCostos.php on line 215
+[14-Apr-2021 20:00:51 America/Mexico_City] PHP Notice:  Undefined variable: tiros in /home/zarkruse/public_html/intranet/apps/smartRoad/hojaCostos/hojaCostos.php on line 190
+[14-Apr-2021 20:00:51 America/Mexico_City] PHP Notice:  Undefined variable: reportes in /home/zarkruse/public_html/intranet/apps/smartRoad/hojaCostos/hojaCostos.php on line 218
+[14-Apr-2021 20:01:20 America/Mexico_City] PHP Notice:  Undefined variable: tiros in /home/zarkruse/public_html/intranet/apps/smartRoad/hojaCostos/hojaCostos.php on line 190
+[14-Apr-2021 20:01:20 America/Mexico_City] PHP Notice:  Undefined variable: reportes in /home/zarkruse/public_html/intranet/apps/smartRoad/hojaCostos/hojaCostos.php on line 218
+[14-Apr-2021 20:01:53 America/Mexico_City] PHP Notice:  Undefined variable: tiros in /home/zarkruse/public_html/intranet/apps/smartRoad/hojaCostos/hojaCostos.php on line 190
+[14-Apr-2021 20:01:53 America/Mexico_City] PHP Notice:  Undefined variable: reportes in /home/zarkruse/public_html/intranet/apps/smartRoad/hojaCostos/hojaCostos.php on line 218
+[14-Apr-2021 20:02:12 America/Mexico_City] PHP Notice:  Undefined variable: tiros in /home/zarkruse/public_html/intranet/apps/smartRoad/hojaCostos/hojaCostos.php on line 190
+[14-Apr-2021 20:02:12 America/Mexico_City] PHP Notice:  Undefined variable: reportes in /home/zarkruse/public_html/intranet/apps/smartRoad/hojaCostos/hojaCostos.php on line 218
+[14-Apr-2021 20:03:38 America/Mexico_City] PHP Notice:  Undefined variable: tiros in /home/zarkruse/public_html/intranet/apps/smartRoad/hojaCostos/hojaCostos.php on line 190
+[14-Apr-2021 20:03:38 America/Mexico_City] PHP Notice:  Undefined variable: reportes in /home/zarkruse/public_html/intranet/apps/smartRoad/hojaCostos/hojaCostos.php on line 218
+[14-Apr-2021 20:08:49 America/Mexico_City] PHP Notice:  Undefined variable: reportes in /home/zarkruse/public_html/intranet/apps/smartRoad/hojaCostos/hojaCostos.php on line 232
+[14-Apr-2021 20:09:08 America/Mexico_City] PHP Notice:  Undefined variable: reportes in /home/zarkruse/public_html/intranet/apps/smartRoad/hojaCostos/hojaCostos.php on line 220
+[15-Apr-2021 13:08:46 America/Mexico_City] PHP Notice:  Undefined variable: reportes in /home/zarkruse/public_html/intranet/apps/smartRoad/hojaCostos/hojaCostos.php on line 220
+[15-Apr-2021 13:10:02 America/Mexico_City] PHP Notice:  Undefined variable: reportes in /home/zarkruse/public_html/intranet/apps/smartRoad/hojaCostos/hojaCostos.php on line 221
+[15-Apr-2021 13:10:24 America/Mexico_City] PHP Notice:  Undefined variable: reportes in /home/zarkruse/public_html/intranet/apps/smartRoad/hojaCostos/hojaCostos.php on line 221
+[15-Apr-2021 13:12:29 America/Mexico_City] PHP Notice:  Undefined variable: reportes in /home/zarkruse/public_html/intranet/apps/smartRoad/hojaCostos/hojaCostos.php on line 222
+[15-Apr-2021 13:44:06 America/Mexico_City] PHP Notice:  Undefined variable: reportes in /home/zarkruse/public_html/intranet/apps/smartRoad/hojaCostos/hojaCostos.php on line 224
+[15-Apr-2021 13:50:10 America/Mexico_City] PHP Notice:  Undefined variable: reportes in /home/zarkruse/public_html/intranet/apps/smartRoad/hojaCostos/hojaCostos.php on line 226
+[15-Apr-2021 13:50:47 America/Mexico_City] PHP Notice:  Undefined variable: reportes in /home/zarkruse/public_html/intranet/apps/smartRoad/hojaCostos/hojaCostos.php on line 226
+[15-Apr-2021 13:50:58 America/Mexico_City] PHP Notice:  Undefined variable: reportes in /home/zarkruse/public_html/intranet/apps/smartRoad/hojaCostos/hojaCostos.php on line 226
+[15-Apr-2021 13:52:45 America/Mexico_City] PHP Notice:  Undefined variable: reportes in /home/zarkruse/public_html/intranet/apps/smartRoad/hojaCostos/hojaCostos.php on line 227
+[15-Apr-2021 13:55:16 America/Mexico_City] PHP Notice:  Undefined variable: reportes in /home/zarkruse/public_html/intranet/apps/smartRoad/hojaCostos/hojaCostos.php on line 232
+[15-Apr-2021 13:57:37 America/Mexico_City] PHP Notice:  Undefined variable: reportes in /home/zarkruse/public_html/intranet/apps/smartRoad/hojaCostos/hojaCostos.php on line 135
+[15-Apr-2021 14:19:01 America/Mexico_City] PHP Notice:  Undefined variable: reportes in /home/zarkruse/public_html/intranet/apps/smartRoad/hojaCostos/hojaCostos.php on line 135
+[15-Apr-2021 14:19:08 America/Mexico_City] PHP Notice:  Undefined variable: reportes in /home/zarkruse/public_html/intranet/apps/smartRoad/hojaCostos/hojaCostos.php on line 135
+[15-Apr-2021 14:19:22 America/Mexico_City] PHP Notice:  Undefined variable: reportes in /home/zarkruse/public_html/intranet/apps/smartRoad/hojaCostos/hojaCostos.php on line 135
+[15-Apr-2021 15:09:35 America/Mexico_City] PHP Notice:  Undefined index: t in /home/zarkruse/public_html/intranet/apps/smartRoad/hojaCostos/hojaCostos.php on line 10
+[15-Apr-2021 15:09:35 America/Mexico_City] PHP Notice:  Undefined index: sessionInfo in /home/zarkruse/public_html/intranet/apps/smartRoad/hojaCostos/hojaCostos.php on line 14
+[15-Apr-2021 15:09:35 America/Mexico_City] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/zarkruse/public_html/intranet/apps/smartRoad/hojaCostos/hojaCostos.php on line 14
+[15-Apr-2021 15:09:35 America/Mexico_City] PHP Notice:  Undefined index: t in /home/zarkruse/public_html/intranet/apps/smartRoad/hojaCostos/hojaCostos.php on line 15
+[15-Apr-2021 15:09:35 America/Mexico_City] PHP Notice:  Undefined index: sessionInfo in /home/zarkruse/public_html/intranet/apps/smartRoad/hojaCostos/hojaCostos.php on line 81
+[15-Apr-2021 15:09:35 America/Mexico_City] PHP Notice:  Undefined index: sessionInfo in /home/zarkruse/public_html/intranet/apps/smartRoad/hojaCostos/hojaCostos.php on line 84
+[15-Apr-2021 15:09:35 America/Mexico_City] PHP Notice:  Undefined variable: mysqli in /home/zarkruse/public_html/intranet/apps/smartRoad/hojaCostos/hojaCostos.php on line 197
+[15-Apr-2021 15:09:35 America/Mexico_City] PHP Fatal error:  Uncaught Error: Call to a member function set_charset() on null in /home/zarkruse/public_html/intranet/apps/smartRoad/hojaCostos/hojaCostos.php:197
+Stack trace:
+#0 {main}
+  thrown in /home/zarkruse/public_html/intranet/apps/smartRoad/hojaCostos/hojaCostos.php on line 197
+[15-Apr-2021 15:09:50 America/Mexico_City] PHP Notice:  Undefined index: t in /home/zarkruse/public_html/intranet/apps/smartRoad/hojaCostos/hojaCostos.php on line 10
+[15-Apr-2021 15:09:50 America/Mexico_City] PHP Notice:  Undefined variable: mysqli in /home/zarkruse/public_html/intranet/apps/smartRoad/hojaCostos/hojaCostos.php on line 197
+[15-Apr-2021 15:09:50 America/Mexico_City] PHP Fatal error:  Uncaught Error: Call to a member function set_charset() on null in /home/zarkruse/public_html/intranet/apps/smartRoad/hojaCostos/hojaCostos.php:197
+Stack trace:
+#0 {main}
+  thrown in /home/zarkruse/public_html/intranet/apps/smartRoad/hojaCostos/hojaCostos.php on line 197
+[15-Apr-2021 15:11:02 America/Mexico_City] PHP Notice:  Undefined index: t in /home/zarkruse/public_html/intranet/apps/smartRoad/hojaCostos/hojaCostos.php on line 10
+[15-Apr-2021 15:11:02 America/Mexico_City] PHP Notice:  Undefined variable: mysqli in /home/zarkruse/public_html/intranet/apps/smartRoad/hojaCostos/hojaCostos.php on line 73
+[15-Apr-2021 15:11:02 America/Mexico_City] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/zarkruse/public_html/intranet/apps/smartRoad/hojaCostos/hojaCostos.php:73
+Stack trace:
+#0 {main}
+  thrown in /home/zarkruse/public_html/intranet/apps/smartRoad/hojaCostos/hojaCostos.php on line 73
+[15-Apr-2021 15:11:11 America/Mexico_City] PHP Notice:  Undefined index: t in /home/zarkruse/public_html/intranet/apps/smartRoad/hojaCostos/hojaCostos.php on line 10
+[15-Apr-2021 15:11:11 America/Mexico_City] PHP Notice:  Undefined variable: mysqli in /home/zarkruse/public_html/intranet/apps/smartRoad/hojaCostos/hojaCostos.php on line 73
+[15-Apr-2021 15:11:11 America/Mexico_City] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/zarkruse/public_html/intranet/apps/smartRoad/hojaCostos/hojaCostos.php:73
+Stack trace:
+#0 {main}
+  thrown in /home/zarkruse/public_html/intranet/apps/smartRoad/hojaCostos/hojaCostos.php on line 73
+[15-Apr-2021 15:11:25 America/Mexico_City] PHP Notice:  Undefined variable: reportes in /home/zarkruse/public_html/intranet/apps/smartRoad/hojaCostos/hojaCostos.php on line 135
+[15-Apr-2021 15:12:10 America/Mexico_City] PHP Notice:  Undefined index: t in /home/zarkruse/public_html/intranet/apps/smartRoad/hojaCostos/hojaCostos.php on line 10
+[15-Apr-2021 15:12:10 America/Mexico_City] PHP Notice:  Undefined variable: mysqli in /home/zarkruse/public_html/intranet/apps/smartRoad/hojaCostos/hojaCostos.php on line 73
+[15-Apr-2021 15:12:10 America/Mexico_City] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/zarkruse/public_html/intranet/apps/smartRoad/hojaCostos/hojaCostos.php:73
+Stack trace:
+#0 {main}
+  thrown in /home/zarkruse/public_html/intranet/apps/smartRoad/hojaCostos/hojaCostos.php on line 73
+[15-Apr-2021 15:14:19 America/Mexico_City] PHP Notice:  Undefined index: t in /home/zarkruse/public_html/intranet/apps/smartRoad/hojaCostos/hojaCostos.php on line 9
+[15-Apr-2021 15:14:19 America/Mexico_City] PHP Notice:  Undefined variable: reportes in /home/zarkruse/public_html/intranet/apps/smartRoad/hojaCostos/hojaCostos.php on line 135
+[15-Apr-2021 15:16:13 America/Mexico_City] PHP Notice:  Undefined index: t in /home/zarkruse/public_html/intranet/apps/smartRoad/hojaCostos/hojaCostos.php on line 10
+[15-Apr-2021 15:16:13 America/Mexico_City] PHP Notice:  Undefined variable: reportes in /home/zarkruse/public_html/intranet/apps/smartRoad/hojaCostos/hojaCostos.php on line 164
+[15-Apr-2021 15:17:11 America/Mexico_City] PHP Notice:  Undefined index: t in /home/zarkruse/public_html/intranet/apps/smartRoad/hojaCostos/hojaCostos.php on line 10
+[15-Apr-2021 15:17:11 America/Mexico_City] PHP Notice:  Undefined variable: reportes in /home/zarkruse/public_html/intranet/apps/smartRoad/hojaCostos/hojaCostos.php on line 161
+[15-Apr-2021 15:22:40 America/Mexico_City] PHP Notice:  Undefined index: t in /home/zarkruse/public_html/intranet/apps/smartRoad/hojaCostos/hojaCostos.php on line 10
+[15-Apr-2021 15:22:40 America/Mexico_City] PHP Notice:  Undefined variable: reportes in /home/zarkruse/public_html/intranet/apps/smartRoad/hojaCostos/hojaCostos.php on line 159
+[15-Apr-2021 15:23:26 America/Mexico_City] PHP Notice:  Undefined index: t in /home/zarkruse/public_html/intranet/apps/smartRoad/hojaCostos/hojaCostos.php on line 10
+[15-Apr-2021 15:23:26 America/Mexico_City] PHP Notice:  Undefined variable: reportes in /home/zarkruse/public_html/intranet/apps/smartRoad/hojaCostos/hojaCostos.php on line 159
+[15-Apr-2021 15:25:12 America/Mexico_City] PHP Notice:  Undefined index: t in /home/zarkruse/public_html/intranet/apps/smartRoad/hojaCostos/hojaCostos.php on line 10
+[15-Apr-2021 15:25:12 America/Mexico_City] PHP Notice:  Undefined variable: reportes in /home/zarkruse/public_html/intranet/apps/smartRoad/hojaCostos/hojaCostos.php on line 159
+[15-Apr-2021 19:00:03 America/Mexico_City] PHP Notice:  Undefined variable: reportes in /home/zarkruse/public_html/intranet/apps/smartRoad/hojaCostos/hojaCostos.php on line 159

@@ -1,0 +1,136 @@
+[23-Mar-2021 15:44:14 America/Mexico_City] PHP Notice:  Undefined index: idu in /home/zarkruse/public_html/intranet/apps/admin/users/php/fAdminUsers.php on line 24
+[23-Mar-2021 15:44:14 America/Mexico_City] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on bool in /home/zarkruse/public_html/intranet/apps/admin/users/php/fAdminUsers.php:47
+Stack trace:
+#0 /home/zarkruse/public_html/intranet/apps/admin/users/php/fAdminUsers.php(12): dimeUsuarios()
+#1 {main}
+  thrown in /home/zarkruse/public_html/intranet/apps/admin/users/php/fAdminUsers.php on line 47
+[23-Mar-2021 15:44:27 America/Mexico_City] PHP Notice:  Undefined index: idu in /home/zarkruse/public_html/intranet/apps/admin/users/php/fAdminUsers.php on line 24
+[23-Mar-2021 15:44:27 America/Mexico_City] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on bool in /home/zarkruse/public_html/intranet/apps/admin/users/php/fAdminUsers.php:47
+Stack trace:
+#0 /home/zarkruse/public_html/intranet/apps/admin/users/php/fAdminUsers.php(12): dimeUsuarios()
+#1 {main}
+  thrown in /home/zarkruse/public_html/intranet/apps/admin/users/php/fAdminUsers.php on line 47
+[23-Mar-2021 15:44:55 America/Mexico_City] PHP Warning:  include(../../../php/conexion.php): failed to open stream: No such file or directory in /home/zarkruse/public_html/intranet/apps/admin/users/php/fAdminUsers.php on line 9
+[23-Mar-2021 15:44:55 America/Mexico_City] PHP Warning:  include(): Failed opening '../../../php/conexion.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/zarkruse/public_html/intranet/apps/admin/users/php/fAdminUsers.php on line 9
+[23-Mar-2021 15:44:55 America/Mexico_City] PHP Fatal error:  Uncaught Error: Call to undefined function dataconn() in /home/zarkruse/public_html/intranet/apps/admin/users/php/fAdminUsers.php:17
+Stack trace:
+#0 /home/zarkruse/public_html/intranet/apps/admin/users/php/fAdminUsers.php(12): dimeUsuarios()
+#1 {main}
+  thrown in /home/zarkruse/public_html/intranet/apps/admin/users/php/fAdminUsers.php on line 17
+[23-Mar-2021 15:46:25 America/Mexico_City] PHP Notice:  Undefined index: idu in /home/zarkruse/public_html/intranet/apps/admin/users/php/fAdminUsers.php on line 28
+[23-Mar-2021 15:46:42 America/Mexico_City] PHP Notice:  Undefined index: idu in /home/zarkruse/public_html/intranet/apps/admin/users/php/fAdminUsers.php on line 28
+[23-Mar-2021 15:46:42 America/Mexico_City] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on bool in /home/zarkruse/public_html/intranet/apps/admin/users/php/fAdminUsers.php:51
+Stack trace:
+#0 /home/zarkruse/public_html/intranet/apps/admin/users/php/fAdminUsers.php(13): dimeUsuarios()
+#1 {main}
+  thrown in /home/zarkruse/public_html/intranet/apps/admin/users/php/fAdminUsers.php on line 51
+[23-Mar-2021 15:46:58 America/Mexico_City] PHP Notice:  Undefined index: idu in /home/zarkruse/public_html/intranet/apps/admin/users/php/fAdminUsers.php on line 28
+[23-Mar-2021 15:46:58 America/Mexico_City] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on bool in /home/zarkruse/public_html/intranet/apps/admin/users/php/fAdminUsers.php:51
+Stack trace:
+#0 /home/zarkruse/public_html/intranet/apps/admin/users/php/fAdminUsers.php(13): dimeUsuarios()
+#1 {main}
+  thrown in /home/zarkruse/public_html/intranet/apps/admin/users/php/fAdminUsers.php on line 51
+[23-Mar-2021 15:47:10 America/Mexico_City] PHP Notice:  Undefined index: idu in /home/zarkruse/public_html/intranet/apps/admin/users/php/fAdminUsers.php on line 28
+[23-Mar-2021 15:47:25 America/Mexico_City] PHP Notice:  Undefined index: idu in /home/zarkruse/public_html/intranet/apps/admin/users/php/fAdminUsers.php on line 28
+[23-Mar-2021 15:47:47 America/Mexico_City] PHP Notice:  Undefined index: idu in /home/zarkruse/public_html/intranet/apps/admin/users/php/fAdminUsers.php on line 28
+[23-Mar-2021 15:47:47 America/Mexico_City] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on bool in /home/zarkruse/public_html/intranet/apps/admin/users/php/fAdminUsers.php:53
+Stack trace:
+#0 /home/zarkruse/public_html/intranet/apps/admin/users/php/fAdminUsers.php(13): dimeUsuarios()
+#1 {main}
+  thrown in /home/zarkruse/public_html/intranet/apps/admin/users/php/fAdminUsers.php on line 53
+[23-Mar-2021 15:47:58 America/Mexico_City] PHP Notice:  Undefined index: idu in /home/zarkruse/public_html/intranet/apps/admin/users/php/fAdminUsers.php on line 28
+[23-Mar-2021 15:47:58 America/Mexico_City] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on bool in /home/zarkruse/public_html/intranet/apps/admin/users/php/fAdminUsers.php:53
+Stack trace:
+#0 /home/zarkruse/public_html/intranet/apps/admin/users/php/fAdminUsers.php(13): dimeUsuarios()
+#1 {main}
+  thrown in /home/zarkruse/public_html/intranet/apps/admin/users/php/fAdminUsers.php on line 53
+[23-Mar-2021 15:48:20 America/Mexico_City] PHP Notice:  Undefined index: idu in /home/zarkruse/public_html/intranet/apps/admin/users/php/fAdminUsers.php on line 28
+[23-Mar-2021 15:48:54 America/Mexico_City] PHP Notice:  Undefined index: idu in /home/zarkruse/public_html/intranet/apps/admin/users/php/fAdminUsers.php on line 28
+[23-Mar-2021 15:48:54 America/Mexico_City] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on bool in /home/zarkruse/public_html/intranet/apps/admin/users/php/fAdminUsers.php:52
+Stack trace:
+#0 /home/zarkruse/public_html/intranet/apps/admin/users/php/fAdminUsers.php(13): dimeUsuarios()
+#1 {main}
+  thrown in /home/zarkruse/public_html/intranet/apps/admin/users/php/fAdminUsers.php on line 52
+[23-Mar-2021 15:49:20 America/Mexico_City] PHP Notice:  Undefined index: idu in /home/zarkruse/public_html/intranet/apps/admin/users/php/fAdminUsers.php on line 28
+[23-Mar-2021 15:49:20 America/Mexico_City] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on bool in /home/zarkruse/public_html/intranet/apps/admin/users/php/fAdminUsers.php:52
+Stack trace:
+#0 /home/zarkruse/public_html/intranet/apps/admin/users/php/fAdminUsers.php(13): dimeUsuarios()
+#1 {main}
+  thrown in /home/zarkruse/public_html/intranet/apps/admin/users/php/fAdminUsers.php on line 52
+[23-Mar-2021 15:49:42 America/Mexico_City] PHP Notice:  Undefined index: idu in /home/zarkruse/public_html/intranet/apps/admin/users/php/fAdminUsers.php on line 28
+[23-Mar-2021 15:50:18 America/Mexico_City] PHP Notice:  Undefined index: idu in /home/zarkruse/public_html/intranet/apps/admin/users/php/fAdminUsers.php on line 28
+[23-Mar-2021 15:51:12 America/Mexico_City] PHP Notice:  Undefined variable: result in /home/zarkruse/public_html/intranet/apps/admin/users/php/fAdminUsers.php on line 49
+[23-Mar-2021 15:51:12 America/Mexico_City] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on null in /home/zarkruse/public_html/intranet/apps/admin/users/php/fAdminUsers.php:49
+Stack trace:
+#0 /home/zarkruse/public_html/intranet/apps/admin/users/php/fAdminUsers.php(13): dimeUsuarios()
+#1 {main}
+  thrown in /home/zarkruse/public_html/intranet/apps/admin/users/php/fAdminUsers.php on line 49
+[23-Mar-2021 16:29:46 America/Mexico_City] PHP Warning:  call_user_func() expects parameter 1 to be a valid callback, function 'formUsuarios' not found or invalid function name in /home/zarkruse/public_html/intranet/apps/admin/users/php/fAdminUsers.php on line 13
+[23-Mar-2021 16:33:19 America/Mexico_City] PHP Warning:  call_user_func() expects parameter 1 to be a valid callback, function 'formUsuarios' not found or invalid function name in /home/zarkruse/public_html/intranet/apps/admin/users/php/fAdminUsers.php on line 13
+[23-Mar-2021 16:51:07 America/Mexico_City] PHP Warning:  call_user_func() expects parameter 1 to be a valid callback, function 'formUsuarios' not found or invalid function name in /home/zarkruse/public_html/intranet/apps/admin/users/php/fAdminUsers.php on line 13
+[23-Mar-2021 19:19:57 America/Mexico_City] PHP Notice:  Undefined index: Permisos in /home/zarkruse/public_html/intranet/apps/admin/users/php/fAdminUsers.php on line 81
+[23-Mar-2021 19:19:57 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /home/zarkruse/public_html/intranet/apps/admin/users/php/fAdminUsers.php on line 81
+[23-Mar-2021 19:19:57 America/Mexico_City] PHP Notice:  Undefined index: Reportes in /home/zarkruse/public_html/intranet/apps/admin/users/php/fAdminUsers.php on line 87
+[23-Mar-2021 19:19:57 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /home/zarkruse/public_html/intranet/apps/admin/users/php/fAdminUsers.php on line 87
+[24-Mar-2021 08:51:34 America/Mexico_City] PHP Notice:  Undefined index: Permisos in /home/zarkruse/public_html/intranet/apps/admin/users/php/fAdminUsers.php on line 81
+[24-Mar-2021 08:51:34 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /home/zarkruse/public_html/intranet/apps/admin/users/php/fAdminUsers.php on line 81
+[24-Mar-2021 08:51:34 America/Mexico_City] PHP Notice:  Undefined index: Reportes in /home/zarkruse/public_html/intranet/apps/admin/users/php/fAdminUsers.php on line 87
+[24-Mar-2021 08:51:34 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /home/zarkruse/public_html/intranet/apps/admin/users/php/fAdminUsers.php on line 87
+[24-Mar-2021 08:52:58 America/Mexico_City] PHP Notice:  Undefined index: Permisos in /home/zarkruse/public_html/intranet/apps/admin/users/php/fAdminUsers.php on line 81
+[24-Mar-2021 08:52:58 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /home/zarkruse/public_html/intranet/apps/admin/users/php/fAdminUsers.php on line 81
+[24-Mar-2021 08:52:58 America/Mexico_City] PHP Notice:  Undefined index: Reportes in /home/zarkruse/public_html/intranet/apps/admin/users/php/fAdminUsers.php on line 87
+[24-Mar-2021 08:52:58 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /home/zarkruse/public_html/intranet/apps/admin/users/php/fAdminUsers.php on line 87
+[24-Mar-2021 08:57:25 America/Mexico_City] PHP Notice:  Undefined index: Permisos in /home/zarkruse/public_html/intranet/apps/admin/users/php/fAdminUsers.php on line 81
+[24-Mar-2021 08:57:25 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /home/zarkruse/public_html/intranet/apps/admin/users/php/fAdminUsers.php on line 81
+[24-Mar-2021 08:57:25 America/Mexico_City] PHP Notice:  Undefined index: Reportes in /home/zarkruse/public_html/intranet/apps/admin/users/php/fAdminUsers.php on line 87
+[24-Mar-2021 08:57:25 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /home/zarkruse/public_html/intranet/apps/admin/users/php/fAdminUsers.php on line 87
+[24-Mar-2021 10:34:21 America/Mexico_City] PHP Notice:  Undefined index: Permisos in /home/zarkruse/public_html/intranet/apps/admin/users/php/fAdminUsers.php on line 81
+[24-Mar-2021 10:34:21 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /home/zarkruse/public_html/intranet/apps/admin/users/php/fAdminUsers.php on line 81
+[24-Mar-2021 10:34:21 America/Mexico_City] PHP Notice:  Undefined index: Reportes in /home/zarkruse/public_html/intranet/apps/admin/users/php/fAdminUsers.php on line 87
+[24-Mar-2021 10:34:21 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /home/zarkruse/public_html/intranet/apps/admin/users/php/fAdminUsers.php on line 87
+[24-Mar-2021 10:35:10 America/Mexico_City] PHP Notice:  Undefined index: Permisos in /home/zarkruse/public_html/intranet/apps/admin/users/php/fAdminUsers.php on line 81
+[24-Mar-2021 10:35:10 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /home/zarkruse/public_html/intranet/apps/admin/users/php/fAdminUsers.php on line 81
+[24-Mar-2021 10:35:10 America/Mexico_City] PHP Notice:  Undefined index: Reportes in /home/zarkruse/public_html/intranet/apps/admin/users/php/fAdminUsers.php on line 87
+[24-Mar-2021 10:35:10 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /home/zarkruse/public_html/intranet/apps/admin/users/php/fAdminUsers.php on line 87
+[24-Mar-2021 10:36:36 America/Mexico_City] PHP Notice:  Undefined index: Permisos in /home/zarkruse/public_html/intranet/apps/admin/users/php/fAdminUsers.php on line 81
+[24-Mar-2021 10:36:36 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /home/zarkruse/public_html/intranet/apps/admin/users/php/fAdminUsers.php on line 81
+[24-Mar-2021 10:36:36 America/Mexico_City] PHP Notice:  Undefined index: Reportes in /home/zarkruse/public_html/intranet/apps/admin/users/php/fAdminUsers.php on line 87
+[24-Mar-2021 10:36:36 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /home/zarkruse/public_html/intranet/apps/admin/users/php/fAdminUsers.php on line 87
+[24-Mar-2021 10:39:31 America/Mexico_City] PHP Notice:  Undefined index: Reportes in /home/zarkruse/public_html/intranet/apps/admin/users/php/fAdminUsers.php on line 87
+[24-Mar-2021 10:39:31 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /home/zarkruse/public_html/intranet/apps/admin/users/php/fAdminUsers.php on line 87
+[24-Mar-2021 10:41:13 America/Mexico_City] PHP Notice:  Undefined index: Reportes in /home/zarkruse/public_html/intranet/apps/admin/users/php/fAdminUsers.php on line 87
+[24-Mar-2021 10:41:13 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /home/zarkruse/public_html/intranet/apps/admin/users/php/fAdminUsers.php on line 87
+[24-Mar-2021 10:42:11 America/Mexico_City] PHP Notice:  Undefined index: Reportes in /home/zarkruse/public_html/intranet/apps/admin/users/php/fAdminUsers.php on line 87
+[24-Mar-2021 10:42:11 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /home/zarkruse/public_html/intranet/apps/admin/users/php/fAdminUsers.php on line 87
+[24-Mar-2021 10:48:37 America/Mexico_City] PHP Notice:  Undefined index: Reportes in /home/zarkruse/public_html/intranet/apps/admin/users/php/fAdminUsers.php on line 87
+[24-Mar-2021 10:48:37 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /home/zarkruse/public_html/intranet/apps/admin/users/php/fAdminUsers.php on line 87
+[24-Mar-2021 10:48:37 America/Mexico_City] PHP Notice:  Undefined index: Reportes in /home/zarkruse/public_html/intranet/apps/admin/users/php/fAdminUsers.php on line 131
+[24-Mar-2021 10:48:37 America/Mexico_City] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/zarkruse/public_html/intranet/apps/admin/users/php/fAdminUsers.php on line 131
+[24-Mar-2021 10:49:45 America/Mexico_City] PHP Notice:  Undefined index: Reportes in /home/zarkruse/public_html/intranet/apps/admin/users/php/fAdminUsers.php on line 87
+[24-Mar-2021 10:49:45 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /home/zarkruse/public_html/intranet/apps/admin/users/php/fAdminUsers.php on line 87
+[24-Mar-2021 10:49:45 America/Mexico_City] PHP Notice:  Undefined index: Reportes in /home/zarkruse/public_html/intranet/apps/admin/users/php/fAdminUsers.php on line 131
+[24-Mar-2021 10:49:45 America/Mexico_City] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/zarkruse/public_html/intranet/apps/admin/users/php/fAdminUsers.php on line 131
+[24-Mar-2021 10:50:02 America/Mexico_City] PHP Notice:  Undefined index: Reportes in /home/zarkruse/public_html/intranet/apps/admin/users/php/fAdminUsers.php on line 87
+[24-Mar-2021 10:50:02 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /home/zarkruse/public_html/intranet/apps/admin/users/php/fAdminUsers.php on line 87
+[24-Mar-2021 10:50:02 America/Mexico_City] PHP Notice:  Undefined index: Reportes in /home/zarkruse/public_html/intranet/apps/admin/users/php/fAdminUsers.php on line 131
+[24-Mar-2021 10:50:02 America/Mexico_City] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/zarkruse/public_html/intranet/apps/admin/users/php/fAdminUsers.php on line 131
+[24-Mar-2021 10:52:15 America/Mexico_City] PHP Notice:  Undefined index: Reportes in /home/zarkruse/public_html/intranet/apps/admin/users/php/fAdminUsers.php on line 87
+[24-Mar-2021 10:52:15 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /home/zarkruse/public_html/intranet/apps/admin/users/php/fAdminUsers.php on line 87
+[24-Mar-2021 10:52:15 America/Mexico_City] PHP Notice:  Undefined index: Reportes in /home/zarkruse/public_html/intranet/apps/admin/users/php/fAdminUsers.php on line 131
+[24-Mar-2021 10:52:15 America/Mexico_City] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/zarkruse/public_html/intranet/apps/admin/users/php/fAdminUsers.php on line 131
+[08-Apr-2021 16:12:16 America/Mexico_City] PHP Notice:  Undefined index: Reportes in /home/zarkruse/public_html/intranet/apps/admin/users/php/fAdminUsers.php on line 126
+[08-Apr-2021 16:12:16 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /home/zarkruse/public_html/intranet/apps/admin/users/php/fAdminUsers.php on line 126
+[08-Apr-2021 16:12:16 America/Mexico_City] PHP Notice:  Undefined index: Reportes in /home/zarkruse/public_html/intranet/apps/admin/users/php/fAdminUsers.php on line 139
+[08-Apr-2021 16:12:16 America/Mexico_City] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/zarkruse/public_html/intranet/apps/admin/users/php/fAdminUsers.php on line 139
+[02-Jun-2021 15:09:21 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /home/zarkruse/public_html/intranet/apps/admin/users/php/fAdminUsers.php on line 126
+[02-Jun-2021 15:09:21 America/Mexico_City] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/zarkruse/public_html/intranet/apps/admin/users/php/fAdminUsers.php on line 139
+[21-Jun-2021 18:30:27 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /home/zarkruse/public_html/intranet/apps/admin/users/php/fAdminUsers.php on line 126
+[21-Jun-2021 18:30:27 America/Mexico_City] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/zarkruse/public_html/intranet/apps/admin/users/php/fAdminUsers.php on line 139
+[09-Dec-2021 16:31:04 America/Mexico_City] PHP Warning:  implode(): Invalid arguments passed in /home/zarkruse/public_html/intranet/apps/admin/users/php/fAdminUsers.php on line 80
+[15-Dec-2021 17:53:46 America/Mexico_City] PHP Warning:  implode(): Invalid arguments passed in /home/zarkruse/public_html/intranet/apps/admin/users/php/fAdminUsers.php on line 80
+[15-Dec-2021 17:53:46 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /home/zarkruse/public_html/intranet/apps/admin/users/php/fAdminUsers.php on line 120
+[15-Dec-2021 17:53:46 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /home/zarkruse/public_html/intranet/apps/admin/users/php/fAdminUsers.php on line 126
+[15-Dec-2021 17:53:46 America/Mexico_City] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/zarkruse/public_html/intranet/apps/admin/users/php/fAdminUsers.php on line 132
+[15-Dec-2021 17:53:46 America/Mexico_City] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/zarkruse/public_html/intranet/apps/admin/users/php/fAdminUsers.php on line 139
+[19-Jul-2022 11:21:23 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /home/zarkruse/public_html/intranet/apps/admin/users/php/fAdminUsers.php on line 126
+[19-Jul-2022 11:21:23 America/Mexico_City] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/zarkruse/public_html/intranet/apps/admin/users/php/fAdminUsers.php on line 139

@@ -1,0 +1,199 @@
+/*Colores del logo Skyblue
+Verde:#75BF10
+Azul:#17206B   rgb(23,32,107)*/
+a{
+    color:#0C2E6C;
+    text-decoration: none; 
+}
+a:hover{
+    color:#0C2E6C;
+}
+a:visited{
+    color:#0C2E6C;
+}
+#cuerpo{
+    height:84vh !important;
+}
+.label{
+    background: #004A90;
+    color:#fff;
+    font-weight:bold;
+    padding:5px;
+    width:120px;
+}
+.selected{
+    border-bottom:solid 2px #92BD11;
+}
+.modalContainer{
+    width:90%;
+    background:rgba(0,0,0,0.5);
+    position:fixed;
+    display:none;
+    z-index:200;
+    padding:5% 5%;
+    height:100%;
+}
+.cuerpoModal{
+    z-index:300;
+    background:none;
+    box-sizing:border-box;
+    padding:20%;
+    height:100%;
+    text-align:center;
+    display:block;
+}
+
+.grupoEditable{
+    margin:0 auto;
+    background:#f2f2f2;
+    box-sizing:border-box;
+    padding:2%;
+    width:100%;
+    height:100%;
+}
+.titleGrupo{
+    font-size:11.5pt;
+    color:#17206B;
+    font-weight:bold;
+    float:left;
+}
+.filterCtr{
+    float:right;
+    color:#17206B;
+    font-size:9pt;
+}
+.filterCtr input{
+    border-radius:5px;
+    border:solid 1px #cccccc;
+}
+.filterCtr input:focus{
+    border:solid 1.5px #99ddf9;
+}
+.menuGrupo{
+    width:100%;
+    display:block;
+    margin-bottom:10px;
+}
+.menuGrupo div{
+    width:50%;
+    padding:0;
+    margin:0;
+
+    display:inline-block;
+}
+.leftMenuGrupo{
+    text-align:left;
+    float:left;
+}
+.rightMenuGrupo{
+    text-align:right;
+}
+table{
+    margin:0 auto;
+    border-collapse:collapse;
+    width:99%;
+    box-sizing:border-box;
+    font-size:10pt;
+}
+thead{
+    background: #0C2E6C;
+    color:#fff;
+    font-weight:bold;
+}
+th{
+    padding:1vh 1vw;
+}
+table tbody{
+    word-break:break-all;
+    background:#fff;
+    width:67%;
+    overflow:auto;
+}
+table td{
+    border:solid 1px #efeeed;
+    padding: 1vh 1vw;
+}
+#selector{
+    width:80%;
+    margin:10px auto;
+}
+#subHeader button{
+    border:none;
+    background:none;
+    text-decoration: none;
+    color: #3e3e3e;
+    text-align: center;
+    cursor: pointer;
+}
+.contentGrupo table input,select,button{
+    font-size:8pt;
+    border:none;
+    text-decoration:none;
+    padding:2px;
+    background:none;
+    cursor:pointer;
+}
+select:focus{
+    border-bottom:solid 1px #17206B;
+    outline:0;
+}
+button:hover{
+    font-weight:bold;
+}
+.contentGrupo table input:focus{
+    background:#17206B;
+    color:#fff;
+    outline:0;
+}
+.selEdos{
+    min-width:55px;
+}
+.selMpios{
+    min-width:300px;
+}
+.idEM{
+    width:40px;
+    border:none;
+    background:none;
+    font-size:9.5pt;
+}
+
+#tiposnom012{
+    width:40%;
+    height:300px;
+    overflow:auto;
+    box-sizing: border-box;
+    padding:5px;
+}
+.tiposeleccionado{
+    background: #efeeed;
+}
+#tiposnom012 img{
+    width:60px;   
+}
+#datoscamion{
+    width:60%;
+    box-sizing: border-box;
+    padding:5px;
+}
+#datoscamion table{
+    width:250px;
+    float:left;
+    white-space: nowrap;
+    word-break: normal;
+    margin:5px;
+}
+#datoscamion table input{
+    width:100%;
+    text-align:right;
+}
+#configCamion div{
+    float:left;
+}
+.claseveh{
+    font-size:8pt;
+    word-break: keep-all;
+}
+#datosgrales{
+    width:40%;
+}

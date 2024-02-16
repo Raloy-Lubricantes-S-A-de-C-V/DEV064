@@ -1,0 +1,135 @@
+<html lang="es">
+
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
+        <title>Intranet 2022</title>
+
+        <!--jQuery-->
+        <script type="text/javascript" src="../../../../libs/jquery-3.2.1.min.js"></script>
+
+        <!--Fonts Awesome-->
+        <link rel="stylesheet" href="../../../../libs/fontawesome-free-5.4.2/css/all.min.css">
+
+        <!--Tablas dinámicas-->
+        <link href="../../../../libs/webdatarocks-1.0.2/webdatarocks.min.css" rel="stylesheet" />
+        <link href="../../../../libs/webdatarocks-1.0.2/theme/skyblue/webdatarocks.css" rel="stylesheet" />
+        <script src="../../../../libs/webdatarocks-1.0.2/webdatarocks.toolbar.min.js"></script>
+        <script src="../../../../libs/webdatarocks-1.0.2/webdatarocks.js"></script>
+
+        <!--Bootstrap-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+            crossorigin="anonymous"></script>
+
+        <!--Propias-->
+        <script type="text/javascript" src="js/f_all_reports.js"></script>
+
+        <style>
+            #wdr-pivot-view .wdr-grid-layout .wdr-empty {
+                border-color: transparent !important;
+            }
+
+            #wdr-pivot-view .wdr-grid-layout #wdr-data-sheet {
+                border-color: transparent !important;
+            }
+
+            #wdr-pivot-view .wdr-grid-layout div.wdr-cell {
+                border-color: transparent !important;
+            }
+        </style>
+
+    </head>
+
+    <body style="border-style: none;">
+        <div id="loading" class="h-100 w-100"
+            style="position: absolute;top: 0;left: 0;z-index: 999;background: rgba(230,224,224,0.64);color: rgb(33,87,140);font-size: 44px;">
+            <div class="h-100 w-100 d-flex justify-content-around align-items-center">
+                <i class="fa fa-ellipsis-h"></i>
+            </div>
+        </div>
+
+        <div id="modal-save-filter" class="modal fade" role="dialog" tabindex="-1">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <h5>Nombre del Layout</h5><input class="form-control w-100" type="text" />
+                        <div class="form-check text-start d-flex justify-content-sm-end mt-2"><input id="formCheck-1"
+                                class="form-check-input" type="checkbox" /><label class="form-check-label ms-2"
+                                for="formCheck-1">Compartir con usuarios con permisos</label></div>
+                    </div>
+                    <div class="modal-footer"><button class="btn btn-light" type="button"
+                            data-bs-dismiss="modal">Cancelar</button><button id="btn-save-report-filter"
+                            class="btn btn-primary" type="button">Guardar</button></div>
+                </div>
+            </div>
+        </div>
+
+        <nav class="navbar navbar-light navbar-expand-md">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="../../../../index.php">
+                    <span class="me-2" style="font-weight: bold;color: rgba(28,0,139,0.9);font-size: 24px;">Intranet
+                    </span>
+                    <span id="span-module-name" style="color: var(--bs-gray-800);font-weight: bold;">Reportes
+                    </span>
+                </a>
+                <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navcol-1">
+                    <span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span>
+                </button>
+                <div id="navcol-1" class="collapse navbar-collapse">
+                    <div class="d-flex justify-content-end w-100">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <div class="nav-item dropdown"><a id="link-user-name" class="dropdown-toggle nav-link"
+                                        aria-expanded="false" data-bs-toggle="dropdown" href="#">Usuario</a>
+                                    <div class="dropdown-menu"><a class="dropdown-item" href="#">Cambiar
+                                            Password</a></div>
+                                </div>
+                            </li>
+                            <li class="nav-item"><a class="nav-link" href="#">Cerrar Sesión</a></li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </nav>
+        <hr style='color:#000;margin:2px 0;' />
+        <div class="container-fluid p-2 m-0">
+            <div id="div-dates" class="row m-0 p-0">
+                <div class="col col-12">
+                    <div id="div-messages"></div>
+                    <div class="row">
+
+                        <form class="d-flex ms-auto">
+                            <div class="col pe-2">
+                                <select id="select-report" class="form-control w-100"></select>
+                            </div>
+                            <div class="col pe-2">
+                                <select id="select-available-filters" class="form-control w-100"></select>
+                            </div>
+                            <div class="col pe-2">
+                                <input id="input-date-1" class="form-control me-2" type="date" />
+                            </div>
+                            <div class="col pe-2">
+                                <input id="input-date-2" class="form-control me-3" type="date" />
+                            </div>
+                            <div class="col col-auto d-flex justify-content-end">
+                                <input id="appendData" class='me-2' type="checkbox"/>
+                                <button id="btn-create-report" class="btn btn-primary me-2" type="button">Mostrar</button>
+                                <button class="btn btn-primary" type="button" data-bs-target="#modal-save-filter" data-bs-toggle="modal">Guardar</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div id="div-dates" class="row m-0 p-0">
+                <div class="col col-12 p-0 m-0 px-2 text-center" style="min-height:83vh;">
+                    <div id="div-tbl-container" class="p-0 w-100"></div>
+                </div>
+            </div>
+        </div>
+    </body>
+
+</html>

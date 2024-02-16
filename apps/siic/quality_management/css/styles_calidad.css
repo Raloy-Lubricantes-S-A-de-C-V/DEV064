@@ -1,0 +1,116 @@
+body{
+    text-align:center;
+    background: url("images/crossword.png");
+    font:100%/1.4 Verdana, Arial, Helvetica, sans-serif;
+    font-size: 13pt;
+    margin:0 auto;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+hr{
+    margin:0;
+}
+.subt1{
+    font-size:12pt;
+    font-weight:bold;
+    color:#333;
+    display:inline-block;
+    margin-top:30px;
+}
+.subt2{
+    font-size:10pt;
+    font-weight:bold;
+    color:#333;
+    margin:0 auto;
+}
+#cuerpo{
+    width:1000px;
+    margin:10px auto;
+    background:#fff;
+    padding:2%;
+    box-shadow: 2px 2px 2px #999999;
+    -moz-box-shadow: 2px 2px 2px #999999;
+    -webkit-box-shadow: -1px 2px 1px #999999;
+}
+#allOpts{
+    background:rgba(246,246,246,.8);
+    width:100%;
+    height:160px;
+}
+#datos{
+    background:rgba(246,246,246,.8);
+    /*height:140px;*/
+    width:100%;
+    padding:10px 0;
+    font-size:9pt;
+    float:left;
+}
+#datos table{
+    width:90%;
+    padding:10px 5%;
+}
+#divLogin table{
+    margin-top:10px;
+    width:100%;
+}
+#divLogin table td{
+    padding:0 2px;;
+}
+#divLogin input{
+    background:none;
+    border:none;
+    border-bottom:solid 1.5px #333;
+}
+#divDatosGrales{
+    width:34%;
+}
+#divReferenicias{
+    width:29%;
+}
+ul{
+    list-style-type: none;
+    font-size:8pt;  
+}
+.numeric, .currency{
+    text-align:right !important;
+}
+#tblResults{
+    margin:5px auto;
+    width:668px;
+    height:690px;
+    text-align:left;
+    font-size:9pt;
+    border-collapse: collapse;
+    background:url(../images/copy-bg.png);
+    margin-bottom:10px;
+}
+#tblResults th{
+    font-weight:bold;
+    color:#333;
+    text-align:center;
+    background:rgba(183,212,226,0.7);
+    padding:5px;
+    border-top:solid 1px #333;
+    border-bottom:solid 1px #333;
+}
+#tblResults td{
+    text-align:left;
+    border-top:solid 1px;
+    border-bottom:solid 1px;
+    background:rgba(247,250,252,0.7);
+    padding: 0 5px;
+}
+.buttonA{
+    background:none;
+    border:none;
+    cursor:pointer;
+    color: #4E6CA3;
+}
+#welcome{
+    padding:10px;
+    font-weight:bold;
+    color: #4E6CA3;
+}
+.langC{
+    font-size:8pt;
+    font-weight:bold;
+}

@@ -1,0 +1,61 @@
+h5{
+    text-align: center;
+}
+
+#nomcliente{
+    color: #041E41;
+    font-weight: bold;
+}
+
+
+/*.mdl-layout__container{*/
+/*    width: auto;*/
+/*}*/
+#savebutton{
+  position: fixed;
+  display: block;
+  right: 0;
+  bottom: 0;
+  margin-right: 40px;
+  margin-bottom: 78vh;
+  z-index: 900;
+}
+
+.chart-container {
+    align-items: stretch;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 5px 5px;
+}
+
+.siic-content{
+    width: auto;
+    height: auto;
+    max-height:700px; 
+    min-height: 500px;
+    min-width: 800px;
+    position: center;
+}
+
+
+
+.siic-loading{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -250px;
+
+}
+
+.siic-tabla{
+  width: 100%;
+    max-height:450px;
+    overflow-x: scroll;
+}
+
+.siic-tabla td:nth-child(n){ /*Forza salto de linea al alcanzar un tamaÃƒÂ±o indicado*/
+  width: 40vh;
+  white-space: pre-line;
+}
+

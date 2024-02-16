@@ -1,0 +1,259 @@
+Hints and Directions for Translators
+====================================
+
+Please contact me <andrew.simpson at paradise.net.nz> for any help you need.
+
+
+Files
+=====
+
+There are three message translation files in this directory ([webcollab]/lang):
+
+    xx_message.php
+
+    xx_long_message.php
+
+    xx_email.php
+
+There is also now two translation files for the setup program in this directory:
+
+    xx_setup1.php
+
+    xx_setup2.php
+
+    (setup1 is always in UTF-8 character set, while setup2 is the same character set
+    as used for the language e.g. UTF-8, ISO-8859-1.  This is to ensure that entered
+    logins, site names and passwords are in the same character sets as ordinarily
+    used).
+
+For the keen translators there are also help files in [webcollab]/help:
+
+    xx_help_admin.php
+
+    xx_help.php
+
+    xx_setup2.php
+
+    xx_setup3.php
+
+
+General Arrangement
+===================
+
+Here is how the translation files work:
+
+
+    $lang['name']                       = "Name";
+  ^^^^^^^^^^^^^^^^
+
+The lefthand side of the equals sign is the call up tag for the word string (text).  This
+needs to remain as shown.
+
+
+    $lang['name']                       = "Name";
+                                         ^^^^^^^^
+
+The righthand side of the equals sign is the string to be translated.  The string is
+enclosed in single (or double) quotes and ends with a semi-colon.
+
+Some messages contain strings like %s, %1\$s, \n and HTML (<br />, <b>, <p> etc).
+
+  %s, %1\$s          - are placeholders for values to be inserted by the code.
+  \n                 - tells the browser to place a linebreak in the HTML code.
+  <br />, <b>, <p>   - are HTML formatting codes
+
+  ABBR_MANAGER_NAME )
+  MANAGER_NAME      )- are all defined values set by the code
+  BASE_URL          )    (e.g. MANAGER_NAME = WebCollab)
+
+
+
+General Style for xx_message.php
+================================
+
+
+**     $lang['xxxx']
+
+String (eg: 'Project')
+
+
+**     $lang['xxxx_sprt']
+
+Formatted print string
+(eg: 'Files associated with this %s' - where %s is inserted by the code)
+
+Note: Formatted strings with %1\$s; %2\$s; %3\$s etc. can have parameters interchanged - as
+in:
+
+"Message from %1\$s about %2\$s"
+
+ _could also be_
+
+"Message about %2\$s from %1\$s"
+
+(Note: For those familiar with PHP; the interchangable parameters have the '$' escaped
+('\') to prevent text parser interpreting them as a variable in the double quoted strings).
+
+
+**    $lang['xxxx_g']
+
+Graphical string (e.g. '&nbsp;LATE&nbsp;')
+
+Note:  To look correct on the screen, these items should start and end with a HTML space
+(&nbsp;).
+
+
+**    $lang['xxxx_javascript']
+
+String is used in Javascript.
+
+(eg: 'Are you sure you want to delete?')
+
+Note:  Text with a single quote (apostrophe) in a word must have the quote escaped to
+prevent the javascript text parser becoming confused.  This is done by adding a
+backslash ('\') before the single quote.  For example:
+
+    $lang['confirm_del_javascript']      = "Confirmer l\'effacement!";
+
+
+Special Strings in xx_message.php
+=================================
+
+    $month_array = array (NULL, 'Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug',
+                          'Sep', 'Oct', 'Nov', 'Dec' );
+
+This list contains abbreviated months of the year.  The first item is always NULL (with
+no quotes around).
+
+
+
+    $week_array = array('Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat' );
+
+This list contains abbreviated days of the week.
+
+
+Character Encoding
+==================
+
+This code must appear in the xx_message.php file
+
+    //required language encodings
+    define('CHARACTER_SET', "ISO-8859-1" );
+
+"ISO-8859-1" is the character encoding that is used in the translation file.  It can be
+any generally accepted IANA character set (e.g. ISO-8859-1, CP-1252, KOI8-R, etc).  This
+value is passed on to the web browser.
+
+Please use single-byte character sets with standard WebCollab.  The Unicode version of
+WebCollab will work better with multi-byte character sets (e.g. utf-8, euc_kr, gb2312).
+
+Most West European languages use "ISO-8859-1".
+
+Validation Regex
+================
+
+Every character set needs a validation filter that WebCollab uses to reject illegal
+characters.  This is the one for ISO-8859-1 (and most other ISO-8859-x character sets):
+
+    //this is the regex for input validation filter used in common.php
+    define('VALIDATION_REGEX', "/([^\x09\x0A\x0D\x20-\x7E\xA0-\xFF])/" ); //ISO-8859-x
+
+For testing a new character set use:
+
+   //this is the regex for input validation filter that allows all 8 bit bytes to pass!
+   $validation_regex = '/([^\x00-\xFF])/s';
+
+
+Making the Translation Available to WebCollab
+=============================================
+
+To make the translation active, the following files need to be altered:
+
+In [webcollab]/lang directory:
+
+1. To the 'lang.php' file, add the line below to the existing list of languages:
+
+    case "xx":
+    include(BASE."lang/xx_message.php" );
+    break;
+
+2.  To the 'lang_long.php' file, add the line below to the existing list of languages:
+
+    case "xx":
+    include(BASE."lang/xx_long_message.php" );
+    break;
+
+3.  To the 'lang_email.php' file, add the line below to the existing list of languages:
+
+    case "xx":
+    include(BASE."lang/xx_email.php" );
+    break;
+
+4. To the 'lang_setup.php' file, add the line below to the existing list of languages:
+
+    case "xx":
+    include(BASE."lang/xx_setup.php" );
+    break;
+
+
+In the [webcollab]/help directory:
+
+1. To the 'help_language.php' file, add the line below to the existing list of languages:
+
+    case 'xx':
+    $lang_prefix = 'xx';
+    break;
+
+2.  To the 'help_setup.php' file, add the line below to the existing list of languages:
+
+    case 'xx':
+    $lang_prefix = 'xx';
+   break;
+
+
+
+
+Making the Translation Appear in Setup
+======================================
+
+To make the translation appear in the automated setup:
+
+1. Look for the following lines in [webcollab]/setup/setup_config.php:
+
+    $locale_array = array('bg'   =>'Bulgarian',
+                          'ca'   =>'Catalan',
+                          'zh-tw'=>'*Chinese(Traditional)',
+                          'zh-cn'=>'*Chinese (Simplified)',
+                          'cs'   =>'Czech',
+                          'da'   =>'Danish',
+                          'en'   =>'English',
+                          'fr'   =>'French',
+                          'de'   =>'German',
+                          'gr'   =>'Greek',
+                          'hu'   =>'Hungarian',
+                          'it'   =>'Italian',
+                          'ja'   =>'*Japanese',
+                          'ko'   =>'*Korean',
+                          'nl'   =>'Dutch',
+                          'pt-br'=>'Portuguese (Brazilian)',
+                          'ru'   =>'Russian',
+                          'es'   =>'Spanish',
+                          'sr-la'=>'Serbian (Latin)',
+                          'sr-cy'=>'Serbian (Cyrillic)',
+                          'sk'   =>'Slovak',
+                          'se'   =>'Swedish',
+                          'tr'   =>'Turkish' );
+
+2. Add your translation as:
+
+    'xx'  => 'My language name',
+
+3. There is a similar 'array' for the setup language:
+
+    $setup_language = array('en'   => 'English',
+                            'nl'   => 'Dutch (Help files only) ',
+                            'pt'   => 'Portuguese (Help files only)',
+                            'pt-br'=> 'Portuguese (Brazilian) (Help files only)',
+                            'es'   => 'Spanish (Help files only)' );
+
+

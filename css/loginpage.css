@@ -1,0 +1,62 @@
+#contenedor{
+    width:550px;
+    height:550px;
+    margin:50px auto;
+    background: #dbeff8;
+    padding:0;
+}
+#contenedor img{
+    width:100%;
+    margin:0;
+}
+#formulario{
+    padding:15px;
+    width:100%;
+    box-sizing: border-box;
+    text-align:center;
+}
+#formulario #intro{
+    width:100%;
+    margin-bottom:15px;
+    font-size:22pt;
+    font-weight:bold;
+    letter-spacing: 2px;
+    /*text-align:left;*/
+    line-height: 20px;
+    
+}
+input{
+    height:27px;
+    padding:5px 7px;
+    width:50%;
+    display:block;
+    margin: 0 auto;
+    border-radius:5px;
+    border:solid 1px #c5d7df;
+    font-size:12pt;
+}
+button{
+    width:100px;
+    height:40px;
+    border-radius:5px;
+    background: #E05F28;
+    padding:5px;
+    color:#fff;
+    border:solid 1px #b34c20;
+    cursor:pointer;
+}
+#nombreempresa{
+    font-size:12pt;
+    font-weight:bold;
+    letter-spacing: 0.5px;
+    color:#2e6986;
+    
+}
+#errors{
+    margin-top:5px;
+    display:none;
+     width:100%;
+     background: rgba(53,122,156,0.5);
+     color:#fff;
+     padding:5px 0;
+}

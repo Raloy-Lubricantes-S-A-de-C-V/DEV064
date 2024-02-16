@@ -1,0 +1,49 @@
+#loginForm{
+    width:200px;
+    height:200px;
+    padding:20px;
+    font-size: 12pt !important;
+    margin:0 auto;
+    color: #3e3e3e;
+}
+#loginForm .left,#loginForm .right{
+    float:left;
+    margin:0;
+    padding:0;
+    border: none;
+}
+#loginForm .left{
+    width:10%;
+}
+#loginForm .right{
+    width:90%;
+}
+#loginForm .left div,#loginForm .right div{
+    width:100%;
+    display:block;
+}
+input,select{
+    width:95%;
+    padding:0 2.5%;
+    border:none;
+    border-bottom: solid 1px #004A90;
+}
+input:active{
+    border-bottom: solid 1px #007aff;
+}
+button{
+    width:100%;
+    background:rgba(0,74,144,0.8);
+    color: #fff;
+    border:none;
+    cursor:pointer;
+}
+#loginForm .bottom{
+    width:100%;
+    clear:both;
+    display:block;
+}
+#loginForm .bottom div{
+    display:block;
+    width:100%;
+}

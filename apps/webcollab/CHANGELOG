@@ -1,0 +1,3327 @@
+WebCollab Git
+*** 5 September 2019
+
+- update French translation (Thanks to: martinbrait)
+
+- add development debugging to config.php 
+
+WebCollab Git
+*** 18 August 2019
+
+- add token validation to archive
+
+- add token validation to contacts
+
+- refactor task_edit to handle archive menu
+
+- refactor contact_submit
+
+- refactor includes/time
+
+WebCollab Git
+*** 14 August 2019
+
+- change to random_bytes() for session and token generation
+
+- Bugfix:  Incorrect function call in smtp_auth (no error caused)
+
+- Add etag and better headers to rss
+
+WebCollab Git
+*** 4 August 2019
+
+- minimum PHP version to 7.0.0
+
+- cast delta_deadline as int in task_clone_submit.php 
+
+WebCollab Git
+*** 11 June 2019
+
+- update French translation (Thanks to: martinbrait)
+
+WebCollab Git
+*** 28 April 2019
+
+- change column names in database tables to avoid reserved words in MySQL 8
+
+- update Esperanto translation (Thanks to: Stella Lindblom)
+
+- Bugfix: PHP 7.2 gives an error for using arrays created as strings in icalendar_todo.php
+
+WebCollab Git
+*** 19 May 2018
+
+- update email address
+
+WebCollab Git
+*** 6 May 2018
+
+- change column 'admin' to 'user_admin' (admin is a reserved word in MySQL 8) (Thanks to: Sam Dodd) 
+
+WebCollab 3.46 - Rotorua
+*** 2 September 2017
+
+- release
+
+WebCollab Git
+*** 13 August 2017
+
+- minor HTML improvements to suit HTML5
+
+- provide code for HTML5 option in screen.php
+
+- allow for setting smtp TLS port number in setup
+
+WebCollab Git
+*** 25 March 2017
+
+- add mb_check_encoding() use before using regex
+
+- improve setting UTF-8 encoding
+
+WebCollab Git
+*** 5 February 2017
+
+- Bugfix: Links in email require login due to incorrect $_COOKIE check (Thanks to Paul Knyazev)
+
+- add random_bytes() for PHP 7
+
+- update minimum PHP to 5.6
+
+WebCollab 3.45 - Akitio
+*** 16 July 2016
+
+- release
+
+WebCollab Git
+*** 27 April 2016
+
+- Bugfix: Clone leaves all projects and tasks open and editable by usergroups (Thanks to: hguttzeit)
+
+WebCollab 3.44 - Sweet Pea
+*** 17 December 2015
+
+- release
+
+- based on WebCollab 3.42 with config version fixed.
+
+WebCollab Git
+*** 15 December 2015
+
+- change to password_hash() for password functions
+
+- automatically upgrade older md5 password hashes to blowfish crypt on login
+
+- remove WORK_FACTOR constant for blowfish crypt.  Use PHP defaults.
+
+- update minimum PHP to 5.5
+
+WebCollab Git
+*** 18 September 2015
+
+- remove db_fetch_all() (Reverse 21 Febuary 2015 edit)
+
+- Bugfix: CloseCursor() added to task_navigate.php to prevent 'ATTR_EMULATE_PREPARES' errors.
+
+- add filter_var() for integer validation in common.php
+
+- add filter_var() for email validation in admin_config_submit and user_submit
+
+WebCollab 3.43 - Harrison 130
+*** 19 June 2015
+
+- release
+
+WebCollab Git
+*** 27 April 2015
+
+- Bugfix:  Syntax error in code causes error in PHP 5.6+
+
+WebCollab 3.42 - Cobb River Revisited
+*** 19 February 2015
+
+- release
+
+WebCollab Git
+*** 21 February 2015
+
+- Bugfix:  Incorrect database call in task_submit_clone.php (Thanks to: bshah) (Bug #98)
+
+- Bugfix:  Change database calls to db_fetch_all().  Prevents 'ATTR_EMULATE_PREPARES' errors.
+
+WebCollab 3.41 - Cobb River
+*** 2 June 2014
+
+- release
+
+WebCollab Git
+*** 7 February 2015
+
+- use better Blowfish algorithm
+
+- enable openssl_random_pseudo_bytes() for all OS (Windows was fixed in PHP 5.3.4)
+
+WebCollab Git
+*** 2 November 2014
+
+- Bugfix: Syntax errors in calendar date (Credit: Igor Falcomata)
+
+WebCollab Git
+*** 19 October 2014
+
+- improve mysql_pdo connection code
+
+- extend token timeout to 30 minutes by default
+
+- improve token key generation
+
+WebCollab Git
+*** 12 October 2014
+
+- improved salt generation using mt_rand() and base64_encode()
+
+- use openssl_random_pseudo_bytes() for session key generation where available
+
+- improve sesson key generation with Mersenne Twister fallback
+
+WebCollab Git
+*** 9 September 2014
+
+- update minimum PHP to 5.4.0 (PHP 5.3.0 is at end of life)
+
+- remove magic_quotes checks (not required in PHP 5.4.0+)
+
+- default to blowfish password encryption
+
+- use 'default_charset' option to set UTF-8 with PHP 5.6.0+
+
+WebCollab Git
+*** 3 September 2014
+
+- bugfix: SQL constraint violation on login in index.php (Patch #37) (Credit: Luke Bigum)
+
+WebCollab Git
+*** 5 July 2014
+
+- Updated Bulgarian translation (Credit: Svetlozar Ivanov )
+
+WebCollab 3.40 - Glenorchy
+*** 2 June 2014
+
+- release
+
+WebCollab Git
+*** 26 February 2014
+
+- Updated Italian translation (Credit: Giuseppe Dantini )
+
+WebCollab Git
+*** 19 January 2014
+
+- Bug #97  - Fix for foreign cookies overwriting POST & GET by removing $_REQUEST superglobals. (Reported by: Favern)
+
+- improve formatting to Forum Search.  Add to CSS code.
+
+WebCollab Git
+*** 3 January 2014
+
+- time.php: change from preg function to mb_substr for better execution speed. Cache escaped date results.
+
+WebCollab Git
+*** 3 November 2013
+
+- improve and simplify conformance to RFC 2045 of quoted printable encoding in emails
+
+- simplify encoded headers in email using iconv_mime_encode()
+
+- minor improvements to email headers
+
+WebCollab 3.31 - Baldy
+*** 18 October 2013
+
+- bugfix release for HTTP Response Splitting Vulnerablity (CVE-2013-2652)
+
+WebCollab Git
+*** 17 October 2013
+
+- Italian translation partially updated (Credit: Igor Falcomata )
+
+- bugfix:  password_hash() is a reserved function in PHP 5.5 (Credit: Midov )
+
+WebCollab Git
+*** 28 July 2013
+
+- change to storing uploaded files with hashed id
+
+- add Blowfish password encryption for PHP > 5.3.7
+
+WebCollab Git
+*** 21 May 2013
+
+- change md5() hashes to sha1() hashes
+
+- improve salt generation for passwords
+
+WebCollab Git
+*** 17 March 2013
+
+- add configurable dates
+
+WebCollab 3.30 Aotuhia
+*** 26 February 2013
+
+- release
+
+WebCollab Git
+*** 23 February 2013
+
+- change preg_replace with /e parameter to preg_replace_callback.  The former function format is deprecated in PHP 5.5.
+
+- change gmmktime() to time(). The former function is deprecated in PHP 5.3
+
+- bugfix: Minor bugfixing for 'PRE' constant.
+
+- bugfix: Allow for correct syntax with 'no owner' in iCal files.  
+
+- Catalan translation parially updated (Thanks to Marc Tormo i Bochaca).
+
+WebCollab Git
+*** 15 January 2013
+
+- bugfix: fix email header encoding extra CRLF with non-ASCII (Thanks to Harald Guttzeit)
+
+- bugfix: change PHP mail() to mb_send_mail() to be more UTF-8 compliant
+
+- revert to minimum PHP to 5.2.0 (PHP 5.3.2 recommended)
+
+WebCollab Git
+*** 12 January 2013
+
+- change to SHA256 + salt password encryption
+
+- deprecate blowfish password encryption
+
+- update minimum PHP to 5.3.2 (for SHA256 )
+
+- provide uploaded file names with non-ASCII characters from pre-WebCollab 3.00 to be handled (Thanks to Harald Guttzeit)
+
+- provide compliance to RFC 5987 for non-ASCII file names (Thanks to Harald Guttzeit)
+
+WebCollab Git
+*** 23 December 2012
+
+- bugfix: Coding errors in update.php fixed.
+
+- update minimum PHP to 5.2.0
+
+- minor bugfixing and improvements
+
+WebCollab Git
+*** 21 October 2012
+
+- bugfix:  Usergroup check missing from projects in project list
+
+- add project sorting to reparenting drop down in task edit (Thanks to tomas7)
+
+- add work factor constant for Blowfish to config file
+
+WebCollab Git
+*** 11 August 2012
+
+- change to blowfish password encryption for PHP > 5.3.8
+
+- change to md5 + salt password encryption for PHP < 5.3.8
+
+- add Active Directory support (Thanks to Bill Bliss)
+
+- improve if-modified header in RSS (Thanks to Bill Bliss)
+
+- bugfix: if-modified-header code in RSS needs rounding tolerance to work
+
+WebCollab 3.21 - Kaitake
+*** 22 June 2012
+
+- release
+
+WebCollab Git
+*** 22 June 2012
+
+- PHP constant PDO::MYSQL_ATTR_INIT_COMMAND is buggy on some versions of PHP (Bug #3535626)
+
+WebCollab 3.20 - Pouakai
+*** 11 June 2012
+
+- release
+
+WebCollab Git
+*** 24 May 2012
+
+- fix bug in <ul> css class numbering (Bug #3529388) (Thanks to tomas7)
+
+WebCollab Git
+*** 26 April 2012
+
+- allow for selection of database port in config file
+
+- improve initial connection setting in MySQL
+
+- bugfix: error box in setup
+
+- bugfix: improve utf-8 validation regex (Thanks to Gijs Boer)
+
+WebCollab Git
+*** 24 March 2012
+
+- refactor code in index.php
+
+WebCollab Git
+*** 12 March 2012
+
+- add db_delim() and db_epoch() functions to simplify code
+
+- simplify some database code
+
+WebCollab Git
+*** 9 March 2012
+
+- bugfix: Improved bugfix for clone project recursive database calls
+
+- bugfix: Improved bugfix for task_summary_list (Bug #3469913 )
+
+- add db_fetch_all() to enable bugfixes above
+
+- bugfix: Don't show duplicate post listings in forum menubox
+
+WebCollab Git
+*** 26 February 2012
+
+- bugfix: setup7 gives database error with no email selected (Credit: travier)
+
+- bugfix: uploaded files for task not deleted when tasks deleted
+
+WebCollab 3.10 - Nelson
+*** 20 February 2012
+
+- release
+
+WebCollab Git
+*** 13 February 2012
+
+- bugfix: Clone project recursive database call fixed (Thanks to tomas7)
+
+WebCollab Git
+*** 6 January 2012
+  Andrew Simpson
+
+- bugfix: Duplicate code removed in task_show (Bug #3469905) (Credit: Finnur Eiriksson (klauvi))
+
+- bugfix: Task listing fixed in task_summary_list (Bug #3469913 )(Thanks to Finnur Eiriksson (klauvi))
+
+- code refactoring in task_summary_list for improvements after bug above
+
+- better error trapping for database errors in setup_setup4
+
+WebCollab Git
+*** 22 December 2011
+  Andrew Simpson
+
+- bugfix: MySQL engine type deprecated in setup (Bug #3464047) (Credit: Xnohat)
+
+WebCollab Git
+*** 11 December 2011
+  Andrew Simpson
+
+- bugfix:  Error in task clone dates (Bug #3453022) (Thanks to bshah (projectboss))
+
+- changed to CSS box model on setup
+
+- add SMTP_AUTH and TLS to mail setup
+
+WebCollab 3.00 - Avon
+*** 16 October 2011
+  Andrew Simpson
+
+-release
+
+WebCollab Git
+*** 21 September 2011
+  Andrew Simpson
+
+- fix database debugging log messages
+
+- fix 'no login' redirect
+
+- update login images for postgresql and php
+
+- add output buffering to screen.php (also allows errors to display properly)
+
+- add option for zlib.output_compression
+
+WebCollab Git
+*** 2 September 2011
+  Andrew Simpson
+
+- change to em for font size for better IE7 compatibility
+
+- updated Japanese translation (Thanks to Hiromi Kimura)
+
+WebCollab Git
+*** 7 August 2011
+  Andrew Simpson
+
+- change to CSS box model
+
+- add <body> id tags for CSS (Credit: tomas7)
+
+- add id tags to <ul> in project_list and todo (Credit: tomas7)
+
+Webcollab 2.71 - Terminus
+*** 25 June 2011
+  Andrew Simpson
+
+- release
+
+*** 30 May 2011
+  Andrew Simpson
+
+- allow for remote access to iCal files (Credit: fspanedda )
+
+WebCollab Git
+*** 21 May 2011
+  Andrew Simpson
+
+- bugfix: PHP function mime_encode_header() is buggy.  Provide workaround.
+
+- Change error symbol in UTF-8 validate in common.php
+
+WebCollab Git
+*** 18 May 2011
+  Andrew Simpson
+
+- bugfix: URL syntax error in rss_common.php
+
+- bugfix: Locale syntax error in rss_common.php
+
+WebCollab Git
+*** 15 May 2011
+  Andrew Simpson
+
+- bugfix: DTSTAMP date missing in icalendar
+
+WebCollab Git
+*** 2 May 2011
+  Andrew Simpson
+
+- improve cookie deletion in logout.php
+
+- add usergroup email notification (Credit: sgomez2008 )  
+
+- combine setup language files
+
+WebCollab Git
+*** 23 January 2011
+  Andrew Simpson
+
+- bugfix: private usergroups not listing correctly in usergroups_manage 
+
+WebCollab Git
+*** 12 January 2011
+  Andrew Simpson
+
+- change security token algorithm to reduce false postives 
+
+WebCollab Git
+*** 1 January 2011
+  Andrew Simpson
+
+- change to PHP PDO database calls throughout
+
+- change to UTF-8 character set throughout
+
+- bugfix: correct box handling in update.php
+
+- improve error detection in archive_submit and forum_submit_add
+
+WebCollab SVN
+*** 11 October 2010
+  Andrew Simpson
+
+- bugfix: Use UTF8-string splitter in box_shorten() where appropriate
+
+WebCollab - May Queen
+*** 4 July 2010
+  Andrew Simpson
+
+- release
+
+WebCollab SVN
+*** 13 June 2010
+  Andrew Simpson
+
+- make URL links in iCalendar more specific
+
+WebCollab SVN
+*** 16 May 2010
+  Andrew Simpson
+
+- change javascript in forum listing to degrade better
+
+- simplify javascript coding
+
+WebCollab SVN
+*** 13 April 2010
+  Andrew Simpson
+
+- remove obsolete mhash() and replace with hash_mac()
+
+- improve bbcode for rss feeds
+
+- replace preg_match for code speed up in cookie check
+
+WebCollab SVN
+*** 27 March 2010
+  Andrew Simpson
+
+- patch #2961818 - Calendar presentation improvements (Credit: houwelin - Fred Houweling)
+
+WebCollab SVN
+*** 22 March 2010
+  Andrew Simpson
+
+- add javascript bbcode editor (Reporter: Vinz)
+
+- bugfix - Czech language file in wrong encoding.
+
+WebCollab SVN
+*** 20 March 2010
+  Andrew Simpson
+
+- bugfix - fix bbcode tags spread over two or more lines not working
+
+- add bbcode for ordered and unordered lists
+
+- allow user's language localisation in RSS for UTF-8 version
+
+WebCollab SVN
+*** 18 March 2010
+  Andrew Simpson
+
+- bugfix - RSS feed has 12 hour time instead of 24 hour time (Bug #2972216) (Credit: pmarecha - Pierre Marechal)
+
+- bugfix - RSS feed does not account for minutes in timezone
+
+- Accept Windows-1252 characters in English ISO-8859-1 as per HTML 5
+
+WebCollab SVN
+*** 18 January 2010
+  Andrew Simpson
+
+- updating CSS style sheets
+
+WebCollab SVN
+*** 11 December 2009
+  Andrew Simpson
+
+- bugfix: Admin cannot delete posts (Bug #2912286)(Reporter: gomanual)
+
+WebCollab SVN
+*** 3 December 2009
+  Andrew Simpson
+
+- bugfix: Missing database prefix (Bug #2907275)
+
+- improve database query error messages
+
+WebCollab SVN
+*** 27 September 2009
+  Andrew Simpson
+
+- improved CSS reduces number of tables in web layout
+
+WebCollab - Bodicea
+*** 4 September 2009
+  Andrew Simpson
+
+- release
+
+WebCollab SVN
+*** 3 September 2009
+  Andrew Simpson
+
+- bugfix: unecessary warning messages in task summary are suppressed
+
+- bugfix: flags not working properly in task summary
+
+- improve performance and reduce database calls in task summary
+
+WebCollab - Canute
+*** 29 August 2009
+  Andrew Simpson
+
+- release
+
+WebCollab SVN
+*** 22 August 2009
+  Andrew Simpson
+
+- Bug #2839397 - suppress file permission error message
+
+- reduce database calls by removing unnecessary db_numrow() calls
+
+- reduce database calls by removing unnecessary db_seek() calls
+
+- remove potential race condition index.php / security.php login failure
+
+WebCollab SVN
+*** 14 August 2009
+  Andrew Simpson
+
+- html corrections and validation
+
+WebCollab SVN
+*** 4 August 2009
+  Andrew Simpson
+
+- simplify database calls for seen table in task_list
+
+WebCollab SVN
+*** 24 July 2009
+  Andrew Simpson
+
+- improve file download script
+
+- make allowance for inline/attachment downloads
+
+- improve session cookie deletion
+
+- bugfix: project on-hold to active transition bug (Reporter: Eduardo Alvim)
+
+WebCollab SVN
+*** 2 June 2009
+  Andrew Simpson
+
+- new logo for WebCollab (Credit: Mourad Mokrane)
+
+- update Czech translations (Credit: Milan Horák)
+
+- fix bbcodes for wider range of urls (Reporter: raumi64)
+
+WebCollab SVN
+*** 23 May 2009
+  Andrew Simpson
+
+- javascript impovements
+
+- more fixes to bug #2793641
+
+WebCollab SVN
+*** 9 May 2009
+  Andrew Simpson
+
+- javascript impovements
+
+- bugfix: popup calendar triggers security token (Reporter: William Yodlowsky) - also bug #2793641
+
+WebCollab - Billy Goat
+*** 16 April 2009
+  Andrew Simpson
+
+-release
+
+WebCollab SVN
+*** 14 April 2009
+  Andrew Simpson
+
+- update Czech translations (Credit: Milan Horák)
+
+- fix htmlspecialchars() warning with ISO 8859-2
+
+WebCollab SVN
+*** 9 April 2009
+  Andrew Simpson
+
+- security fix: Secunia Advisory SA34568 addressed
+
+- bugfix: Mime field not long enough for very long mime types (Bug #2721728 )
+
+- change session key variable to constant
+
+- add user_del_edit.php file
+
+- move [delete] buttons to edit pages
+
+- add security token for form pages
+
+- improve security for cookie leakage in index.php
+
+WebCollab SVN
+*** 9 March 2009
+  Andrew Simpson
+
+- bugfix: Portuguese language file not working
+
+- bugfix: setup edit not working with passwords in all languages
+
+- bugfix: setup6 not correctly setting passwords in all languages
+
+- bugfix: character set handling in setup is poor
+
+- create new language files in setup to overcome above problems
+
+- change setup to XHTML strict
+
+WebCollab SVN
+*** 28 February 2009
+  Andrew Simpson
+
+- change secondary sort orders in admin_config_submit.php (Credit: wangzhijun2005 - Luke Wang )
+
+- update textarea sizes on screen (Credit: Atanacius / wangzhijun2005 - Luke Wang )
+
+- bugfix: re-edit on setup fails
+
+- improvement to box_shorten() in common.php
+
+- provide persistent cookie for condensed and active views
+
+- improvements to setup_screen (move javascript to separate file)
+
+- add button images to forum search results
+
+- add language selection to setup
+
+WebCollab SVN
+*** 22 February 2009
+  Andrew Simpson
+
+- shift javascript to separate file
+
+- add GUEST_LOCKED to config (Feature Request: Kopojib )
+
+- add drop down for long posts in forums (Feature Request: Atanacius / Rasyr66 )
+
+- change cut algorithm for box shorten in common.php
+
+WebCollab 2.40 - Avocado
+*** 6 February 2009
+  Andrew Simpson
+
+- release
+
+WebCollab SVN
+*** 31 January 2009
+  Andrew Simpson
+
+- add RSS autodiscovery option in config files
+
+- RSS changes to recommendations of W3C feed validator
+
+- minor improvements to RSS
+
+- rearrange configuration file for better readability
+
+- add XML_LANG to language files
+
+WebCollab SVN
+*** 20 December 2008
+  Andrew Simpson
+
+- include PHP mail() as option (Feature Request #2419923) (Udi - Udi86)
+
+- minor bugfixes and improvements to email
+
+- remove session cookie after login error
+
+WebCollab SVN
+*** 20 November 2008
+  Andrew Simpson
+
+- bugfix: change order of character set commands in MySQL (Bug #2311347) (Credit: Udi - Udi86)
+
+- bugfix: missing deadlines in task summary (Bug #2310683) (Credit: Udi - Udi86)
+
+WebCollab SVN
+*** 11 October 2008
+  Andrew Simpson
+
+- automate year selection box range in calendar*.php and time.php
+
+- remove duplicate code for completion update and provide function in task_submit.php
+
+- make adjustments to status in task_submit_update.php when project status changes
+
+- task_add.php inherits status from project
+
+WebCollab SVN
+*** 8 October 2008
+  Andrew Simpson
+
+- bugfix: No email selection causes error in setup (Bug #2142273) (Credit: Hayesha Somarathne - hayeshais)
+
+WebCollab SVN
+*** 24 August 2008
+  Andrew Simpson
+
+- bugfix: revert earlier quoted-printable (fix was buggy)
+
+- minor improvements to email.php
+
+- bugfix: poor language handling of dates in emails improved
+
+- Javascript date check extended to handle leap years
+
+WebCollab SVN
+*** 25 July 2008
+  Andrew Simpson
+
+- task_list.php rewritten to remove recursive function
+
+WebCollab 2.31 - Aberdeen
+*** 24 July 2008
+  Andrew Simpson
+
+- release
+
+WebCollab SVN
+*** 23 July 2008
+  Andrew Simpson
+
+- bugfix: HTML sometimes invalid with nested tasks and taskgroups in ToDo
+
+- better handling of orphaned tasks in task_project_list and task_todo_list
+
+WebCollab SVN
+*** 6 July 2008
+  Andrew Simpson
+
+- show forum posts with newest first (Credit: KoPoJIb)
+
+- change database tables to UTF-8
+
+WebCollab SVN
+*** 8 May 2008
+  Andrew Simpson
+
+- bugfix quoted-printable should be hex, not decimal
+
+- improvements to input validation
+
+WebCollab SVN
+*** 27 April 2008
+  Andrew Simpson
+
+- bugfix: max upload file size not shown as integer in HTML code
+
+- check max file size in php.ini during setup.
+
+- show file sizes in Gb, Mb & kb and bytes
+
+- make improvements to input validation
+
+WebCollab SVN
+*** 25 April 2008
+  Andrew Simpson
+
+- bugfix: admin_config include missing in user and file submit
+
+WebCollab SVN
+*** 14 April 2008
+  Andrew Simpson
+
+- Portuguese translation added (Credit: Artur Madeira )
+
+WebCollab 2.30 - Stargazer
+*** 23 Febuary 2008
+  Andrew Simpson
+
+- release
+
+WebCollab SVN
+*** 10 Febuary 2008
+  Andrew Simpson
+
+- bugfixes to RSS code
+
+- add RSS for projects and files
+
+- add RSS autodiscovery (optional) 
+
+WebCollab SVN
+*** 27 January 2008
+  Andrew Simpson
+
+- make start day of week in calendar configurable
+
+WebCollab SVN
+*** 6 December 2007
+  Andrew Simpson
+
+- add bbcode to description fields
+
+- make 'active_only' and 'condensed' sticky on homepage 
+
+- improvements and bugfixing to RSS
+
+WebCollab SVN
+*** 2 December 2007
+  Andrew Simpson
+
+- add forum update functionality
+
+WebCollab SVN
+*** 15 November 2007
+  Andrew Simpson
+
+- Polish translation added (Credit: Konrad Komada )
+
+- priority field added to task summary page (Credit: Konrad Komada )
+
+WebCollab SVN
+*** 8 November 2007
+  Andrew Simpson
+
+- HTML header changed for XML compliance
+
+- better input cleansing in setup5
+
+WebCollab SVN
+*** 27 September 2007
+  Andrew Simpson
+
+- Norwegian translation updated (Credit: Rune Thelen )
+
+WebCollab 2.20 - Orion
+*** 4 September 2007
+  Andrew Simpson
+
+- release
+
+WebCollab SVN
+*** 14 August 2007
+  Andrew Simpson
+
+- update Brazilian Portuguese translation (Credit: Eduardo Alvim)
+
+WebCollab SVN
+*** 4 August 2007
+  Andrew Simpson
+
+- make provision for mysqli in setup
+
+- make provision for mysqli in update.php
+
+- minor bugfixing
+
+WebCollab SVN
+*** 25 July 2007
+  Andrew Simpson
+
+-bugfix: show help file in user selected language for UTF-8 version
+
+WebCollab SVN
+*** 22 July 2007
+  Andrew Simpson
+
+- Spanish translation updated (Credit: Alberto Vizcaíno López )
+
+WebCollab SVN
+*** 15 July 2007
+  Andrew Simpson
+
+- allow configurable hidden or plain password (Feature Request #1638725)
+
+- allow updating of uploaded files (Feature Request #1024362)
+
+- bugfix: variable names in admin_config.php overwriting existing variables
+
+WebCollab SVN
+*** 4 July 2007
+  Andrew Simpson
+
+- allow deadline to be changed on cloned projects (Feature Request -forum)
+
+WebCollab SVN
+*** 24 June 2007
+  Andrew Simpson
+
+- add admin user setup to main setup program
+
+- convert setup program to UTF-8 for better internationalisation
+
+- shift configuration items to database for better internationalisation
+
+- update setup program to XHTML
+
+WebCollab SVN
+*** 9 June 2007
+  Andrew Simpson
+
+- update Dutch language (MrSimple - Patrick Flinkerbusch )
+
+WebCollab SVN
+*** 16 May 2007
+  Andrew Simpson
+
+- bugfix: completion date updates after completion (Credit : Pablo Felip - takerna)
+
+WebCollab SVN
+*** 12 May 2007
+  Andrew Simpson
+
+- add javascript window close to calendar date (Credit: Will Shattuck)
+
+WebCollab SVN
+*** 5 May 2007
+  Andrew Simpson
+
+- bugfix: Daylight saving causes tasks to shift by one day (Bug #1592679 (Credit: Bob Solomon)
+
+- Add VEVENT to iCalendar for Google, Outlook compatibility
+
+WebCollab SVN
+*** 31 March 2007
+  Andrew Simpson
+
+- bugfix: patch #1691353 to fix bugs in task_submit_update (Credit: Peter Kjellerstedt - pkj )
+
+- bugfix: header refresh string incorrect in screen.php (Credit: jaygeeboy )
+
+WebCollab SVN
+*** 21 March 2007
+  Andrew Simpson
+
+- bugfix: change contacts.notes database column from VARCHAR(100) to TEXT (Credit: Christopher Hawkins)
+
+WebCollab 2.11 - Archimedes
+*** 4 February 2007
+  Andrew Simpson
+
+- release
+
+WebCollab SVN
+*** 3 February 2007
+  Andrew Simpson
+
+- Spanish translation updated (Credit: Alberto Vizcaíno López )
+
+WebCollab SVN
+*** 21 January 2007
+  Andrew Simpson
+
+- added Esperanto translation (Credit: Paul Ebermann - epaul )
+
+- bugfix: (Unicode) User edit shows admin's language (Bug #1640545) (Credit: Paul Ebermann - epaul )
+
+WebCollab SVN
+*** 18 January 2007
+  Andrew Simpson
+
+- bugfix: Forum search shows private posts (Bug #1637457) (Credit: jouwnaan )
+
+WebCollab SVN
+*** 12 January 2007
+  Andrew Simpson
+
+- refactor and optimise email.php
+
+- improved validation algorithm for UTF-8
+
+WebCollab SVN
+*** 7 January 2007
+  Andrew Simpson
+
+- use mb_encode_mimeheader() for email if available
+
+- bugfixes to quoted-printable in email
+
+- merge common.php, UTF-8 and single byte versions
+
+- bugfix: add PROJECT-COMPLETE to tasks in icalendar downloads
+
+- bugfix: add missing database prefix in file_submit.php (Bug #1630440) (Credit: Anonymous)
+
+WebCollab SVN
+*** 26 December 2006
+  Andrew Simpson
+
+- bugfix: clock.gif missing from archive_list and project_list
+
+- bugfix for Internet Explorer:  Change HTML entity for apostrophe from &apos; to &#039;
+
+- bugfix: allow dash ('-') in MySQL database build (not strictly legal, but some database providers require it)
+
+- improvements to character validation in UTF-8 version
+
+WebCollab SVN
+*** 15 December 2006
+  Andrew Simpson
+
+- refactor code to allow for multiple file uploads
+
+- minor CSS in-line improvements to calendar and task_navigate
+
+- bugfix: arrow.gif missing from release 2.10a (Bug #1615934) (Credit: Anonymous)
+
+WebCollab SVN
+*** 23 November 2006
+  Andrew Simpson
+
+- add mysqli support for PHP5
+
+- bugfixes to forum search
+
+- update Turkish translation (Credit: Aydin Gurel)
+
+WebCollab 2.10a
+*** 8 November 2006
+  Andrew Simpson
+
+- release
+
+WebCollab SVN
+*** 8 November 2006
+  Andrew Simpson
+
+- bugfix: Tasks on homepage are all late (Bug #1592140) (Credit: Anonymous)
+
+- change to Subversion repository
+
+WebCollab 2.10
+*** 6 November 2006
+  Andrew Simpson
+
+- release
+
+WebCollab CVS
+*** 30 October 2006
+  Andrew Simpson
+
+- add Dutch translation (MrSimple - Patrick Flinkerbusch )
+
+WebCollab CVS
+*** 21 October 2006
+  Andrew Simpson
+
+- after creating new project/task return to that item (Credit: crusty_collins - Chris Collins)
+
+WebCollab CVS
+*** 14 October 2006
+  Andrew Simpson
+
+- bugfix: Improve URL highlighting regex (Bug #1575910) (Credit: Anonymous)
+
+WebCollab CVS
+*** 26 September 2006
+  Andrew Simpson
+
+- bugfix: Improve timezone setting on database (Bug #1561923) (Credit: michellapointe - Michel Lapointe)
+
+- bugfix: Setup does not add trailing slash (/) to BASE_URL (Bug #1563249) (Credit: michellapointe - Michel Lapointe)
+
+WebCollab CVS
+*** 16 September 2006
+  Andrew Simpson
+
+- add Norwegian language translation (Credit: Kenneth Aar)
+
+WebCollab CVS
+*** 12 September 2006
+  Andrew Simpson
+
+- add project and task name to file upload emails (Feature Request #1541126 and #1522661 )
+
+WebCollab CVS
+*** 2 September 2006
+  Andrew Simpson
+
+- optimise code in task list
+
+- show taskgroups in ToDo list (Feature Request #1459281)
+
+- bugfix: Add 'priority' to order by sequences
+
+WebCollab CVS
+*** 31 August 2006
+  Andrew Simpson
+
+- bugfix: no deadline projects check date on tasks (Bug #1548017) (Credit: Mikael Nilsson)
+
+- remove html_escape(), and add box_shorten()
+
+- minor edits
+
+WebCollab CVS
+*** 19 August 2006
+  Andrew Simpson
+
+- add Slovenian language translation (Credit: Sašo Stanojev)
+
+- improve formatting of config files
+
+WebCollab CVS
+*** 30 July 2006
+  Andrew Simpson
+
+- add new Traditional Chinese translation (Credit: Dante Mason)
+
+WebCollab CVS
+*** 12 July 2006
+  Andrew Simpson
+
+- update deprecated PHP functions in email.php to current functions
+
+WebCollab CVS
+*** 8 June 2006
+  Andrew Simpson
+
+- add favicon image
+
+- update images files with Silk Icons (http://www.famfamfam.com/lab/icons/silk/) (Done with permission)
+
+WebCollab CVS
+*** 4 June 2006
+  Andrew Simpson
+
+- bugfix: configuration file entries not properly escaped (Bug #1499972) (Credit: Steve Cox)
+
+WebCollab CVS
+*** 13 May 2006
+  Andrew Simpson
+
+- bugfix: username shown in wrong character set (Bug #1487456) (Credit: zmeuka)
+
+- CSS and javascript tweaks (Credit: Jiří Dutka)
+
+WebCollab (Greenlane)
+*** 4 May 2006
+  Andrew Simpson
+
+- release
+
+WebCollab CVS
+*** 27 April 2006
+  Andrew Simpson
+
+- update Serbian (latin) language (Credit: Branko Majic )
+
+- add Serbian (cyrillic) language (Credit: Branko Majic )
+
+- update Turkish language (Credit: Aydin Gurel )
+
+- bugfix: change to UTF-8 backend in MySQL (ISO-8859-1 default 'loses' some characters)
+
+- bugfix: database character set not being set properly on database build in setup
+
+- bugfix: Don't check date for 'on hold' (Bug #1439589)
+
+- bugfix: tasks doubling up in calendar with 00:00 GMT timezone
+
+- keep minor settings in config file when re-running setup
+
+- set LIMIT 1 in security.php
+
+- set backend PostgreSQL to UTF-8 in setup
+
+WebCollab CVS
+*** 14 April 2006
+  Andrew Simpson
+
+- bugfix: Adding contact not in task fails (Bug #1473377)
+
+- bugfix: Database table prefix missing from some files (Bug #1468805)
+
+- bugfix: icalendar with nothing to ouput gives a blank screen
+
+- bugfix: Todo icalendar not setting username/usergroup properly
+
+WebCollab 2.00 (Wairere)
+*** 3 April 2006
+  Andrew Simpson
+
+- release
+
+WebCollab CVS
+*** 28 March 2006
+  Andrew Simpson
+
+- update German language (Credit: Michael Bunk)
+
+- update Czech language (Credit: Lukas Moravek)
+
+- update Russian language (Credit: Eugene N. Shylaev)
+
+- bugfix: remove duplicate task listings in forum menubox
+
+- bugfix: correct last posted date in forum menubox
+
+WebCollab CVS
+*** 26 March 2006
+  Andrew Simpson
+
+- speed up array searching by searching on hashed array keys
+
+WebCollab CVS
+*** 18 March 2006
+  Andrew Simpson
+
+- update French translation (Credit: michellapointe - Michel Lapointe )
+
+WebCollab CVS
+*** 15 March 2006
+  Andrew Simpson
+
+- update Swedish translation (Credit: Göran Källqvist)
+
+- update Hungarian translation (Credit: Széll Tamás)
+
+WebCollab 2.00 (development version)
+*** 28 Febuary 2006
+  Andrew Simpson
+
+- release
+
+WebCollab CVS
+*** 18 Febuary 2006
+  Andrew Simpson
+
+- minor optimisation to sorting algorithm (project_list, forum_list, task_todo, calendar & task_delete)
+
+- STARTTLS support for email now tested with PHP 5.1+
+
+- merge in Unicode support to email
+
+WebCollab CVS
+*** 12 Febuary 2006
+  Andrew Simpson
+
+- partial application of advanced calendar patch by Manolis Stamatogiannakis (mstamat)
+
+- calendar now has colour coded projects
+
+- minor improvements to calendar engine and layout
+
+WebCollab CVS
+*** 4 Febuary 2006
+  Andrew Simpson
+
+- change MySQL DATETIME to TIMESTAMP (required for timezone functionality)
+
+- bugfix: dates not being adjusted correctly for timezones
+
+- merge mysql and mysl_innodb files together
+
+- remove ctype functions (Some Linux distros bundle ctype separately)
+
+WebCollab CVS
+*** 1 Febuary 2006
+  Andrew Simpson
+
+- prevent users cloning private projects to themselves
+
+WebCollab CVS
+*** 22 January 2006
+  Andrew Simpson
+
+- add Slovak language translation (Credit: Stanislav Pekacik)
+
+- separate out database encoding function
+
+- UTF-8 set in database for iCalendar
+
+- minor improvements to JavaScript - also fixes bug #1405945
+
+- add RSS feeds
+
+WebCollab CVS
+*** 17 January 2006
+  Andrew Simpson
+
+- updated Hungarian translation (Credit: Széll Tamás )
+
+WebCollab CVS
+*** 23 December 2005
+  Andrew Simpson
+
+- add kickstart configuration file for setup
+
+WebCollab CVS
+*** 11 December 2005
+  Andrew Simpson
+
+- add forum search function
+
+- add user selected locales (Unicode version)
+
+- bugfix: add correct offset to Unix timestamps
+
+WebCollab CVS
+*** 2 December 2005
+  Andrew Simpson
+
+- update French translation (Credit: michellapointe - Michel Lapointe )
+
+- associate contacts with projects & tasks (Feature Request #1315154)
+
+- MySQL not allowing for minutes in client timezone
+
+- PgSQL timezone setting unintentionally removed from CVS is added back
+
+WebCollab CVS
+*** 19 November 2005
+  Andrew Simpson
+
+- bugfix: 'completion_time' field missing in project clone (Credit: michellapointe )
+
+- add iCalendar function
+
+WebCollab CVS
+*** 15 November 2005
+  Andrew Simpson
+
+- change to MySQL 4.1+ minimum requirement
+
+- change to PHP 4.3.0+ minimum requirement
+
+- timezones now handled internally by database per session
+
+- usergroup permissions now handled by sub-select in database
+
+- MySQL database now matches character sets internally to selected locale (PgSQL aready does this)
+
+WebCollab 1.81 (Ardness)
+*** 9 November 2005
+  Andrew Simpson
+
+- release
+
+WebCollab CVS
+*** 1 November 2005
+  Andrew Simpson
+
+- bugfix: Syntax error in de_message.php (Bug #1343921) (Credit: klamu)
+
+WebCollab CVS
+*** 29 October 2005
+  Andrew Simpson
+
+- update, simplify and revalidate CSS style sheets
+
+WebCollab CVS
+*** 19 October 2005
+  Andrew Simpson
+
+- bugfix: mailing lists not being dropped in admin_config_submit.php (aksels)
+
+- make format of forum emails more readable (Feature Request #1315172)
+
+- allow task owner to see their own tasks in private usergroups (hmtksteve)
+
+- bugfix: remove redundant variable from forum_list.php
+
+- add validation filter for single line inputs containing line break control codes
+
+WebCollab CVS
+*** 9 October 2005
+  Andrew Simpson
+
+- add Chinese (Simplified and Traditional) to Unicode version (Credit: Marcus Tsang )
+
+- improve error recovery in taskgroup_edit and usergroup_edit
+
+WebCollab CVS
+*** 4 October 2005
+  Andrew Simpson
+
+- bugfix: variable overwritten in task_delete.php (Bug #1311130)
+
+- add validate() to common.php
+
+- allow wider range of filename characters to be used in file upload
+
+WebCollab CVS
+*** 27 September 2005
+  Andrew Simpson
+
+- fix SQL error with PostgreSQL 8.0+ in calendar_show.php (James Bishop - bishoja )
+
+WebCollab CVS
+*** 22 September 2005
+  Andrew Simpson
+
+- improve santisation of integer inputs
+
+- add Turkish language (Credit: Aydin Gurel)
+
+WebCollab CVS
+*** 14 September 2005
+  Andrew Simpson
+
+- add Czech language (Credit: Lukas Moravek)
+
+- improve server URL autodetection in setup
+
+WebCollab CVS
+*** 5 September 2005
+  Andrew Simpson
+
+- add Greek language (Credit: Nico Bel - Designext)
+
+WebCollab 1.80 (Allendale)
+*** 4 September 2005
+  Andrew Simpson
+
+- release
+
+WebCollab CVS
+*** 27 August 2005
+  Andrew Simpson
+
+- allow users to view public user list
+
+- don't allow admins to delete themselves
+
+- change equalities with stings for more robust handling
+
+WebCollab CVS
+*** 18 August 2005
+  Andrew Simpson
+
+- add pop-up calendar
+
+WebCollab CVS
+*** 3 August 2005
+  Andrew Simpson
+
+- rearrange task menubox to be more intuitive
+
+- change user edit password fields to text boxes
+
+- CSS files are now set in config to make WebCollab more skinnable
+
+- minor appearance improvements
+
+WebCollab CVS
+*** 23 July 2005
+  Andrew Simpson
+
+- apply stripslashes to input data in setup
+
+- convert (Windows) backslashes to forward slashes in setup file names
+
+- add help pages to set up files
+
+WebCollab CVS
+*** 19 July 2005
+  Andrew Simpson
+
+- add Serbian language (Credit: Branko Majic )
+
+- improved error reporting in file submit
+
+WebCollab CVS
+*** 30 June 2005
+  Andrew Simpson
+
+- initialise array variables better for security
+
+- bugfix: child forum posts not being deleted when parent is deleted (coding error)
+
+- bugfix: uploaded files not physically deleted when associated task deleted (coding error)
+
+- for login page only count login attempts when login fails
+
+WebCollab CVS
+*** 18 June 2005
+  Andrew Simpson
+
+- upgrade/rearrange security system to subdirectory files
+
+- subdirectories can now be remote from web server root if desired
+
+- upgrade to PHP 4.2.0 minimum requirement
+
+WebCollab CVS
+*** 11 June 2005
+  Andrew Simpson
+
+- determine server timezone offset from database
+
+WebCollab CVS
+*** 5 June 2005
+  Andrew Simpson
+
+- remove reset buttons from submit forms
+
+- re-arrange text links in some submit forms for consistency across program
+
+- refactor text link code for better maintainability in task_show.php
+
+- refactor variable names to make unfiltered input variables more obvious in code
+
+- change to database specific escaping (pg_escape_string() and mysql_real_escape_string())
+
+WebCollab CVS
+*** 28 May 2005
+  Andrew Simpson
+
+- bugfix: ProjectJump HTTP redirect not working on some webservers (Bug #1209798) (Thomas Briggs)
+
+- bugfix: Remove double [edit] button (Bug #1212253) (Credit: Alfred Ellis - alfredellis)
+
+- bugfix: Syntax error in archive_list.php
+
+- alter manage_usergroup.php to allow users to view usergroup members (Feature Request #1183256)
+
+- improve styling on manage usergroup and manage taskgroup
+
+- shift existing_user and deleted_user boxes to main screen
+
+- project/task sorting order in calendar, todo and task list now follows admin_config settings (David Basell - dbasell)
+
+WebCollab CVS
+*** 24 May 2005
+  Andrew Simpson
+
+- Spanish language update (Credit: Alberto Vizcaíno López )
+
+WebCollab CVS
+*** 21 May 2005
+  Andrew Simpson
+
+- bugfix: fix usergroup visibility in project list and task list (Mark Nienberg - mnienberg)
+
+- improve code format in conditionals to prevent coding errors (fixed two minor bugs in process)
+
+- fix radio boxes in user_add
+
+- fix timezone calculations in project_list and task_list (David Basell - dbasell)
+
+WebCollab CVS
+*** 11 May 2005
+  Andrew Simpson
+
+- rearrange some switch statements for better optimisation
+
+- optimise graphical bar function
+
+- change SQL in forum_menubox.php (problems with PostgeSQL 7.3.2) (Credit: Vajkó Péter)
+
+- provide better echo chunking in screen.php
+
+WebCollab CVS
+*** 30 April 2005
+  Andrew Simpson
+
+- profiled email.php with APD profiler
+
+- change substr() to strpos() and strncmp() in email.php
+
+- change uniquid() to md5(mt_rand()) in email.php
+
+- change from comma separated address lists to array() in email.php
+
+- removed persistent database connections for ISAM MySQL tables
+
+WebCollab CVS
+*** 21 April 2005
+  Andrew Simpson
+
+- try all options in SMTP AUTH before rejecting emails (Patch #1184635) (Credit: Craig Hoover - crh3675)
+
+- change from double quoting throughout to single quotes
+
+- add check for illegal file names in uploaded files in file_submit
+
+- add check for malformed status strings in task_submit
+
+- add better check for malformed date strings in task_submit
+
+- specifically free result memory after (potentially) large database calls
+
+- reject valid cookies from deleted users in security.php
+
+- after logout change any existing session key to an illegal value (previously set to 'null')
+
+- speed up character validation by using ctype function calls in first pass
+
+WebCollab CVS
+*** 13 April 2005
+  Andrew Simpson
+
+- implement SMTP PIPELINING (RFC 2920) in email.php
+
+- make allowance for SMTP STARTTLS in PHP 5.1+ (Experimental)
+
+WebCollab 1.71 - Karekare
+*** 5 April 2005
+  Andrew Simpson
+
+- release
+
+WebCollab CVS
+*** 5 April 2005
+  Andrew Simpson
+
+- Swedish translation added (Credit: Göran Källqvist )
+
+- bugfix: Data validation could corrupt SQL strings (Bug #1176733) (Credit: Thomas Briggs)
+
+WebCollab CVS
+*** 24 March 2005
+  Andrew Simpson
+
+- bugfix: After reparenting update completion status of former project (Bug #1168886) (Joel W. - wampl3r)
+
+- bugfix: Private users not in a usergroup can't see themselves (Bug #1169390) (Paul Whittington - pwhittin)
+
+- bugfix: Non-usergroup members can't see public usergroup names in drop down menus to task add/edit and todo
+
+- change $UID and $ADMIN to defined constants
+
+WebCollab CVS
+*** 9 March 2005
+  Andrew Simpson
+
+- refactor task_todo_list.php to have minimal database calls (significant efficiency improvement)
+
+- added Russian translation (Credit: Eugene N. Shilaev)
+
+- bugfix: Email address with hyphen doesn't work (Bug #1160332) (Credit: Alan Walls )
+
+- added tasks to initially inherit public/private access from their parent (Bug #1160393) (Mark Nienberg - mnienberg)
+
+- added tasks to initially inherit taskgroup from their parent
+
+- bugfix: Date check in screen.php has 30 days in month of May (should be 31 days) (Bug #1161698)
+
+WebCollab CVS
+*** 6 March 2005
+
+- refactor task_project_list.php to have minimal database calls (significant efficiency improvement)
+
+- added Japanese translation (Credit: Tadashi Jokagi - elf2000)
+
+- added calendar appearance improvements patch (Credit: Manolis Stamatogiannakis - mstamat)
+
+
+WebCollab CVS
+*** 28 February 2005
+  Andrew Simpson
+
+- added Hungarian translation (Credit: Alberto Vizcaíno López )
+
+WebCollab CVS
+*** 21 February 2005
+  Andrew Simpson
+
+- fix HTML syntax error in task_list (Bug #1144512)  (Credit: hs_dino)
+
+- fix escapes on javascript (Bug #1147634)  (Joann Zimmerman)
+
+WebCollab 1.70 - Angelus
+*** 15 February 2005
+  Andrew Simpson
+
+- release
+
+WebCollab CVS
+*** 12 February 2005
+  Andrew Simpson
+
+- add Brazilian Portuguese translation (Credit: Eduardo Alvim)
+
+- bugfix: remove input validation from paswords to allow all characters to be used (Tom Dickson)
+
+- bugfix: refactor task indenting engine due to limitations/problems with sizeof() functions
+
+WebCollab CVS
+*** 4 February 2005
+  Andrew Simpson
+
+- update German language (Credit: Michael Bunk)
+
+- make warning messages more friendly in setup check (Bug #1115931)
+
+- add more timezones to setup
+
+- allow setup to accept databases with no passwords (not recommended practice!)
+
+- allow full character range in 'reply-to' and 'from' email addresses
+
+WebCollab CVS
+*** 25 January 2005
+  Andrew Simpson
+
+- remove OID column usuage in Postgresql (OID was depreciated after PostgreSQL 7.2, and will be partially removed after 8.0)
+
+- change file upload in PostgreSQL to be not reliant on OID columns
+
+- fix task after project javascript to get timezones right - again
+
+- update Danish translation (Credit: Jens Thomsen)
+
+WebCollab 1.69
+*** 20 January 2005
+  Andrew Simpson
+
+- release
+
+WebCollab CVS
+*** 19 January 2005
+  Andrew Simpson
+
+- fixed bug #1104049 - PostgreSQL 7.3 (and earlier) giving client encoding warnings (Larry Steeger (russte) )
+
+WebCollab CVS
+*** 13 January 2005
+  Andrew Simpson
+
+- added login redirect patch (Credit: Larry Steeger (russte) )
+
+- added usergroup display patch (Credit: Larry Steeger (russte) )
+
+- added automatic client encoding selection for Postgresql
+
+WebCollab CVS
+*** 7 January 2005
+  Andrew Simpson
+
+- added ProjectJump patch to task menubox (Credit: Michael Tougeron (mtougeron) )
+
+WebCollab CVS
+*** 5 January 2005
+  Andrew Simpson
+
+- added improved calendar appearance patch (Credit: Larry Steeger (russte) )
+
+WebCollab CVS
+*** 2 January 2005
+  Andrew Simpson
+
+- added improved calendar navigation patch (Credit: Larry Steeger (russte) )
+
+- added regex validation of database names in setup
+
+- changed input validation to better accommodate characters sets other than ISO-8859-x
+
+- usuability improvements to archive, guest users in ToDo and Calendar
+
+- check validity of database naming in setup
+
+WebCollab CVS
+*** 31 December 2004
+  Andrew Simpson
+
+- added Korean language (Credit: Park, Yu-Chan)
+
+WebCollab CVS
+*** 23 December 2004
+  Andrew Simpson
+
+- bugfix: (Bug #1089722) SQL error in task_delete.php for prefixed database (Credit: hs_dino)
+
+- make email addresses and web links clickable in project/task description (Feature Request #1089944)
+
+WebCollab CVS
+*** 18 December 2004
+  Andrew Simpson
+
+- improve formatting to language files
+
+- bugfix: FreeBSD (and others?) not compatible with HTTP redirect in setup.php (Credit: fingerso)
+
+- typo: remove text reference to PostgreSQL when setting up MySQL in setup
+
+WebCollab CVS
+*** 26 November 2004
+  Andrew Simpson
+
+- allow Admin Config to change listing order on Project list page
+
+- bugfix: remove database warning with PostgreSQL in project clone
+
+WebCollab 1.62a - Canopus
+*** 10 November 2004
+  Andrew Simpson
+
+- release (backported bugfixes to 1.62 only)
+
+WebCollab CVS
+*** 7 November 2004
+  Andrew Simpson
+
+- add archive for old projects
+
+- add recent forum post list to main page
+
+- bugfix: users cannot change passwords in user edit
+
+WebCollab CVS
+*** 1 November 2004
+  Andrew Simpson
+
+- add guest view (Feature Request #1056387 and others)
+
+- bugfix: (Bug #1054735) Convert numeric HTML entities to text for email messages
+
+WebCollab CVS
+*** 24 October 2004
+  Andrew Simpson
+
+- change from variables to constants in config file
+
+- refactor setup to match new config file
+
+- improve listing engine for forum delete routine (reduce database calls)
+
+- improve listing engine for task delete routine (reduce database calls)
+
+- improve css for project list
+
+WebCollab CVS
+*** 19 October 2004
+  Andrew Simpson
+
+- added task indenting to project listing (Feature Request #1024993 / Bug #1036722)
+
+- improve listing engine for forums (reduce database calls)
+
+- provide condensed view to project listing
+
+WebCollab 1.62 - Canopus
+*** 12 October 2004
+  Andrew Simpson
+
+- release
+
+WebCollab CVS
+*** 7 October 2004
+  Andrew Simpson
+
+- internationalise creation date in task_add.php
+
+- bugfix: (Bug No. #1040945) more addslashes() to task_clone_submit (Credit: brianlynch)
+
+- bugfix: properly escape apostrophe & double quotes in text strings for javascript
+
+WebCollab CVS
+*** 18 September 2004
+  Andrew Simpson
+
+- bugfix: private usergroup checkbox not sticky when editing usergroup
+
+- bugfix: Usergroup cannot edit task even when access is granted
+
+WebCollab CVS
+*** 10 September 2004
+  Andrew Simpson
+
+- bugfix: (Bug No. #1025240) add addslashes() to task_clone_submit (Credit: brianlynch)
+
+WebCollab CVS
+*** 2 September 2004
+  Andrew Simpson
+
+- Italian translation updated (Credit: Raffaele Franzese)
+
+WebCollab CVS
+*** 29 August 2004
+  Andrew Simpson
+
+- bugfix: change single and double quotes in edit fields to HTML entities (Credit: holstead)
+
+WebCollab CVS
+*** 20 August 2004
+  Andrew Simpson
+
+- refactoring of input validation for speed/efficiency
+
+WebCollab CVS
+*** 8 August 2004
+  Andrew Simpson
+
+- allow for user-selected timezones for pgsql/mysql handling
+
+- allow for user-selected timezones in calendar.php
+
+- bugfix: GMT/UTC adjustment for 'task finish' after 'project finish' checking was incorrect
+
+- bugfix: database query in files_submit.php (Credit: joo_ru)
+
+- bugfix: splitting of quoted-printable in subject line of emails was incorrect (Credit: joo_ru)
+
+- bugfix: javascript syntax error in task_edit.php (Credit: joo_ru)
+
+WebCollab 1.61 - Celmisia
+*** 1 August 2004
+  Andrew Simpson
+
+-release
+
+WebCollab CVS
+*** 24 July 2004
+  Andrew Simpson
+
+- upgrade to XHTML Strict DTD
+
+- bugfix: PRE missing in index.php and task_summary_list.php (Credit: PJ)
+
+- bugfix: strip HTML line breaks in emails from forum_submit.php (Credit: DanielC)
+
+- bugfix: forum does not show with globalaccess turned off, and no usergroup selected (Credit: DanielC)
+
+- bugfix: PostgreSQL database SQL script has syntax error (Bug No.#995720)
+
+- bugfix: added more download headers to file_download.php for IE 6 (Credit: Steve Brettschneider)
+
+WebCollab 1.60a - Neptune
+*** 14 July 2004
+  Andrew Simpson
+
+- release
+
+WebCollab CVS
+*** 14 July 2004
+  Andrew Simpson
+
+- bugfix: setup.php not fully compatible with upgrades
+
+WebCollab 1.60 - Neptune
+*** 13 July 2004
+  Andrew Simpson
+
+- release
+
+WebCollab CVS
+*** 12 July 2004
+  Andrew Simpson
+
+- bugfix: Feature Request 975181 not fully completed previously
+
+- bugfix: common.php still using the (outdated) mail() function
+
+- bugfix: #986264 Moving projects onto their own tasks
+
+WebCollab 1.60 RC1
+*** 3 July 2004
+  Andrew Simpson
+
+- release
+
+WebCollab CVS
+*** 3 July 2004
+  Andrew Simpson
+
+- French language updated (Credit: Julien Dupont)
+
+- bugfix: calendar shows month heading in correct language locale
+
+
+WebCollab CVS
+*** 27 June 2004
+  Andrew Simpson
+
+- add optional prefix to database table names (Feature Request 975181)
+
+WebCollab CVS
+*** 18 June 2004
+  Andrew Simpson
+
+- add Danish language (Credit: Jens Thomsen)
+
+- change to XHTML
+
+- add user_info.php
+
+WebCollab CVS
+*** 13 June 2004
+  Andrew Simpson
+
+- calendar_show.php rewritten to optimise database calls (major improvement)
+
+- tasks_project_list.php rewritten to optimise database calls (major improvement)
+
+- task delete and submit code rewritten to suit new tasks_project_list.php
+
+- task submit files renamed in more logical fashion
+
+WebCollab CVS
+*** 7 June 2004
+  Andrew Simpson
+
+- numerous small changes and bugfixes to (X)HTML.  Code is now XHTML 1.0 compliant.
+
+WebCollab CVS
+*** 5 June 2004
+  Andrew Simpson
+
+- add Bulgarian language (Credit: Stoyan Dimitrov)
+
+- set web character set with header() as well as <meta> in HTML
+
+WebCollab CVS
+*** 29 May 2004
+  Andrew Simpson
+
+- allow HTML Unicode entities to pass through character validation
+
+- small improvements to character validations
+
+WebCollab 1.59 (Development)
+*** 15 May 2004
+  Andrew Simpson
+
+- release
+
+WebCollab CVS
+*** 15 May 2004
+  Andrew Simpson
+
+- remove headers_sent() from screen.php (headers_sent() seems to be buggy in PHP5)
+
+- bugfix: prevent 'duplicate pkey' warning on first user add (affects pgsql only)
+
+- change CSS to give more readable links
+
+WebCollab CVS
+*** 12 May 2004
+  Andrew Simpson
+
+- reduce number of database calls in project listing (optimisation)
+
+- user_show optimised
+
+WebCollab CVS
+*** 7 May 2004
+  Andrew Simpson
+
+- reduce number of database calls in task listing (optimisation)
+
+WebCollab CVS
+*** 31 April 2004
+  Andrew Simpson
+
+- improve regex used to detect css attempts in email
+
+- Add 'name' to From header in email (SpamAssassin complains)
+
+- bugfix: Character set in use is not correctly defined in email headers
+
+WebCollab CVS
+*** 28 April 2004
+  Andrew Simpson
+
+- input validation of text is much improved
+
+- bugfix: Email dot stuffing on newlines not working properly
+
+WebCollab CVS
+*** 24 April 2004
+  Andrew Simpson
+
+- documentation updated
+
+WebCollab CVS
+*** 12 April 2004
+  Andrew Simpson
+
+- add privacy function to users and usergroups
+
+WebCollab CVS
+*** 9 April 2004
+  Andrew Simpson
+
+- add inval() check to numeric inputs
+
+- bugfix: During setup the session doesn't auto-extend with each action
+
+- add login timeouts to enhance dictionary attack protection
+
+- add update.php for database updates
+
+- login image auto-changes with pgsql and mysql databases
+
+- setup checking screen has return to input screen
+
+- more detailed error messages on mysql setup
+
+WebCollab CVS
+*** 27 March 2004
+  Andrew Simpson
+
+- optimise email language files
+
+- improve time messages in emails to be more localised
+
+- remove time logging from web pages (APD profiler showed this was adding 20% execution time)
+
+- improve screen.php using APD profiler results
+
+- break up task_submit.php into smaller (and faster executing) files
+
+WebCollab CVS
+*** 21 March 2004
+  Andrew Simpson
+
+- bugfix: add stripslashes to emails where required
+
+- bugfix:  German translation spelling error
+
+- upgrade security model with model-view-controller approach
+
+WebCollab CVS
+*** 28 February 2004
+  Andrew Simpson
+
+- add javascript date checking and missing field validation
+
+WebCollab CVS
+*** 1 February 2004
+  Andrew Simpson
+
+- add better HTML labels to calendar, admin email & todo
+
+- pgsql database build can now autodetect & use post-PHP version 4.2.0 pgsql commands
+
+- better detection of pre-PHP 4.1.0 versions in setup
+
+- setup now checks SMTP port instead of MX record
+
+- add version string to HTML output
+
+WebCollab CVS
+*** 25 January 2004
+  Andrew Simpson
+
+- add printer friendly pages to task show, project list & task summary
+
+- add automatic email to file uploads
+
+WebCollab CVS
+*** 7 January 2004
+  Andrew Simpson
+
+- add clone function
+
+- add active/inactive selection to project_list
+
+- add automatic email to forum postings
+
+WebCollab 1.51 - Hebe
+*** 3 January 2004
+  Andrew Simpson
+
+- release
+
+WebCollab CVS
+*** 27 December 2003
+  Andrew Simpson
+
+- don't show tasks from projects in private usergroups in calendar, to-do and user show
+
+- improve SMTP AUTH: add plain auth & CRAM-MD5
+
+- bugfix: array error for usergroup emails in task_submit.php
+
+WebCollab CVS
+*** 19 December 2003
+  Andrew Simpson
+
+- setup program checks mysql/pgsql extensions are loaded (sanity check)
+
+
+WebCollab CVS
+*** 9 December 2003
+  Andrew Simpson
+
+- bugfix: $WEB_AUTH in index.php
+
+- make URL's and email addresses clickable
+
+- add safe_data_long()
+
+- make database automatically reconnect when connection lost
+
+- failed session defaults to login screen
+
+- make session timeout adjustable in config.php
+
+WebCollab CVS
+*** 28 November 2003
+  Andrew Simpson
+
+- add Italian translation (Credit: Raffaele Franzese)
+
+- bugfix: task list not sorted correctly with mysql-innodb in task_list.php
+
+- bugfix: missing translations in task_submit.php and user.php added
+
+- bugfix: German translation spelling error
+
+- change to htmlentities() from htmlspecialchars() in safe_data()
+
+- normalise line endings and limit line length for text areas
+
+- allow user to be permanently deleted with existing forum posts
+
+WebCollab CVS
+*** 22 November 2003
+(Andrew Simpson)
+
+- code optimisation for email.php
+
+- add group checking to security.php
+
+- optimise code throughout for group checking
+
+- check for mailserver MX records in setup
+
+- bugfix: show all users in calendar.php shows 'nobody' users
+
+WebCollab 1.50 - Apollo
+*** 14 November 2003
+(Andrew Simpson)
+
+- release
+
+WebCollab CVS
+*** 12 November 2003
+(Andrew Simpson)
+
+- update German translation and add German help files (Credit: Michael Bunk)
+
+- update some error messages
+
+- bugfix: Some language strings not translated in task_summary_list.php
+
+WebCollab CVS
+*** 8 November 2003
+(Andrew Simpson)
+
+- added new French translation (Credit: Olivier Chaussavoine)
+
+- add IP checking to setup_security.php
+
+- add socket timeouts to URL checking in setup
+
+WebCollab CVS
+*** 3 November 2003
+(Andrew Simpson)
+
+- bugfix: Don't show deleted users in usergroups
+
+- bugfix: Logic errors in to_do and calendar
+
+WebCollab CVS
+*** 1 November 2003
+(Andrew Simpson)
+
+- better internationalisation of language files
+
+- minor bugfixing and optimising in email.php after previous re-write
+
+- improve email contents from task_delete.php
+
+- improve email contents from task_submit.php
+
+- minor formatting and optimising in task_submit.php
+
+- bugfix: Email to 'nobody' in task submit causes error
+
+WebCollab CVS
+*** 27 October 2003
+(Andrew Simpson)
+
+- rearrange email.php in logical blocks for readability
+
+- remove 'base64' and 'binary' encoding from email.php
+
+- remove SMTP_AUTH from setup code
+
+- only send '8bit' email if the message is actually 8bit (default to 7bit)
+
+- encode 8bit email 'subject' headers in quoted-printable as per RFC 2047
+
+- remove $email_encode from language files - mailer code can automatically determine this now
+
+- bugfix: removed incorrect $lang references from task_summary_list.php
+
+- bugfix: too many commas in mailinglist (/includes/admin_config.php)
+
+- bugfix: incorrect and fatal response code in SMTP AUTH (email.php)
+
+- SMTP AUTH has never worked - no bug reports, and a proper implementation would be complicated.
+    (Plan to remove this code after next release.)
+
+WebCollab CVS
+*** 18 October 2003
+(Andrew Simpson)
+
+- add HTML entities to text translation to email messages
+
+- add charset control to language files
+
+- general formatting
+
+- bugfix: input field in usergroup boxes
+
+- bugfix: rewrite task_edit.php & task_menubox.php for better language compatibility
+
+- added '8bit', 'quoted-printable', 'binary' and 'base64' encoding to email.php
+
+- check for 8BITMIME capability on upstream mail server before using '8bit' encoding
+
+WebCollab CVS
+*** 12 October 2003
+(Andrew Simpson)
+
+- German translation added (Credit: Michael Bunk)
+
+- added SSL check to setup
+
+- added language file check to setup
+
+- removed strtolower() for lower case words; altered language files to suit
+
+- bugfix: minor formatting problem in calendar.php
+
+WebCollab 1.49
+*** 7 October 2003
+
+- development release
+
+WebCollab CVS
+*** 4 October 2003
+  Andrew Simpson
+
+- Catalan translation added (Credit: Dani Hernandez)
+
+- add ignore_user_abort to database writing files
+
+- add style css to calendar.php and screen.php for better formatting control
+
+- remove <br> to control paragraphing in HTML and add <p>...</p>
+
+WebCollab CVS
+*** 27 September 2003
+  Andrew Simpson
+
+- move logout.php to root directory (cookie removal should work more reliably)
+
+- setup program rewritten
+
+- feature request #798612 (allow for reparenting)
+
+- bugfix: PostgreSQL transaction wasn't committed in user_submit.php unless usergroup was set
+
+- minor button changes for consistency across program
+
+- minor language updating
+
+WebCollab CVS
+*** 21 September 2003
+  Andrew Simpson
+
+- remove ip spoofing check since it was unreliable. Suggest using Apache SSL as alternative if required.
+
+- remove persistent connections from PostgreSQL to ensure transactions work correctly in all cases.
+
+WebCollab CVS
+*** 13 September 2003
+  Andrew Simpson
+
+- remove 'valid_string' function
+
+- bugfix: centering bug in css fixed
+
+WebCollab CVS
+*** 13 September 2003
+  Andrew Simpson
+
+- add <label> tags
+
+- don't seed random number generators unnecessarily
+
+- more XHTML compliance
+
+WebCollab CVS
+*** 9 September 2003
+  Andrew Simpson
+
+- make tasks_list and forum_list XHTML compliant
+
+WebCollab CVS
+*** 6 September 2003
+  Andrew Simpson
+
+- add user and usergroup options to to-do list and calendar.
+
+WebCollab CVS
+*** 31 August 2003
+  Andrew Simpson
+
+- improve css stylesheets and re-work code to suit
+
+- add HTML document section
+
+WebCollab CVS
+*** 23 August 2003
+  Andrew Simpson
+
+- change HTML <center> to <div> to be more compliant
+
+- remove need for task creator to be removed before deleting a user
+
+- don't show when deleted users were last on-line
+
+- simplify code for mailing list in admin_config.php
+
+- remove php mail() calls (not totally reliable)
+
+- make SMTP mailer code more robust and compliant with RFC 821 and 822
+
+WebCollab CVS
+*** 17 August 2003
+  Andrew Simpson
+
+- add admin email function
+
+WebCollab 1.42
+***
+  Andrew Simpson
+
+- release
+
+WebCollab CVS
+*** 15 August 2003
+  Andrew Simpson
+
+- bugfix/feature request #783959 (Ability to disable ip checking during sessions)
+
+- bugfix #785085 (Cookies don't work properly)
+
+WebCollab CVS
+*** 8 August 2003
+  Andrew Simpson
+
+- bugfix #783922 (Syntax error in private forum post listings)
+
+- bugfix #784692 (Syntax error in project usergroup pulldown)
+
+WebCollab 1.41
+*** 1 August 2003
+  Andrew Simpson
+
+- release
+
+WebCollab CVS
+*** 19 July 2003
+  Andrew Simpson
+
+- improve cookie scripting and functions
+
+- change to faster and more secure algorithm for session key generation
+
+- bugfix: Make header calls HTTP/1.1 compliant
+
+WebCollab CVS
+*** 12 July 2003
+  Andrew Simpson
+
+- change to cookies for session management with encoded URL as a failsafe backup
+
+- separate task functions into task_common.php
+
+- move user_online code to a separate file
+
+- improve internationalisation and error recovery in translated texts
+
+- bugfix:  Some texts were missed, and only showing in 'en' (English)
+
+WebCollab CVS
+*** 5 July 2003
+  Andrew Simpson
+
+- small database performance optimisation in tasks_list.php, tasks_project_list.php and common.php
+
+- small code optimisations in forum_submit.php and files_submit.php
+
+- check that uploads are permitted in PHP before accepting file upload
+
+- order files in list from files_admin.php
+
+WebCollab CVS
+*** 27 June 2003
+  Andrew Simpson
+
+- added French translation (Credit: Pierre Jean)
+
+- make formatting of HTML pages more consistent throughout the code
+
+- small coding optimisations throughout code
+
+- make 'reset' button language specific
+
+- fix up a few language bugs
+
+WebCollab CVS
+*** 26 June 2003
+  Andrew Simpson
+
+- bugfix: use addslashes/stripslashes on uploaded filename in file_submit.php (depending on magic quotes setting)
+
+- move 'require screen.php' to within error functions in common.php
+
+- setup program now working?
+
+WebCollab CVS
+*** 22 June 2003
+  Andrew Simpson
+
+- bugfix: path require has never actually worked! Now fixed.
+
+- security:  change 'include security.php' to 'require'.  Missing file will now cause a fatal error.
+
+- change from uppercase HTML to lowercase HTML throughout code (moving towards XHTML compliance)
+
+- include variables in quoted strings (for execution efficiency) throughout code
+
+- reformat all code to remove old formatting problems and improve readability
+
+- improve remaining non complying HTML (Now fully HTML 4.01 compliant)
+
+WebCollab 1.40
+*** 15 June 2003
+  Andrew Simpson
+
+- release
+
+WebCollab CVS
+*** 14 June 2003
+  Andrew Simpson
+
+- bugfix: modify variable verification routine in /tasks/task_submit.php and /forum/forum_submit.php
+
+WebCollab CVS
+*** 5 June 2003
+  Andrew Simpson
+
+- fix minor typo in error message in /includes/security.php
+
+- add beta versions of setup program
+
+WebCollab CVS
+*** 24 May 2003
+  Andrew Simpson
+
+- minor changes to SMTP email
+
+- minor changes to security.php
+
+- minor changes to tasks_submit.php
+
+- added database creation script for MySQL innodb
+
+- bugfix: MySQL innodb does not unlock tables after use
+
+- bugfix: files_submit.php does not recognise MySQL innodb
+
+- add FAQ
+
+WebCollab CVS
+*** 17 May 2003
+  Andrew Simpson
+
+- allow for projects with no deadline
+
+- allow for external authorisation by webserver (Credit: Andy Harrison)
+
+WebCollab CVS
+*** 11 May 2003
+  Andrew Simpson
+
+- add Spanish language files (Credit: Daniel Lujan)
+
+- add provision for editing from usergroup
+
+- remove quotemeta() from emails, add clean function to email.php
+
+WebCollab CVS
+*** 3 May 2003
+  Andrew Simpson
+
+- make font colours more consistent and websafe
+
+- add innodb support for MySQL
+
+- update PostgreSQL function calls to properly support post-PHP 4.2.0 coding
+
+- simplify stylesheet
+
+WebCollab 1.32
+*** 3 May 2003
+  Andrew Simpson
+
+- bugfix release for #726902 & #726866
+
+WebCollab CVS
+*** 27 April 2003
+  Andrew Simpson
+
+- bugfix #726902 (Adding contact with PostgreSQL)
+
+- bugfix #726866 (SMTP and mail dependencies)
+
+- add SMTP mail alternative to email.php
+
+WebCollab 1.31
+*** 19 April 2003
+  Andrew Simpson
+
+- release
+
+WebCollab CVS
+*** 17 April 2003
+  Andrew Simpson
+
+- validate HTML output against HTML 4.01.  Make corrections.
+
+- rewrite project_list to be HTML 4.01 compliant
+
+- rewrite task_list to be HTML 4.01 compliant
+
+- rewrite taskgroup code in task_list to be more logical
+
+- minor improvements to database creation scripts
+
+- bugfix: Project summary showing projects 'on hold' or 'planned' as 'done'
+
+
+WebCollab CVS
+*** 10 April 2003
+  Andrew Simpson
+
+- minor enhancements and usability improvements
+
+- bugfix: ToDo list due date measuring can be 1 day out
+
+- bugfix: Projectid not set in email mailout for admin take over
+
+- update seen table when updating task
+
+- improve Help files
+
+WebCollab CVS
+*** 6 April 2003
+  Andrew Simpson
+
+- bugfix: Previous edit broke show users online
+
+- force MySQL to put uncategorised tasks at the bottom of listing
+
+- more detailed licence notes added at request of Free Software Foundation (no effect on licence terms)
+
+- bugfix/enhancement: When deleting uploaded files, delete file database record even if file has already been physically removed
+
+WebCollab 1.30
+*** 2 April 2003
+  Andrew Simpson
+
+- release
+
+WebCollab CVS
+*** 30 March 2003
+  Andrew Simpson
+
+- Database query & structure optimisations using MySQL slow_query_log
+
+- Minor bugfixes and clarity improvements
+
+WebCollab-beta 1.30
+*** 22 March 2003
+  Andrew Simpson
+
+- release
+
+WebCollab CVS
+*** 15 March 2003
+  Andrew Simpson
+
+- don't show inactive tasks in calendar
+
+- when project is inactive, set tasks as inactive too
+
+- when inactive project becomes active, set tasks to new
+
+- improve information format in user_show.php
+
+- show correct date colours in task_summary_list.php for inactive projects
+
+- show inactive projects in task_summary_list.php as inactive
+
+- minor bugfix to task_show.php
+
+WebCollab CVS
+*** 12 March 2003
+   Andrew Simpson
+
+- upload to Sourceforge CVS
+
+WebCollab CVS
+*** 9 March 2003
+   Andrew Simpson
+
+- show deadline date in emails from task_submit.php
+
+- don't show inactive tasks in ToDo list
+
+- bugfix: Don't allow editing usergroup to have no name
+
+- bugfix: Don't allow editing taskgroup to have no name
+
+WebCollab CVS
+*** 23 February 2003
+   Andrew Simpson
+
+- converted to language files (massive rework)
+
+- added langauge files for English
+
+- added transactions for PostgreSQL, removed constraints from database build
+
+- bugfix: Don't allow creating taskgroups with no name
+
+WebCollab CVS
+*** 11 February 2003
+   Andrew Simpson
+
+- optimisation and redundant code removal to task_show.php, task_list.php, task_submit.php
+
+- add task_navigate.php
+
+
+WebCollab CVS
+*** 29 January 2003
+   Andrew Simpson
+
+- make current user into the default owner in task_add
+
+- optimisation of date algorithms for task_project and task_list
+
+- optimisation and redundant code removal to security.php
+
+- add finished_date when doing INSERT & UPDATE (speeds up code)
+
+- database query optimisations
+  - change from mysql_num_rows() to SQL COUNT(*)
+  - change to emumerated indexing for mysql_result()
+  - change to enumerated indexing for selected looped queries using mysql_fetch_array()
+
+- database structure improvements
+
+- improve error recovery on db_data_seek() for MySQL
+
+
+WebCollab CVS
+*** 19 January 2003
+   Andrew Simpson
+
+- improve file download security by checking for usergroupid before allowing download
+
+- improve uploaded file security by allowing storage away from webserver root
+
+- code speed up: make usergroupid into an include_once
+
+- check usergroups for tasks in project_list
+
+- expire 'new' and 'updated' tags in task_list after period in config file
+
+WebCollab CVS
+*** 16 January 2003
+   Andrew Simpson
+
+- improve indexing on database (particuarly MySQL)
+
+- allow projects to be put 'On Hold' and have a status
+
+- cosmetic improvements
+
+- minor bugfix: remove warning if no rows on MySQL data pointer reset
+
+- minor bugfix: do MySQL data pointer reset in user_edit for usergroups
+
+Webcollab Version 1.20
+*** 12 January 2003
+
+- release
+
+WebCollab CVS
+*** 4 January 2003
+   Andrew Simpson
+
+- add Admin config page
+
+- remove redundant include statements
+
+- ready for release?
+
+WebCollab CVS
+*** 2 January 2003
+   Andrew Simpson
+
+- check filebase directory is writeable before accepting file uploads
+
+- change getenv() to $_SERVER() because of Apache 2.0/PHP 4.2.x bug
+
+- remove time checking between database & webserver (can cause unnecessary errors with remote databases)
+
+WebCollab CVS
+*** 28 December 2002
+   Andrew Simpson
+
+- calendar added
+
+- improve private usergroup checking on project list (code speed up)
+
+- small bugfixes
+
+WebCollab CVS
+*** 14 December 2002
+   Andrew Simpson
+
+- improve email notices
+
+- improve formatting on task_show
+
+- add javascript to position cursor on forms
+
+- add javascript warning to file delete
+
+- improve database abstraction layers
+
+- small bugfixes
+
+WebCollab CVS
+*** 8 December 2002
+   Andrew Simpson
+
+- improve input validation on user inputs
+
+WebCollab CVS
+*** 4 December 2002
+   Andrew Simpson
+
+- change config file and database abstraction layer to allow remote databases
+
+WebCollab CVS
+*** 18 November 2002
+   Andrew Simpson
+
+- numerous minor bugfixes
+
+- rewrite tasks for better data handling and input validation
+
+WebCollab CVS
+*** 2 November 2002
+   Andrew Simpson
+
+- add database abstraction layer
+
+- provide support for MySQL
+
+- rewrite queries to support MySQL
+
+- rewrite INSTALL & README
+
+- add projectid to database schema
+
+- provide update script for old pg databases without projectid
+
+- update site logo and images
+
+WebCollab CVS
+*** 17 October 2002
+   Andrew Simpson
+
+- extensive cosmetic fixing to rationalise font sizes, menu structures, messages and usability
+
+WebCollab CVS
+*** 14 October 2002
+   Andrew Simpson
+
+- bugfix: Fix up nested tasks in projects_list
+
+- bugfix: Fix up nested tasks in tasks_list
+
+- bugfix: Change to nicedate for deadline in task_show
+
+- bugfix: Can't delete from task_edit without error
+
+- formatting and javascript improvements
+
+WebCollab Version 1.00
+*** 24 September 2002
+   Andrew Simpson
+
+- release
+
+WebCollab 3rd beta release
+*** 23 September 2002
+   Andrew Simpson
+
+- minor tidying before release
+
+WebCollab 2nd beta release
+*** 22 September 2002
+   Andrew Simpson
+
+- fix up list formatting for children projects in projects_list
+
+- add improved cross-scripting protection
+
+WebCollab 1st beta release
+*** 18 September 2002
+   Andrew Simpson
+
+- totally rewrite task_submit email sections to remove crud and bugs
+
+- add functions for datestring and project search from child task
+
+WebCollab CVS
+*** 17 September 2002
+   Andrew Simpson
+
+- change 'can't complete' to 'on hold'
+
+- show 'on hold' on the project list page
+
+- if project complete, show the finished date rather than deadline
+
+- reduce multiple calls to database in task_submit & task_delete
+
+- added more input variable checking to task_submit
+
+- add html line breaks to task_add & task_edit
+
+WebCollab CVS
+*** 12 September 2002
+   Andrew Simpson
+
+- when deleting forum messages, check for children and delete too
+
+- add usergroup checking to files_list.php
+
+- fix globalaccess and admin can view all to tasks_project_list.php
+
+- more error message tidy ups
+
+WebCollab CVS
+*** 7 September 2002
+    Andrew Simpson
+
+- remove todo from tasks.php (not referenced)
+
+- remove task summary from main.php, add to tasks.php
+
+- bugfix task_summary_list
+
+- remove 'valid_integer' and update 'valid_string'
+
+
+WebCollab CVS
+*** 1 September 2002
+   Andrew Simpson
+
+- change to $_POST and $_GET throughout the code
+
+WebCollab CVS
+*** 25 August 2002
+   Andrew Simpson
+
+- /files/file_submit: Bugfix - fix location header to return to Files Admin where appropriate
+
+- /files/file_list: Bugfix - show message when no files are uploaded
+
+- /includes/security: Bugfix - fix login link for error message
+
+- /usergroup/usergroup_submit: Bugfix - when deleting usergroup, delete private posts and usergroups_users rows
+
+- /users/user_show: Bugfix - add nicetime and clarify usergroup messages
+
+
+WebCollab CVS
+*** 24 August 2002
+   Andrew Simpson
+
+- Merge with current CVS for Core-lan-org (Major update)
+
+- Constraints added to database.
+
+- /task/task_project_list rewritten
+
+- Major cosmetic code improvements to improve readibilty and appearance
+
+- Added ToDo list
+
+- Edited README, INSTALL and config.php
+
+
+WebCollab forked from Core-lan-org CVS
+*** 14 Jul 2002
+   Andrew Simpson <andrew.simpson at paradise.net.nz>
+
+- Summary page (Marshall Rose)
+
+- Added small icon images to project list and task list.  Tidied up formatting of project list.
+
+- Allow for site banner image to main page. (Marshall Rose)
+
+- Formatting output /users/user_show.php (Marshall Rose)
+
+- Add 'I finished it!' button (Marshall Rose)
+
+
+CVS Update to Ver 1.11
+*** 06 Jul 2002
+   Andrew Simpson <andrew.simpson at paradise.net.nz>
+
+- Lots of syntax bugfixes from previous work.
+
+- Completed time and status for projects is now taken automatically from the status of the associated tasks.
+
+- Status data entry for projects is therefore redundant and has been removed.
+
+- Update various screens to show either "Project" or "Task" as applicable.
+
+
+CVS Update to Ver 1.11
+*** 22 Jun 2002
+   Andrew Simpson <andrew.simpson at paradise.net.nz>
+
+- Simplify security manager by getting rid of time_diff function.  (Use diff between seconds to epoch instead)
+
+- Add warning for invalid dates in time.php
+
+- Correct erroneous timezone input.  All timezones were being input as +02
+
+- Changed to calendar months instead of decimal months in date input.
+
+- Changed to calendar months in ouput.
+
+- Introduced two time formats 'nicedate' (date only) and 'nicetime' (date and time).
+
+- Set date style for database in main.php.  Several time.php routines rely totally on format being correct.
+
+- bugfix : change to 'nicetime' for 'created time' in task_edit.
+
+- bugfix : show actual completed time on project list rather than specified deadline time.
+
+CVS Update to Ver 1.11
+*** 8 Jun 2002
+  Andrew Simpson
+- Update to match Postgresql 7.2 changes.  Tested for compatibility on Postgresql 7.1 - still works.
+
+- Changed all 'now()' to 'current_timestamp(0)'
+
+- Changed 'time(30)' to 'time'00:30''
+
+
+CVS Update to Ver 1.11
+Release of Ver 1.11
+*** 1 Jun 2002
+  Dennis Fleurbaaij <dennis at core-lan.nl>
+- create-database.sql - fixed a show-stopper database creating script bug
+
+
+CVS Update to Ver 1.10
+Release of Ver 1.10
+*** 1 Jun 2002
+  Dennis Fleurbaaij <dennis at core-lan.nl>
+
+- all - fixed HTML CSS attack
+
+- /files/files_submit.php - refuse dangerous file-format uplaods
+
+
+
+CVS Update to Ver 1.01
+*** 21 May 2002
+   Andrew Simpson <andrew.simpson at paradise.net.nz>
+
+- contacts.php   - remove references to taskgroups (!) (Cut & paste error)
+                  - add in 'edit' case
+
+- /contacts/contacts_add.php   - tidy up and add newline (\n) for output readability
+
+- /contacts/contact_menubox.php   - rewrite to show multiple contacts in one company properly
+
+- /contacts/contact_show.php   - tidy up and add newline (\n) for output readability
+                                 - add buttons for edit
+
+- /contacts/contact_submit.php   - add 'edit' function
+                                   - limited input validation added (more to come)
+
+- /contacts/contact_edit.php   - new file - for editing contacts ;-)
+
+- /tasks/task_delete.php   - show parentid (name) in emails
+
+- /tasks/task_submit.php   - show parentid (name) in emails
+
+- /users/user_del.php   - bugfix: send 'delete' email to user *before* deleting address :-)
+
+- /users/user_submit.php   - functionality tidy up's.
+
+
+*** 26 April 2002
+   Andrew Simpson <andrew.simpson at paradise.net.nz>
+
+- General sweep through all the scripts cleaning up spelling and grammar.  Used
+my native NZ (British) spelling conventions throughout.  Apologies to US
+citizens!
+
+- Changed to persistent database connections. (pg_pconnect).  On my machines
+this gave a significant speed increase.
+
+- Added a 'warning' error case for minor user errors that don't need an email
+sent to the admin.
+
+- Made the un-completed tasks show on the main page under the projects.
+Late tasks turn red in colour.  They aren't 'clickable' links, better to
+click through the project.
+
+- Thickened up the graphical colour bar on the project page.  Renders better now
+in Opera, Netscape et al.
+
+- Added more description to the tasks on the project page. Projects completed on
+project page now say 'completed' instead of 'x days  late'.
+
+- Sub-tasks on the task page now show days to go, and whether task is late, or
+completed.
+
+- Added javascript 'confirm' messages to (most) delete functions. (Not
+fully checked yet).
+
+- Fixed syntax error in database backup dump script.
+
+- Tracked down (and fixed) task_show.php database bug.  Bad 'join'
+syntax and a missing 'FROM users' line caused *lots* of warnings in Apache logs.
+
+- Following on from the above, reconstructed all the 'joins' in database
+queries throughout program to be in better SQL syntax.
+
+- Removed the join 'WHERE tasks.creator=users.id' from task_list.php and
+task_project_list.  It didn't seem to do anything - and didn't work in
+task_list.php.
+
+- Fixed small bug in task_submit.php where admin takes over a task.
+
+- Fixed syntax error in contact_add.php that caused 'Add' button not(!)
+to be displayed.
+
+- Fixed database error in usergroup_submit.php that prevented usergroups
+being deleted.
+
+- Fixed scripting error that caused 'add taskgroups' link to only partially
+work.
+
+- Various scripting, comments and html changes of a minor nature.

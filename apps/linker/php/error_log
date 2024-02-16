@@ -1,0 +1,16 @@
+[16-Jan-2020 08:35:36 America/Mexico_City] PHP Notice:  Trying to get property 'error' of non-object in /home/zarkruse/public_html/intranet/apps/linker/php/functionsLinker.php on line 722
+[16-Jan-2020 08:35:36 America/Mexico_City] PHP Notice:  Trying to get property 'error' of non-object in /home/zarkruse/public_html/intranet/apps/linker/php/functionsLinker.php on line 891
+[16-Jan-2020 08:35:36 America/Mexico_City] PHP Notice:  Trying to get property 'error' of non-object in /home/zarkruse/public_html/intranet/apps/linker/php/functionsLinker.php on line 321
+[16-Jan-2020 08:36:24 America/Mexico_City] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/zarkruse/public_html/intranet/apps/linker/php/functionsLinker.php on line 391
+[16-Jan-2020 08:36:30 America/Mexico_City] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/zarkruse/public_html/intranet/apps/linker/php/functionsLinker.php on line 391
+[16-Jan-2020 08:36:55 America/Mexico_City] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/zarkruse/public_html/intranet/apps/linker/php/functionsLinker.php on line 391
+[16-Jan-2020 08:36:57 America/Mexico_City] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/zarkruse/public_html/intranet/apps/linker/php/functionsLinker.php on line 391
+[16-Jan-2020 08:38:55 America/Mexico_City] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/zarkruse/public_html/intranet/apps/linker/php/functionsLinker.php on line 391
+[16-Jan-2020 08:39:20 America/Mexico_City] PHP Notice:  Trying to get property 'error' of non-object in /home/zarkruse/public_html/intranet/apps/linker/php/functionsLinker.php on line 722
+[16-Jan-2020 08:39:20 America/Mexico_City] PHP Notice:  Trying to get property 'error' of non-object in /home/zarkruse/public_html/intranet/apps/linker/php/functionsLinker.php on line 891
+[16-Jan-2020 08:39:20 America/Mexico_City] PHP Notice:  Trying to get property 'error' of non-object in /home/zarkruse/public_html/intranet/apps/linker/php/functionsLinker.php on line 321
+[09-Sep-2020 08:17:17 America/Mexico_City] PHP Fatal error:  Uncaught Error: Call to undefined function dataconn() in /home/zarkruse/public_html/intranet/apps/linker/php/fgruposgastos.php:17
+Stack trace:
+#0 /home/zarkruse/public_html/intranet/apps/linker/php/fgruposgastos.php(11): dimeGrupos()
+#1 {main}
+  thrown in /home/zarkruse/public_html/intranet/apps/linker/php/fgruposgastos.php on line 17

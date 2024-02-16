@@ -1,0 +1,11 @@
+{
+    "short_name": "SmartRoad",
+    "name": "SmartRoad",
+    "description": "Rutas y Seguimiento",
+    "icon": "/public_html/intranet/img/route.png",
+    "start_url": "/public_html/intranet",
+    "background_color": "#3367D6",
+    "theme_color": "#3367D6",
+    "display": "fullscreen",
+    "scope": "/public_html/intranet/"
+}

@@ -1,0 +1,16 @@
+[17-Jul-2020 12:38:51 America/Mexico_City] PHP Notice:  Undefined index: sessionInfo in /home/zarkruse/public_html/intranet/apps/config/index.php on line 36
+[17-Jul-2020 12:38:51 America/Mexico_City] PHP Notice:  Undefined index: sessionInfo in /home/zarkruse/public_html/intranet/apps/config/index.php on line 37
+[17-Jul-2020 12:38:51 America/Mexico_City] PHP Notice:  Undefined index: sessionInfo in /home/zarkruse/public_html/intranet/apps/config/index.php on line 44
+[17-Jul-2020 12:38:52 America/Mexico_City] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'adblue_intranet'@'tx15.fcomet.com' (using password: YES) in /home/zarkruse/public_html/intranet/apps/config/index.php on line 47
+[17-Jul-2020 12:38:52 America/Mexico_City] PHP Notice:  Undefined index: sessionInfo in /home/zarkruse/public_html/intranet/apps/config/index.php on line 60
+[17-Jul-2020 12:38:52 America/Mexico_City] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/zarkruse/public_html/intranet/apps/config/index.php on line 62
+[17-Jul-2020 12:38:52 America/Mexico_City] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on bool in /home/zarkruse/public_html/intranet/apps/config/index.php:64
+Stack trace:
+#0 {main}
+  thrown in /home/zarkruse/public_html/intranet/apps/config/index.php on line 64
+[08-Mar-2021 15:05:07 America/Mexico_City] PHP Warning:  mysqli::__construct(): (HY000/2005): Unknown MySQL server host 'sql.skyblue.mx' (0) in /home/zarkruse/public_html/intranet/apps/config/index.php on line 47
+[08-Mar-2021 15:05:07 America/Mexico_City] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/zarkruse/public_html/intranet/apps/config/index.php on line 62
+[08-Mar-2021 15:05:07 America/Mexico_City] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on bool in /home/zarkruse/public_html/intranet/apps/config/index.php:64
+Stack trace:
+#0 {main}
+  thrown in /home/zarkruse/public_html/intranet/apps/config/index.php on line 64

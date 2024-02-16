@@ -1,0 +1,177 @@
+
+body{
+    text-align:center;
+    width:100%;
+    padding:0;
+    margin:0;
+    /*font-family: 'Inconsolata', monospace;*/
+}
+#hojaSolicitud{
+    width:10.2in;
+    height:8in;
+    padding:0.2in 0.2in;
+    font-size:10.5pt;
+    margin:0 auto;
+}
+#hojaSolicitud #encabezado{
+    width:100%;
+    height:12mm;
+}
+#encabezado .logo img{
+    float:left;
+    height:18mm;
+}
+
+
+#folioContainer{
+    width:100%; 
+    text-align:right;
+    font-weight:bold;
+    padding-top:10px;
+}
+#folio{
+    width:40mm;
+    font-size:12pt;
+    color:red;
+    text-align:center;
+    border:solid 1px #333;
+    margin:10px;
+    padding:1mm 2.5mm;
+    display:inline-block;
+}
+.datosCarga{
+    width:100%;
+    background:#fff;
+    text-align:left;
+    display:block;
+}
+.datosCarga table{
+    width:100%;
+    font-size:10pt;
+    border-collapse:collapse;
+    border:none;
+}
+.datosCarga table td{
+    height:3mm;
+    padding-top:3mm;
+}
+.datosCarga table .label{
+    border-bottom:none !important;
+    width:23mm;
+    font-size:10pt;
+    padding-left:7mm;
+}
+.datosCarga table .valor{
+    width:35mm;
+    border-bottom:solid 1px #17206B;
+}    
+.datosCarga table .spacer{
+    width:10mm;
+    
+}
+#bodyp{
+    min-height:3.5in;
+}
+#foot,#title{
+    width:10.2in;
+    text-align:left;
+}
+#title{
+    display:block;
+    text-align:center;
+    font-size:16pt;
+    font-weight:bold;
+    margin:5mm 0 3mm 0;
+    padding:0;
+}
+#datosPapeleta{
+    width:100%;
+    text-align:center;
+    margin:0 auto;
+    display:block;
+    margin-top:10px;
+}
+#datosPapeleta table{
+    width:100%;
+    margin:0.5cm auto;
+    border-collapse: collapse;
+    border:solid 1px grey;
+    /*table-layout: fixed;*/
+}
+#datosPapeleta table tr th {
+    border:solid 1px grey;
+    padding:7px;
+    font-size:10pt;
+}
+#datosPapeleta table tr td {
+    border:solid 1px grey;
+    padding:7px;
+    font-size:8pt;
+    /*white-space: nowrap;*/
+    word-break: initial;
+    text-align:left;
+    
+}
+#datosPapeleta table tr td:last-child {
+    text-align:right;
+}
+
+tfoot{
+    width:100%;
+    text-align:left;
+    font-weight:bold;
+    font-size:15pt;
+    box-sizing:border-box;
+    padding:5px;
+    background:#f2f2f2;
+    border:solid 1px grey;
+    border-top:0;
+}
+.lept,.sellos{
+    border:none;
+    width:100%;
+    height:100%;
+    background:#f2f2f2;
+}
+#options{
+    position:absolute;
+    margin:5px;
+    box-sizing:border-box;
+    width:80%;
+    padding:0;
+    text-align:right;
+}
+#options button{
+    background:rgba(23,32,107,0.5);
+    color:#fff;
+    border:none;
+    padding:5px 10px;
+    cursor:pointer;
+}
+#options button:hover{
+    background:rgba(23,32,107,0.9);
+    color:#fff;
+    border:none;
+    padding:5px 10px;
+}
+#totalLts{
+    text-align:right;
+}
+.numeric{
+    text-align:right !important;
+}
+@media print{@page {size: landscape}}
+@media print {
+  div#foot {
+    position: fixed;
+    bottom: 0;
+  }
+}
+hr{
+    height:1px;
+    background:#333;
+    
+    border:none;
+    margin-top:0;
+    paddding-top:0;
+}

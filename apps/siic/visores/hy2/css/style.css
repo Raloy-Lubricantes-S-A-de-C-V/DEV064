@@ -1,0 +1,16 @@
+.no-edit{
+    background: lightgoldenrodyellow;
+    cursor:none;
+    pointer-events: none;
+    width:85%;
+}
+.label{
+    width:25%;
+}
+#infoCliente,#infoConsumo,#infoConsumo table{
+    width:50%;
+    float:left;
+}
+table{
+    font-size:8pt;
+}

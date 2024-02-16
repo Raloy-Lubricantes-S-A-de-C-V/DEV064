@@ -1,0 +1,94 @@
+[02-Mar-2021 20:22:29 Europe/London] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Db has a deprecated constructor in /home/zarkruse/public_html/intranet/apps/mantenimiento/asset_management_system-master/lib/class.db.php on line 3
+[02-Mar-2021 20:22:29 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/zarkruse/public_html/intranet/apps/mantenimiento/asset_management_system-master/lib/class.db.php:28
+Stack trace:
+#0 /home/zarkruse/public_html/intranet/apps/mantenimiento/asset_management_system-master/lib/class.db.php(23): Db->connect()
+#1 /home/zarkruse/public_html/intranet/apps/mantenimiento/asset_management_system-master/common/config.php(7): Db->Db('localhost', 'root', 'secret', 'asset_managemen...')
+#2 /home/zarkruse/public_html/intranet/apps/mantenimiento/asset_management_system-master/login/login.php(5): include('/home/zarkruse/...')
+#3 {main}
+  thrown in /home/zarkruse/public_html/intranet/apps/mantenimiento/asset_management_system-master/lib/class.db.php on line 28
+[02-Mar-2021 20:35:05 Europe/London] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Db has a deprecated constructor in /home/zarkruse/public_html/intranet/apps/mantenimiento/asset_management_system-master/lib/class.db.php on line 3
+[02-Mar-2021 20:35:05 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/zarkruse/public_html/intranet/apps/mantenimiento/asset_management_system-master/lib/class.db.php:28
+Stack trace:
+#0 /home/zarkruse/public_html/intranet/apps/mantenimiento/asset_management_system-master/lib/class.db.php(23): Db->connect()
+#1 /home/zarkruse/public_html/intranet/apps/mantenimiento/asset_management_system-master/common/config.php(7): Db->Db('localhost', 'root', 'secret', 'asset_managemen...')
+#2 /home/zarkruse/public_html/intranet/apps/mantenimiento/asset_management_system-master/login/login.php(5): include('/home/zarkruse/...')
+#3 {main}
+  thrown in /home/zarkruse/public_html/intranet/apps/mantenimiento/asset_management_system-master/lib/class.db.php on line 28
+[02-Mar-2021 20:35:22 Europe/London] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Db has a deprecated constructor in /home/zarkruse/public_html/intranet/apps/mantenimiento/asset_management_system-master/lib/class.db.php on line 3
+[02-Mar-2021 20:35:22 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/zarkruse/public_html/intranet/apps/mantenimiento/asset_management_system-master/lib/class.db.php:28
+Stack trace:
+#0 /home/zarkruse/public_html/intranet/apps/mantenimiento/asset_management_system-master/lib/class.db.php(23): Db->connect()
+#1 /home/zarkruse/public_html/intranet/apps/mantenimiento/asset_management_system-master/common/config.php(7): Db->Db('localhost', 'root', 'secret', 'asset_managemen...')
+#2 /home/zarkruse/public_html/intranet/apps/mantenimiento/asset_management_system-master/login/login.php(5): include('/home/zarkruse/...')
+#3 {main}
+  thrown in /home/zarkruse/public_html/intranet/apps/mantenimiento/asset_management_system-master/lib/class.db.php on line 28
+[02-Mar-2021 20:38:43 Europe/London] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Db has a deprecated constructor in /home/zarkruse/public_html/intranet/apps/mantenimiento/asset_management_system-master/lib/class.db.php on line 3
+[02-Mar-2021 20:38:43 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/zarkruse/public_html/intranet/apps/mantenimiento/asset_management_system-master/lib/class.db.php:28
+Stack trace:
+#0 /home/zarkruse/public_html/intranet/apps/mantenimiento/asset_management_system-master/lib/class.db.php(23): Db->connect()
+#1 /home/zarkruse/public_html/intranet/apps/mantenimiento/asset_management_system-master/common/config.php(7): Db->Db('localhost', 'root', 'secret', 'asset_managemen...')
+#2 /home/zarkruse/public_html/intranet/apps/mantenimiento/asset_management_system-master/login/login.php(6): include('/home/zarkruse/...')
+#3 {main}
+  thrown in /home/zarkruse/public_html/intranet/apps/mantenimiento/asset_management_system-master/lib/class.db.php on line 28
+[02-Mar-2021 20:39:28 Europe/London] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Db has a deprecated constructor in /home/zarkruse/public_html/intranet/apps/mantenimiento/asset_management_system-master/lib/class.db.php on line 3
+[02-Mar-2021 20:39:55 Europe/London] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Db has a deprecated constructor in /home/zarkruse/public_html/intranet/apps/mantenimiento/asset_management_system-master/lib/class.db.php on line 3
+[02-Mar-2021 20:39:55 Europe/London] PHP Notice:  Undefined variable: db in /home/zarkruse/public_html/intranet/apps/mantenimiento/asset_management_system-master/login/login.php on line 6
+[02-Mar-2021 20:41:35 Europe/London] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Db has a deprecated constructor in /home/zarkruse/public_html/intranet/apps/mantenimiento/asset_management_system-master/lib/class.db.php on line 3
+[02-Mar-2021 20:41:35 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/zarkruse/public_html/intranet/apps/mantenimiento/asset_management_system-master/lib/class.db.php:28
+Stack trace:
+#0 /home/zarkruse/public_html/intranet/apps/mantenimiento/asset_management_system-master/lib/class.db.php(23): Db->connect()
+#1 /home/zarkruse/public_html/intranet/apps/mantenimiento/asset_management_system-master/common/config.php(7): Db->Db('localhost', 'zarkruse_intran...', 'Totich182308', 'zarkruse_egroup...')
+#2 /home/zarkruse/public_html/intranet/apps/mantenimiento/asset_management_system-master/login/login.php(6): include('/home/zarkruse/...')
+#3 {main}
+  thrown in /home/zarkruse/public_html/intranet/apps/mantenimiento/asset_management_system-master/lib/class.db.php on line 28
+[02-Mar-2021 20:47:13 Europe/London] PHP Notice:  Undefined offset: 0 in /home/zarkruse/public_html/intranet/apps/mantenimiento/asset_management_system-master/login/login.php on line 9
+[02-Mar-2021 20:47:13 Europe/London] PHP Notice:  Undefined offset: 1 in /home/zarkruse/public_html/intranet/apps/mantenimiento/asset_management_system-master/login/login.php on line 9
+[02-Mar-2021 20:48:02 Europe/London] PHP Notice:  Undefined offset: 0 in /home/zarkruse/public_html/intranet/apps/mantenimiento/asset_management_system-master/login/login.php on line 9
+[02-Mar-2021 20:48:02 Europe/London] PHP Notice:  Undefined offset: 1 in /home/zarkruse/public_html/intranet/apps/mantenimiento/asset_management_system-master/login/login.php on line 9
+[02-Mar-2021 20:48:08 Europe/London] PHP Notice:  Undefined offset: 0 in /home/zarkruse/public_html/intranet/apps/mantenimiento/asset_management_system-master/login/login.php on line 9
+[02-Mar-2021 20:48:08 Europe/London] PHP Notice:  Undefined offset: 1 in /home/zarkruse/public_html/intranet/apps/mantenimiento/asset_management_system-master/login/login.php on line 9
+[02-Mar-2021 20:49:08 Europe/London] PHP Notice:  Undefined offset: 0 in /home/zarkruse/public_html/intranet/apps/mantenimiento/asset_management_system-master/login/login.php on line 12
+[02-Mar-2021 20:49:08 Europe/London] PHP Notice:  Undefined offset: 1 in /home/zarkruse/public_html/intranet/apps/mantenimiento/asset_management_system-master/login/login.php on line 12
+[02-Mar-2021 20:52:02 Europe/London] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Db has a deprecated constructor in /home/zarkruse/public_html/intranet/apps/mantenimiento/asset_management_system-master/lib/class.db.php on line 3
+[02-Mar-2021 20:52:02 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/zarkruse/public_html/intranet/apps/mantenimiento/asset_management_system-master/lib/class.db.php:28
+Stack trace:
+#0 /home/zarkruse/public_html/intranet/apps/mantenimiento/asset_management_system-master/lib/class.db.php(23): Db->connect()
+#1 /home/zarkruse/public_html/intranet/apps/mantenimiento/asset_management_system-master/common/config.php(7): Db->Db('localhost', 'zarkruse_intran...', 'Totich182308', 'zarkruse_egroup...')
+#2 /home/zarkruse/public_html/intranet/apps/mantenimiento/asset_management_system-master/login/login.php(5): include('/home/zarkruse/...')
+#3 {main}
+  thrown in /home/zarkruse/public_html/intranet/apps/mantenimiento/asset_management_system-master/lib/class.db.php on line 28
+[02-Mar-2021 20:52:25 Europe/London] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Db has a deprecated constructor in /home/zarkruse/public_html/intranet/apps/mantenimiento/asset_management_system-master/lib/class.db.php on line 3
+[02-Mar-2021 20:52:25 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/zarkruse/public_html/intranet/apps/mantenimiento/asset_management_system-master/lib/class.db.php:28
+Stack trace:
+#0 /home/zarkruse/public_html/intranet/apps/mantenimiento/asset_management_system-master/lib/class.db.php(23): Db->connect()
+#1 /home/zarkruse/public_html/intranet/apps/mantenimiento/asset_management_system-master/common/config.php(7): Db->Db('localhost', 'zarkruse_intran...', 'Totich182308', 'zarkruse_egroup...')
+#2 /home/zarkruse/public_html/intranet/apps/mantenimiento/asset_management_system-master/login/login.php(5): include('/home/zarkruse/...')
+#3 {main}
+  thrown in /home/zarkruse/public_html/intranet/apps/mantenimiento/asset_management_system-master/lib/class.db.php on line 28
+[02-Mar-2021 20:52:48 Europe/London] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Db has a deprecated constructor in /home/zarkruse/public_html/intranet/apps/mantenimiento/asset_management_system-master/lib/class.db.php on line 3
+[02-Mar-2021 20:52:48 Europe/London] PHP Notice:  Undefined index: cmd in /home/zarkruse/public_html/intranet/apps/mantenimiento/asset_management_system-master/login/login.php on line 5
+[02-Mar-2021 20:52:48 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/zarkruse/public_html/intranet/apps/mantenimiento/asset_management_system-master/lib/class.db.php:28
+Stack trace:
+#0 /home/zarkruse/public_html/intranet/apps/mantenimiento/asset_management_system-master/lib/class.db.php(23): Db->connect()
+#1 /home/zarkruse/public_html/intranet/apps/mantenimiento/asset_management_system-master/common/config.php(7): Db->Db('localhost', 'zarkruse_intran...', 'Totich182308', 'zarkruse_egroup...')
+#2 /home/zarkruse/public_html/intranet/apps/mantenimiento/asset_management_system-master/login/login.php(7): include('/home/zarkruse/...')
+#3 {main}
+  thrown in /home/zarkruse/public_html/intranet/apps/mantenimiento/asset_management_system-master/lib/class.db.php on line 28
+[02-Mar-2021 20:53:09 Europe/London] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Db has a deprecated constructor in /home/zarkruse/public_html/intranet/apps/mantenimiento/asset_management_system-master/lib/class.db.php on line 3
+[02-Mar-2021 20:53:09 Europe/London] PHP Notice:  Undefined index: cmd in /home/zarkruse/public_html/intranet/apps/mantenimiento/asset_management_system-master/login/login.php on line 5
+[02-Mar-2021 20:56:23 Europe/London] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Db has a deprecated constructor in /home/zarkruse/public_html/intranet/apps/mantenimiento/asset_management_system-master/lib/class.db.php on line 3
+[02-Mar-2021 20:56:23 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/zarkruse/public_html/intranet/apps/mantenimiento/asset_management_system-master/lib/class.db.php:28
+Stack trace:
+#0 /home/zarkruse/public_html/intranet/apps/mantenimiento/asset_management_system-master/lib/class.db.php(23): Db->connect()
+#1 /home/zarkruse/public_html/intranet/apps/mantenimiento/asset_management_system-master/common/config.php(7): Db->Db('localhost', 'zarkruse_intran...', 'Totich182308', 'zarkruse_egroup...')
+#2 /home/zarkruse/public_html/intranet/apps/mantenimiento/asset_management_system-master/login/login.php(5): include('/home/zarkruse/...')
+#3 {main}
+  thrown in /home/zarkruse/public_html/intranet/apps/mantenimiento/asset_management_system-master/lib/class.db.php on line 28
+[02-Mar-2021 20:57:00 Europe/London] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Db has a deprecated constructor in /home/zarkruse/public_html/intranet/apps/mantenimiento/asset_management_system-master/lib/class.db.php on line 3
+[02-Mar-2021 20:57:00 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/zarkruse/public_html/intranet/apps/mantenimiento/asset_management_system-master/lib/class.db.php:28
+Stack trace:
+#0 /home/zarkruse/public_html/intranet/apps/mantenimiento/asset_management_system-master/lib/class.db.php(23): Db->connect()
+#1 /home/zarkruse/public_html/intranet/apps/mantenimiento/asset_management_system-master/common/config.php(7): Db->Db('localhost', 'zarkruse_intran...', 'Totich182308', 'zarkruse_egroup...')
+#2 /home/zarkruse/public_html/intranet/apps/mantenimiento/asset_management_system-master/login/login.php(5): include('/home/zarkruse/...')
+#3 {main}
+  thrown in /home/zarkruse/public_html/intranet/apps/mantenimiento/asset_management_system-master/lib/class.db.php on line 28

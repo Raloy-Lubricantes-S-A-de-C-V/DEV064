@@ -1,0 +1,862 @@
+/*Colores del logo Skyblue
+Verde:#75BF10
+Azul:#17206B   rgb(23,32,107)*/
+
+.folio {
+    color: red;
+    font-weight: bold;
+}
+
+button:focus,
+input:focus {
+    outline: 0;
+}
+
+.btnClicked {
+    color: #004A90 !important;
+}
+
+button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    font-weight: bold;
+}
+
+section {
+    width: 31.33%;
+    padding: 1%;
+    display: block;
+    float: left;
+}
+
+.titleSection {
+    font-size: 1.8vw;
+    color: #17206B;
+    font-weight: bold;
+    border-bottom: solid 1px #75BF10;
+    padding: 5px 0;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#solicitud {
+    width: 96%;
+    padding: 2%;
+}
+
+label {
+    font-weight: bold;
+    color: #333;
+}
+
+.label {
+    background: #004A90;
+    color: #fff;
+    font-weight: bold;
+}
+
+.labelx {
+    color: #004A90;
+    font-weight: bold;
+    padding: 0.5vh;
+}
+
+.labelDisabled {
+    background: #92BD11;
+    color: #fff;
+    font-weight: bold;
+    padding-left: 7px;
+}
+
+#datosSolicitud {
+    width: 100%;
+}
+
+.contentConcluir {
+    /*display: none;*/
+}
+
+#datosSolicitud .left30 {
+    width: 28%;
+    padding: 1%;
+    float: left;
+}
+
+#datosSolicitud .left30 #formNewLine {
+    width: 98%;
+    border-collapse: collapse;
+}
+
+#datosConcEnvio .div33,
+#datosConcEnvioExt .div33 {
+    width: 33%;
+    float: left;
+    display: block;
+}
+
+#datosConcEnvio .div100,
+#datosConcEnvioExt .div100 {
+    width: 100%;
+    clear: both;
+    display: block;
+    text-align: right;
+}
+
+#datosConcEnvioExt table {
+    width: 20vw;
+}
+
+#datosConcEnvio td input {
+    background: #fefbf0;
+    border: none;
+    padding: 2px;
+    text-align: right;
+    font-size: 9pt;
+    width: 7vw;
+    color: #3e3e3e;
+}
+
+.inputCtr {
+    background: #fefbf0;
+}
+
+.inputCtrD,
+.inputCtr {
+    text-align: right;
+}
+
+#datosConcEnvio thead {
+    border: none;
+}
+
+#datosConcEnvio .disabled td {
+    background: #f2f2f2;
+    color: #3e3e3e;
+}
+
+#datosConcEnvio .disabled td input {
+    border: none;
+    background: none;
+}
+
+#datosConcEnvio table td textarea,
+#datosConcEnvioExt table td textarea {
+    resize: none;
+    height: 50px;
+}
+
+#datosConcEnvio #bitacoraConcEnv,
+#datosConcEnvioExt #bitacoraConcEnv {
+    resize: none;
+    height: 100px;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 5px;
+}
+
+#datosConcEnvio div button,
+#datosConcEnvioExt div button {
+    padding: 7px;
+    background: #004A90;
+    color: #fff;
+    text-align: center;
+    font-size: 0.9vw;
+}
+
+#formNewLine thead th,
+#formNewLine tfoot th {
+    text-align: center;
+    font-weight: bold;
+}
+
+#formNewLine tr td:first-child {
+    color: #333;
+    padding-right: 10px;
+    font-weight: normal;
+}
+
+#formNewLine input {
+    width: 100%;
+    border: none;
+    border-bottom: solid 1px #004eb6;
+}
+
+#solicitud {
+    width: 100%;
+}
+
+#datosSolicitud {
+    position: relative;
+}
+
+.itemsContainer {
+    width: 100%;
+    display: block;
+    padding: 5px 0;
+}
+
+.itemsContainer item {
+    display: inline-block;
+    width: 260px;
+    padding: 0;
+    padding-right: 10px;
+}
+
+.itemsContainer item:last-child {
+    padding: 0;
+}
+
+item .label {
+    width: 120px;
+    color: #3e3e3e;
+    font-weight: bold;
+}
+
+item input,
+item select {
+    background: none;
+    color: #3e3e3e;
+    max-width: 120px;
+    margin-left: 5px;
+    padding: 0 5px;
+    border: none;
+    border-bottom: solid 1px #004A90;
+}
+
+.modalContainer {
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    display: none;
+    z-index: 200;
+    padding: 2vh 2vw;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.cuerpoModal {
+    z-index: 300;
+    background: #fff;
+    border: solid 1px #333;
+    padding: 2vh 2vw;
+    display: block;
+    font-size: 8pt;
+    overflow: auto;
+    height: 90vh;
+}
+
+.btnLlamaModal {
+    cursor: pointer;
+}
+
+#tblPedidos tbody tr:hover {
+    cursor: pointer;
+}
+
+.menuModal {
+    width: 100%;
+    text-align: left;
+    height: 30px;
+    background: #17206B;
+    margin-bottom: 10px;
+}
+
+.menuModal .leftMenuModal {
+    width: 20%;
+    float: left;
+}
+
+.menuModal .centerMenuModal {
+    width: 40%;
+    float: left;
+    padding-top: 10px;
+}
+
+.centerMenuModal .avisos {
+    color: #fff;
+    height: 100%;
+}
+
+.menuModal .rightMenuModal {
+    width: 40%;
+    float: right;
+    text-align: right;
+}
+
+.menuModal button {
+    height: 30px;
+    font-weight: normal !important;
+    color: white;
+    font-size: 0.9vw;
+    padding: 0 7px;
+}
+
+.menuModal button:hover {
+    font-weight: bold !important;
+}
+
+.scrollStyle {
+    overflow-x: auto;
+}
+
+.inputLts,
+.inputEta,
+.inputAtq,
+.inputCausa {
+    border: none;
+    text-decoration: none;
+    padding: 2px;
+    background: none;
+    font-size: 8pt !important;
+}
+
+.inputLts:focus,
+.inputEta:focus,
+.inputAtq:focus,
+.inputCausa:focus {
+    background: #17206B;
+    color: #fff;
+}
+
+.inputLts {
+    width: 60px;
+    text-align: right;
+}
+
+.inputEta {
+    width: 60px;
+    text-align: left;
+}
+
+.inputAtq {
+    width: 98%;
+    text-align: right;
+    /*background: #0187cb;*/
+}
+
+.boxAll {
+    border: none;
+    /*box-shadow: 1px 1px 2px rgba(0,0,0,0.5);*/
+    width: 90%;
+    padding: 3%;
+    box-sizing: border-box;
+    margin: 7px auto;
+    border-radius: 7px;
+    border: solid 1px #c4c8c6;
+}
+
+.boxAll:hover {
+    background: rgba(237, 238, 240, 0.7);
+    cursor: default;
+}
+
+.cargaTerminada {
+    border-bottom: solid 3px #4cc573 !important;
+}
+
+.cargaNoIniciada {
+    border-bottom: solid 3px #b20035 !important;
+}
+
+.cargaIncompleta {
+    border-bottom: solid 3px #ffde59 !important;
+}
+
+.ctrBoxRuteo,
+.ctrBoxCarga {
+    /*position:relative;*/
+    display: block;
+    clear: both;
+    /*height:10px;*/
+    margin: 3% 0 0 0;
+}
+
+.boxRuteoBtns,
+.boxCargaBtns {
+    /*margin-top:-20px;*/
+    width: 100%;
+    /*height:20px;*/
+    /*position:absolute;*/
+    /*display:none;*/
+    background: none;
+    text-align: center;
+}
+
+.boxRuteoBtns button,
+.boxCargaBtns button {
+    /*width:33.33%;*/
+    box-sizing: border-box;
+    padding: 5px;
+    margin: 0;
+    text-align: center;
+    font-size: 1.1vw;
+    color: #fff;
+    background: rgba(23, 32, 107, 0.3);
+}
+
+.boxRuteoBtns button {
+    width: 48%;
+}
+
+.boxCargaBtns button {
+    width: 33.33%;
+}
+
+.boxRuteoBtns button:hover,
+.boxCargaBtns button:hover {
+    background: rgba(23, 32, 107, 0.8);
+}
+
+.boxAll .left {
+    float: left;
+    width: 35%;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+}
+
+.boxAll .left div,
+.boxAll .left span {
+    width: 100%;
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+
+.boxAll .right {
+    width: 62%;
+    padding: 0;
+    padding-left: 3%;
+    margin: 0;
+    text-align: left;
+    float: left;
+    font-size: 1vw;
+}
+
+.boxAll .right div {
+    width: 100%;
+    display: block;
+}
+
+.ltsBox,
+.ltsTotBoxCarga {
+    font-size: 1.3vw;
+    display: block;
+    font-weight: bold;
+    color: #333;
+    text-align: left;
+}
+
+.subtots {
+    padding: 0;
+    display: inline;
+}
+
+.destinos {
+    width: 100%;
+    display: block;
+}
+
+#divPapeleta .contentModal {
+    text-align: center;
+}
+
+#hojaSolicitud {
+    width: 166mm;
+    height: 239mm;
+    padding: 20mm 15mm;
+    border: solid 1px grey;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+    font-size: 10pt;
+    margin: 0 auto;
+    text-align: left;
+    display: block;
+}
+
+#hojaSolicitud h3 {
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-size: 11pt;
+}
+
+#datosCarga {
+    width: 100%;
+    display: block;
+    text-align: left;
+    border: solid 1px grey;
+}
+
+#datosCarga input {
+    font-size: 8pt;
+    border: none;
+    text-decoration: none;
+    padding: 2px;
+    background: none;
+    border-bottom: solid 1px;
+}
+
+#datosCarga .leftCarga {
+    width: 58%;
+    padding: 1%;
+    float: left;
+}
+
+#datosCarga .rightCarga {
+    width: 38%;
+    padding: 1%;
+    float: right;
+}
+
+.rightCarga textarea {
+    width: 98%;
+    height: 50px;
+    resize: none;
+    overflow: auto;
+    margin: 10px 0 0 0;
+    padding: 1%;
+}
+
+.spacer {
+    width: 40px;
+}
+
+#datosPapeleta {
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#datosPapeleta table {
+    width: 100%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    border: solid 1px grey;
+}
+
+#datosPapeleta table tr td,
+#datosPapeleta table tr th {
+    border: solid 1px grey;
+    padding: 5px;
+}
+
+.numeric {
+    text-align: right;
+}
+
+
+/*HTML generado desde el query en dimeCargasPendientes*/
+
+.tagEtayLts {
+    font-weight: bold;
+    color: #17206B;
+    display: block;
+    width: 100%;
+}
+
+.tagLtsSurtir {
+    color: #333 !important;
+}
+
+.tagUbic {
+    width: 100%;
+    font-weight: bold;
+    color: #3e3e3e;
+}
+
+.titleBoxCarga,
+.cardIcon {
+    width: 100%;
+    display: block;
+    box-sizing: border-box;
+    margin: 0 0 10% 0 !important;
+    text-align: left;
+}
+
+.titleBoxCarga {
+    font-size: 1.5vw;
+}
+
+.cardIcon {
+    font-size: 2.3vw;
+}
+
+.salidaBoxCarga {
+    font-size: 1vw;
+    color: #787878;
+    width: 100%;
+    display: block;
+}
+
+.spacerPipe {
+    color: #787878;
+    font-size: 8pt;
+}
+
+#pec {
+    width: 100%;
+    margin: 0 auto;
+    padding: 1vh 1vw;
+    box-sizing: border-box;
+    font-size: 1.8vh;
+}
+
+.certCtr {
+    font-size: 3vh;
+    cursor: pointer;
+    text-align: center;
+}
+
+#datosPEC {
+    width: 100%;
+    margin-bottom: 2vh;
+}
+
+.datosPEC .floated {
+    padding: 1vh 1vw 0 0;
+    display: inline-block;
+    box-sizing: border-box;
+    width: 33%;
+}
+
+#folioPECCont {
+    color: red;
+    font-weight: bold;
+    font-size: 1.5vh;
+}
+
+#datosPapeletaPEC {
+    margin: 2vh auto;
+    border-collapse: collapse;
+    width: 99%;
+    box-sizing: border-box;
+}
+
+#datosPapeletaPEC th {
+    padding: 1vh 1vw;
+    background: #0C2E6C;
+    color: #fff;
+    border: solid 1px #CACACA;
+}
+
+#datosPapeletaPEC tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+
+#datosPapeletaPEC td {
+    word-break: break-all;
+    padding: 0.5vh 0.5vw;
+    border: solid 1px #CACACA;
+}
+
+#PECnumEmbarque,
+#PECpesoNeto {
+    border: none;
+    border-bottom: solid 1px #17206B;
+    text-align: right;
+}
+
+.container100 {
+    width: 100%;
+    text-align: left;
+    font-weight: bold;
+    font-size: 13pt;
+    box-sizing: border-box;
+    padding: 5px;
+    background: #f2f2f2;
+    border: solid 1px grey;
+    border-top: 0;
+}
+
+.container100 div {
+    width: 40%;
+    float: right;
+    text-align: right;
+}
+
+#datosCertifCalidad {
+    border-collapse: collapse;
+}
+
+#datosCertifCalidad input {
+    width: 80px;
+    border: none;
+    border-bottom: solid 1px #17206B;
+    padding: 0 5px;
+    box-sizing: border-box;
+}
+
+#datosCertifCalidad .label {
+    padding-left: 10px;
+}
+
+#btnGPonerEnCamino {
+    margin-top: 10px;
+    text-align: right;
+    display: block;
+}
+
+#guardaPonerEnCamino {
+    text-align: center;
+    background: #17206B;
+    padding: 10px;
+    width: 100px;
+    font-size: 0.9vw;
+    color: #fff;
+}
+
+#btnSaveSolCarga {
+    background: #17206B;
+    color: #fff;
+    padding: 5px;
+    margin: 10px;
+    font-size: .9vw;
+}
+
+#datosConcEnvio .label {
+    padding-left: 7px;
+}
+
+#datosConcEnvio .labelSmall {
+    padding-left: 7px;
+    width: 60px;
+    display: inline-block;
+}
+
+#datosConcEnvio .cierreVal {
+    width: 80px;
+    border: none;
+    border-bottom: solid 1px #17206B;
+    padding: 0 5px;
+    box-sizing: border-box;
+    text-align: right;
+    font-size: 9pt;
+    margin-left: 5px;
+}
+
+#datosConcEnvio .valDesc {
+    width: 50%;
+    border: none;
+    border-bottom: solid 1px #17206B;
+    padding: 0 5px;
+    box-sizing: border-box;
+    margin-left: 5px;
+}
+
+#bitacora {
+    width: 100%;
+    min-height: 80px;
+}
+
+.floated .btnCtr {
+    width: 100%;
+    text-align: left;
+    display: block;
+}
+
+#concluireEnvio_save {
+    background: #17206B;
+    color: #fff;
+    padding: 5px;
+    margin: 10px;
+    font-size: .9vw;
+}
+
+#ponerEnCamino_save {
+    background: none;
+    border: none;
+    font-weight: bold;
+    color: #0C2E6C;
+}
+
+.folioCarga {
+    color: red;
+    font-weight: bold;
+    font-size: 1vw;
+    margin-bottom: 10px;
+    text-align: right;
+    border-bottom: solid 1px #17206B;
+    padding: 5px 0;
+}
+
+.deletePRBox:hover {
+    color: red;
+    cursor: pointer;
+}
+
+.datosencamino eta {
+    font-weight: bold;
+    color: #17206B;
+    display: block;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+.datosencamino litros {
+    color: #333 !important;
+    display: inline-block;
+    font-weight: bold;
+}
+
+.datosencamino destino {
+    box-sizing: border-box;
+    padding-left: 2%;
+    width: 100%;
+    display: block;
+    color: #787878;
+}
+
+.resumenConcluir {
+    width: 300px;
+    box-sizing: border-box;
+    float: left;
+    padding: 10px;
+    ;
+}
+
+.resumenConcluir table {
+    width: 90% !important;
+    box-sizing: border-box;
+    border-collapse: collapse;
+    margin: 10px 0;
+}
+
+.resumenConcluir table th {
+    color: #003364;
+    font-weight: bold;
+    background: none !important;
+    text-align: left;
+    font-size: 11pt;
+}
+
+.tblsubh {
+    font-weight: bold;
+    color: #004A90;
+    text-align: left;
+}
+
+.cvt,
+.cvu,
+.cft,
+.cfu,
+.currency2,
+.currency3,
+.numeric0,
+.numeric2 {
+    text-align: right;
+}
+
+#totalF,
+#totalFUnitario,
+#totalV,
+#totalVUnitario,
+#costototP,
+#costototuP {
+    font-weight: bold;
+}

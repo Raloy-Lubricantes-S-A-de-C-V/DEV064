@@ -1,0 +1,158 @@
+* WebCollab 3.50 - Nihoniho *
+-----------------------------
+
+  "Those who can imagine anything, can create the impossible." 
+
+     --- Alan Turing
+
+
+* What's New *
+--------------
+
+Welcome to WebCollab 3.50:
+
+The database tables have been overhauled to avoid the use of reserved column names in MySQL 8 and
+similar potentially reserved names in PostgreSQL.  This code factor is deeply invasive and it is 
+possible some unusual cases could reveal bugs.  Please report any bugs found by filing a report. 
+
+Because of the column name changes, upgrading of all earlier versions of WebCollab is required 
+before using this version.  See upgrade motes below.
+
+The minimum version of PHP is now set at 7.0.0.  This allows several code enhancements and deletion of 
+legacy code that was required to support earlier PHP versions.
+
+Enjoy!
+
+-----
+
+
+* Setup Program *
+-----------------
+
+WebCollab has a web-based setup program.
+
+- After unpacking the files, point your web browser at:
+
+    http://your_site/webcollab-3.50/setup.php
+
+  (Replace 'your_site' with your site address).
+
+  ** You will need to make your /config/config.php file world writable **
+
+- Follow the on screen instructions.
+
+For more detailed instructions look in the /docs directory after unpacking.
+
+---
+
+WebCollab 3.50 requires PHP 7.0.0 (or higher).
+
+- The optional PHP mb_string library is required to be installed. 
+
+- The optional PHP OpenSSL library should be installed.
+
+
+* Database Compatibility for Upgrading *
+----------------------------------------
+
+Before attempting to run with any existing database records from a version earlier than WebCollab
+ 3.50 you need to upgrade your database.  This can be done automatically by the WebCollab software
+for any earlier version of WebCollab.
+
+Point your browser at:
+
+  http://your_site/webcollab-3.50/update.php
+
+(You need to replace 'your_site' with your site address).
+
+Enter a valid admin user name and password when prompted... Database upgrade is automatic.
+
+Backing up your database before upgrading is recommended.
+
+
+* Running Setup after an Upgrade *
+----------------------------------
+
+After an upgrade setup must be run to incorporate the new configuration changes.
+
+1. Open the file [webcollab]/config/config.php with your favourite text editor.  Find this line:
+
+   $WEB_CONFIG = "N";
+
+   It is near the top of the file.  Change "N" to "Y".
+
+2. Make sure the file world writable - or, at least writable by the webserver.
+
+3. Point your web browser at:
+
+    http://your_site/webcollab-3.50/setup.php
+
+4. Make sure to choose 'no' when prompted to create a new database....
+
+5. Follow the on screen instructions.
+
+
+* CHANGELOG *
+-------------
+
+*Bugfixes
+
+- Bugfix: Incorrect function call in smtp_auth (no error caused)
+
+- Bugfix: PHP 7.2 gives an error for using arrays created as strings in icalendar_todo.php
+
+- Bugfix: Change column 'admin' to 'user_admin' (admin is a reserved word in MySQL 8) (Thanks to: Sam Dodd)
+
+
+*Requirements
+
+- update minimum PHP to 7.0.0
+
+
+*Improvements
+
+- add token validation to archive
+
+- add token validation to contacts
+
+- refactor task_edit.php to handle archive menu
+
+- refactor contact_submit.php
+
+- refactor includes/time.php
+
+- change to random_bytes() for session and token generation
+
+- Add etag and better headers to rss
+
+- change column names in database tables to avoid reserved words in MySQL 8
+
+- cast delta_deadline as int in task_clone_submit.php 
+
+
+*Translations
+
+- update French translation (Thanks to: Martin Brait)
+
+- update Esperanto translation (Thanks to: Stella Lindblom)
+
+
+
+*Javascript Editor*
+-------------------
+
+The javascript editor is a modified version of code found at this URL:
+
+http://corpocrat.com/2008/08/15/free-wysiwyg-bbcode-editor-in-javascript/
+
+This code was obtained as 'free to use' public domain with no licence attached.
+
+
+*Silk Icons*
+------------
+
+WebCollab uses the Silk icons from the following site:
+
+http://www.famfamfam.com/lab/icons/silk/
+
+Thanks to Mark James for his permission for the icons to be used under the GPL v2.

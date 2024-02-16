@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+    	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <meta name="mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <meta name="apple-mobile-web-app-title" content="Reportes">
+
+    	<link href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en" rel="stylesheet">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <link rel="stylesheet" href="../mdl/material.indigo-blue.min.css">
+        <link rel="stylesheet" type="text/css" href="../css/estilos.css">
+        <!-- <link rel="shortcut icon" href="../images/raloy.ico"> -->
+    	<title>Reportes - AdBlue, S.A. de C.V.</title>
+    	<script src="../js/jquery.min.js"></script>
+        <style>
+        </style>
+    </head>
+    <body class="siic-body-login">
+        <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+    		<header class="mdl-layout__header">
+    			<div class="mdl-layout__header-row">
+    				<span class="mdl-layout-title">Reportes</span>
+    			</div>
+    		</header>
+            <main class= "mdl-layout__content">
+    			<div class="siic-home-session-card mdl-layout__tab-panel is-active">
+                    <section class="mdl-grid">
+                        <div class="mdl-cell mdl-cell--12-col mdl-grid">
+                            <div class="mdl-card mdl-shadow--2dp">
+                                <div class="siic-home-session-card__logo mdl-card__title">
+                                    <h2 class="mdl-card__title-text">Bienvenido</h2>
+                                </div>
+                                <div class="siic-frmlogin">
+                                    <form action="" id="frmlogin">
+                                        <div class="mdl-card__supporting-text">
+                                            Inicio de Sesión
+                                            <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                                                <input class="mdl-textfield__input" type="text" id="usuario"/>
+                                                <label class="mdl-textfield__label" for="usuario">Usuario</label>
+                                            </div>
+                                            <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                                                <input class="mdl-textfield__input" type="password" id="password"/>
+                                                <label class="mdl-textfield__label" for="password">Contraseña...</label>
+                                            </div>
+                                            <div class="siic-error"></div>
+                                        </div>
+                                        <div class="mdl-card__actions">
+                                            <button type="reset" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect siic-button" id="reset">Cancelar</button>
+                                            <button type="submit" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect siic-button" id="submit">Entrar</button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+    			</div>
+    		</main>
+		</div>
+        <script type="text/javascript" src="../mdl/material.min.js"></script>
+        <script type="text/javascript" src="../js/login.js"></script>
+    </body>
+</html>

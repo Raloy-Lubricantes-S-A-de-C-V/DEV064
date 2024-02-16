@@ -1,0 +1,14 @@
+[24-Feb-2021 16:18:11 America/Mexico_City] PHP Notice:  Undefined index: sessionInfo in /home/zarkruse/public_html/intranet/apps/mantenimiento/index.php on line 72
+[24-Feb-2021 16:18:11 America/Mexico_City] PHP Notice:  Undefined index: sessionInfo in /home/zarkruse/public_html/intranet/apps/mantenimiento/index.php on line 89
+[24-Feb-2021 16:18:11 America/Mexico_City] PHP Notice:  Undefined index: sessionInfo in /home/zarkruse/public_html/intranet/apps/mantenimiento/index.php on line 104
+[24-Feb-2021 16:18:11 America/Mexico_City] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on bool in /home/zarkruse/public_html/intranet/apps/mantenimiento/index.php:109
+Stack trace:
+#0 {main}
+  thrown in /home/zarkruse/public_html/intranet/apps/mantenimiento/index.php on line 109
+[03-Mar-2021 14:17:57 America/Mexico_City] PHP Notice:  Undefined index: sessionInfo in /home/zarkruse/public_html/intranet/apps/mantenimiento/index.php on line 72
+[03-Mar-2021 14:17:57 America/Mexico_City] PHP Notice:  Undefined index: sessionInfo in /home/zarkruse/public_html/intranet/apps/mantenimiento/index.php on line 89
+[03-Mar-2021 14:17:57 America/Mexico_City] PHP Notice:  Undefined index: sessionInfo in /home/zarkruse/public_html/intranet/apps/mantenimiento/index.php on line 104
+[03-Mar-2021 14:17:57 America/Mexico_City] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on bool in /home/zarkruse/public_html/intranet/apps/mantenimiento/index.php:109
+Stack trace:
+#0 {main}
+  thrown in /home/zarkruse/public_html/intranet/apps/mantenimiento/index.php on line 109

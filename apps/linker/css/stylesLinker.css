@@ -1,0 +1,390 @@
+#cuerpo section{
+    width:100%;
+    line-height: 30px;
+    clear:both;
+    display:block;
+    border-top:solid 1px #eae5e5;
+    padding:10px 0;
+    padding-bottom:10px;
+}
+
+input[type='text'],select{
+    border:none;
+    background:none;
+    border-bottom:solid 2px #333;
+}
+.input2Char{
+    float:left;
+    width:15px;
+    margin-left:2px;
+}
+.input4Char{
+    float:left;
+    width:30px;
+    margin-left:2px;
+}
+.input10Char{
+    float:left;
+    width:75px;
+    margin-left:2px;
+}
+input[type='number']{
+    border:none;
+    width:100px;
+    background:none;
+    border-bottom:solid 2px #333;
+}
+.numeric, .currency,.righted{
+    text-align:right !important;
+    padding:0 10px;
+}
+th, td { white-space: nowrap; }
+
+button{
+    background:#333;
+    color: rgba(226, 229, 237, 0.9) !important;
+    font-weight:bold;
+    min-width:120px;
+    min-height:30px;
+    border:none;
+    cursor:pointer;
+    margin:10px 0;
+}
+h1{
+    font-size:32pt;
+    font-weight:bold;
+    height:35px;
+}
+subH1{
+    margin:0;
+    font-size:22pt;
+    font-weight:bold;
+    color: #474747;
+}
+h2{
+    font-size:25pt;
+    color:#333;
+    width:100%;
+    display:block;
+    text-align: left;
+}
+
+textArea{
+    width:98%;
+    height:150px;
+    margin:0;
+    overflow:auto;  
+}
+input[type=number]{
+    text-align: right;
+}
+#mensajes{
+    position:fixed;
+    width:100%;
+    top:0;
+    left:0;
+    width:94%;
+    padding:5px 3%;
+    background: #666;
+    display:block;
+    z-index:99999999;
+    height:120px;
+    color:#fff;
+}
+#mainMaterialMain{
+    width:100%;
+    min-height: 300px;
+}
+#seccMaterial{
+    width:100%;
+    box-sizing: border-box;
+    padding:7px !important;
+    background: #f4f2f2;
+    display:block;
+}
+#seccMaterial #matOpts{
+    box-sizing: border-box;
+    width:62%;
+    padding:12px 0 0 0;
+    float:left;
+}
+#matButtons{
+    box-sizing: border-box;
+    width:38%;
+    padding:0 1%;
+    float:right;
+    box-sizing: border-box;
+}
+#matOpts .selectorMat{
+    float:left;
+    display:block;
+    width:18%;
+    box-sizing:border-box;
+    padding-right:10px;
+    text-align:left;
+}
+.selectorMat label{
+    width:50%;
+    float:left;
+    text-align:left;
+    padding-right:5px;
+    box-sizing: border-box;
+}
+.selectorMat input[type='text']{
+    width:50%;
+    float:left;
+    box-sizing: border-box;
+}
+#matOpts .selectorOC{
+    float:left;
+    display:block;
+    /*width:55%;*/
+    box-sizing:border-box;
+    padding-right:10px;
+    text-align:left;
+}
+.selectorOC label{
+    float:left;
+    text-align:left;
+    padding-right:5px;
+    box-sizing: border-box;
+}
+.selectorOC select{
+    float:left;
+    box-sizing: border-box;
+}
+.selectorB{
+    float:left;
+    box-sizing: border-box;
+}
+.selectorC{
+    margin-left:5px;
+    float:left;
+    text-align: center;
+    padding: 0;
+    margin-top: 10px;
+    background:none;
+    box-sizing: border-box;
+}
+#toggleEdit{
+    cursor:pointer;
+}
+#menuGral{
+    float:right;
+    width:145px;
+    background: rgba(219, 217, 217, 0.5) !important;
+    /*height:155px;*/
+    z-index:9999;
+    margin-top:-25px;
+}
+#menuGral ul{
+    list-style-type: none;
+    display:block;
+    width:145px;
+    padding:0;
+    margin:5px 0; 
+}
+#menuGral li{
+    width:135px;
+    height:25px;
+    padding-left:10px;
+    font-size: 12px;
+    text-align:left;
+}
+#menuGral li:hover{
+    background: rgba(219, 217, 217, 0.8) !important;
+    cursor:pointer;
+}
+#matInfoCont{
+    width:61%;
+    float:left;
+    height:180px;
+    margin-right:1%;
+}
+#resumenCosto{
+    width:38%;
+    float:right;
+    margin:0;
+    text-align:left;
+}
+#mainMaterialContainer label{
+    display:inline-block;
+    width:100px;
+}
+#showLinked{
+    float:left;
+}
+#getMaterialBtn{
+    width:100%;
+}
+#materialInfo{
+    width:100%;
+    text-align: left;
+    border-collapse: collapse;
+    border:none;
+}
+#materialInfo tr,#resumenCosto table tr{
+    border:none;
+}
+.tdLabel{
+    width:50px;
+    max-width:80px;
+    font-weight:bold;
+    color:#333;
+}
+#buscaFacturas{
+    width:100%;
+    display:block;
+    margin:0;
+    background:#f8f7f7;
+    padding: 0;
+    text-align:left;
+}
+#selectorContainer{
+    width:98%;
+    text-align:center;
+    float:left;
+    padding:1%;
+}
+#selectorContainer div{
+    width:100%;
+    display:block;
+    margin:0;
+    padding:0;
+    text-align:left;
+    clear:both;
+}
+#selectorContainer select,#selectorContainer input[type='number']{
+    width:160px;
+}
+#supplierInvoiceInfo{
+    overflow:auto;
+    width:100%;
+    height:200px;
+}
+
+.clasifGasto{
+    width:100px !important;
+}
+table{
+    width:100%;
+    border-collapse: collapse;
+    font-size: 10.5px;
+    min-height:100%;
+}
+table th{
+    text-align:center;
+    padding:0 7px;
+    height:30px;
+}
+table tr{
+    border:solid 1px #eae5e5;
+}
+table td{
+    padding:0 7px;
+}
+
+tbody{
+    min-height:200px;
+}
+tfoot,thead{
+    background: #f4f2f2;
+    font-weight:bold;
+}
+.actions{
+    cursor:pointer !important;
+
+}
+#facturasBusquedaCont{
+    max-height:250px;
+    width:100%;
+    overflow:auto;
+}
+button i{
+    color:rgba(226, 229, 237, 0.9) !important;
+}
+#facturasBusquedaCont label{
+    width:200px;
+    display:inline-block;
+}
+#inputs div{
+    width:50%;float:left;text-align: left;
+}
+#inputs input{
+    padding-left:5px;
+    box-sizing: border-box;
+}
+.redLabel{
+    background: #ffd700;
+}
+.total{
+    font-weight:bold;
+}
+table.dataTable thead th,
+table.dataTable tbody th,
+table.dataTable tfoot th,
+table.dataTable tbody td {
+    white-space: normal;
+    word-break: normal;
+    word-wrap: break-word;
+    width:10% !important;
+}
+#fechaZarpe{
+    width:100%;
+}
+#fechaZarpe input{
+    width:42%;
+    margin-right:1%;
+}
+#nomUsuarioCont{
+    width:100%;
+}
+#nomUsuario{
+    float:right;
+    margin-right:25px;
+    text-align:right;
+    height:25px;
+}
+.siic-error{
+    width:100%;
+}
+#partidasEnlazadas{
+    border-top: solid 1px #eae5e5;
+    margin-top:10px;
+    padding-top:10px;
+}
+#partidasEnlazadasBox{
+    width:100%;
+    height:350px;
+    overflow:auto;
+    margin:0;
+}
+#tabs{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+.boxTab{
+    display: inline-block;
+    padding: 3px 15px;
+    margin:0;
+    cursor: pointer;
+    font-size:8pt;
+    font-weight:bold;
+    color:#333;
+    text-align:left;
+    /*border: solid 1px #eae5e5;*/
+    background: none;
+    color: #222;
+}
+.boxTab:hover{
+    background:#333333;
+    color:#fff;
+}
+.current{
+    background: #F4F2F2;
+    color:#333333;
+}
+.boxContent{
+    display:none;
+}

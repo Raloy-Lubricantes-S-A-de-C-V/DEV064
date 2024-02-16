@@ -2,7 +2,7 @@
 header('Content-Type: text/html; charset=utf-8');
 date_default_timezone_set('America/Mexico_City');
 
-require_once($_SERVER['DOCUMENT_ROOT'] . "/today_zk/php/session_check.php");
+require_once($_SERVER['DOCUMENT_ROOT'] . "/today.zar-kruse.com//php/session_check.php");
 $check = session_check($_GET["t"]);
 if ($check != 1) {
     echo json_encode(array("status" => "0", "error" => "Sesión expirada"));

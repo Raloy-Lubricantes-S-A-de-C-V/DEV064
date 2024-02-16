@@ -6,7 +6,7 @@ $title = "Historial de Resultados";
 $path = "<a href='index.php?t=" . $_GET["t"] . "'>Merit</a> / " . $title;
 $modulo = 20;
 
-require_once($_SERVER['DOCUMENT_ROOT']."/today_zk/php/session_check.php");
+require_once($_SERVER['DOCUMENT_ROOT']."/today.zar-kruse.com//php/session_check.php");
 if (session_check($_GET["t"]) != 1) {
     header('Location: /intranet/login.html?app=today/index.php');
 }

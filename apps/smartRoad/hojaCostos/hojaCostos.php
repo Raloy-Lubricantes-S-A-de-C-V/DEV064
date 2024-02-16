@@ -6,7 +6,7 @@ date_default_timezone_set('America/Mexico_City');
 
 
 
-$title = "Ruta";/today_zk/php/
+$title = "Ruta";/today.zar-kruse.com//php/
 
 $path = "SmartRoad / " . $title;
 

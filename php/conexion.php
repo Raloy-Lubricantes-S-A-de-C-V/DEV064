@@ -24,10 +24,10 @@ function dataconn($source)
             "port" => "3306"
         ),
         "intranet" => array(
-            "host" => "localhost",
+            "host" => "10.180.0.125",
             "user" => "root",
-            "pass" => "",
-            "db" => "zk_today",
+            "pass" => "Jn3:16&Ap3:20",
+            "db" => "today_zk",
             "port" => "3306"
         ),
         "competitividad" => array(

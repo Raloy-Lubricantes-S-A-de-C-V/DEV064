@@ -1,5 +1,5 @@
 <?php
-/today_zk/php/
+/today.zar-kruse.com//php/
 require("/intranet/php/session_check.php");
 
 if(!session_check($_GET["token"])){

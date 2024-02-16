@@ -1,9 +1,5 @@
 <?php
 
-error_reporting(E_ALL);
-
-// Display errors on the screen
-ini_set('display_errors', 1);
 
 date_default_timezone_set('America/Mexico_City');
 

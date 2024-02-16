@@ -1,7 +1,5 @@
 <?php
-ini_set('display_errors', 1);
-ini_set('display_startup_errors', 1);
-error_reporting(E_ALL);
+
 //$conn = mysql_connect("dbp.raloy.com.mx", "hyescas", "dub+but");
 //$conn2 = mysql_connect("dbp.raloy.com.mx:3385", "adblue", "Veoos133");
 $connRaloy = array("server" => "34.68.173.102", "user" => "hyescas", "password" => "dub+but", "db" => "scp9000", "port" => "3306");
@@ -41,8 +39,8 @@ function dataconn($source)
             "port" => "3306"
         ),
         "odoozar" => "
-            host = 70.35.200.186    
-            user =  zar-kruse 
+            host = 70.35.200.186 
+            user =  zar-kruse
             password = NdRrsLr4yUvb
             dbname = Zarkruse_V13_Productivo_R2 
             port = 8069

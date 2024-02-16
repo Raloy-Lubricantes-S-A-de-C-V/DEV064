@@ -46,7 +46,7 @@ if (!in_array($modulo, $_SESSION["sessionInfo"]["idsModulos"])) {
 
     <!--Propias-->
     <script type="text/javascript" src="js/functions_archive.js?v=1.0"></script>
-    <link rel="stylesheet" href="/intranet/css/sIndex.css">
+    <link rel="stylesheet" href="/today_zk/css/sIndex.css">
     <link rel="stylesheet" href="css/style.css">
 
 </head>

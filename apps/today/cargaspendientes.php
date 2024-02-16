@@ -1,4 +1,5 @@
 <?php
+
 header('Content-Type: text/html; charset=utf-8');
 date_default_timezone_set('America/Mexico_City');
 
@@ -49,7 +50,7 @@ if (!in_array($modulo, $_SESSION["sessionInfo"]["idsModulos"])) {
 
     <!--Propias-->
     <script type="text/javascript" src="js/functions_cargas.js?v=1.1.3"></script>
-    <link rel="stylesheet" href="/intranet/css/sIndex.css">
+    <link rel="stylesheet" href="/today_zk/css/sIndex.css">
     <link rel="stylesheet" href="css/style.css?v=1.2">
 
 </head>

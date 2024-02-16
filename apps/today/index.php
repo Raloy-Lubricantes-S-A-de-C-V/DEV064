@@ -56,8 +56,8 @@ $query = "  SELECT
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
     <!--Propias-->
-    <link rel="stylesheet" href="/intranet/css/sIndex.css">
-    <script type="text/javascript" src="/intranet/js/findex.js?v=tkn"></script>
+    <link rel="stylesheet" href="/today_zk/css/sIndex.css">
+    <script type="text/javascript" src="/today_zk/js/findex.js?v=tkn"></script>
 
     <style>
         html,
@@ -80,7 +80,7 @@ $query = "  SELECT
 
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark px-3 m-0 w-100" style="background:#024a74;">
-        <a class="navbar-brand" href="/intranet/index.php">
+        <a class="navbar-brand" href="/today_zk/index.php">
             <img src="/today_zk/img/zarkruse-logo-light.svg" style="height:30px;padding-right:10px;" alt="SkyBlue" />
         </a>
         <div class="navbar-brand">
@@ -101,7 +101,7 @@ $query = "  SELECT
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                         <div class="dropdown-item" href="#"><?php echo $_SESSION["sessionInfo"]["sessionDate"]; ?></div>
                         <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="/intranet/password_change.php"><i class="fa fa-key" style="font-size:0.8em;"></i> Cambiar Password</a>
+                        <a class="dropdown-item" href="/today_zk/password_change.php"><i class="fa fa-key" style="font-size:0.8em;"></i> Cambiar Password</a>
                         <a class="dropdown-item" href="/today_zk/login.html"><i class="fa fa-sign-out-alt" style="font-size:0.8em;"></i> Cerrar Sesión</a>
                     </div>
                 </div>

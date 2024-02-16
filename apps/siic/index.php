@@ -30,7 +30,7 @@ if (!in_array($modulo, $_SESSION["sessionInfo"]["idsModulos"])) {
     <title><?php echo $title; ?></title>
 
     <!--jQuery-->
-    <script type="text/javascript" src="/intranet/libs/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="/today_zk/libs/jquery-3.2.1.min.js"></script>
 
     <!--Fonts Awesome-->
     <link rel="stylesheet" href="../../libs/fontawesome-free-5.4.2/css/all.min.css">
@@ -53,7 +53,7 @@ if (!in_array($modulo, $_SESSION["sessionInfo"]["idsModulos"])) {
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark px-3 m-0 w-100" style="background:#024a74;">
         <a class="navbar-brand" href="/intranet/index.php">
-            <img src="/intranet/img/zarkruse-logo-light.svg" style="height:30px;padding-right:10px;" alt="SkyBlue" />
+            <img src="/today_zk/img/zarkruse-logo-light.svg" style="height:30px;padding-right:10px;" alt="SkyBlue" />
         </a>
         <div class="navbar-brand">
             <?php echo $path; ?>

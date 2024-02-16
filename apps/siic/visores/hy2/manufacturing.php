@@ -28,8 +28,8 @@ if (!isset($_SESSION["sessionInfo"]) || !in_array(3, $_SESSION["sessionInfo"]["i
     <!-- <link rel="stylesheet" media="screen" type="text/css" href="https://storage.googleapis.com/code.getmdl.io/1.0.5/material.min.css">
         <script src="https://storage.googleapis.com/code.getmdl.io/1.0.5/material.min.js"></script> -->
 
-    <link href="/intranet/libs/bootstrap-4.3.1/css/bootstrap.min.css" rel="stylesheet">
-    <script type="text/javascript" src="/intranet/libs/bootstrap-4.3.1/js/bootstrap.min.js"></script>
+    <link href="/today_zk/libs/bootstrap-4.3.1/css/bootstrap.min.css" rel="stylesheet">
+    <script type="text/javascript" src="/today_zk/libs/bootstrap-4.3.1/js/bootstrap.min.js"></script>
 
     <!--fonts-->
     <link href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=es" rel="stylesheet">

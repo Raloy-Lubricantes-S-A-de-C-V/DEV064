@@ -41,7 +41,7 @@ $(document).ready(function() {
                         pass: $("#jsonform-1-elt-oldpass").val(),
                         npass: $("#jsonform-1-elt-newpass1").val(),
                     }
-                    $.get("/intranet/php/fPasswordChange.php", param, function(response) {
+                    $.get("/today_zk/php/fPasswordChange.php", param, function(response) {
                         if (response == "1") {
                             $("#res").html("Listo");
                             location.href = "/intranet/login.html";

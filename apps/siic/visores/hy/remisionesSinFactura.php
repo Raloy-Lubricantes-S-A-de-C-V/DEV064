@@ -71,7 +71,7 @@ if (!in_array($modulo, $_SESSION["sessionInfo"]["idsModulos"])) {
     </div>
     <nav class="navbar navbar-expand-lg navbar-dark px-3 m-0 w-100" style="background:#024a74;">
         <a class="navbar-brand" href="/intranet/index.php">
-            <img src="/intranet/img/zarkruse-logo-light.svg" style="height:30px;padding-right:10px;" alt="SkyBlue" />
+            <img src="/today_zk/img/zarkruse-logo-light.svg" style="height:30px;padding-right:10px;" alt="SkyBlue" />
         </a>
         <div class="navbar-brand">
             <?php echo $path; ?>

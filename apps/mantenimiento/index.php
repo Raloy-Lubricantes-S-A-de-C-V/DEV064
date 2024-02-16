@@ -11,19 +11,19 @@ if (!isset($_SESSION["sessionInfo"])) {
 
 <head>
     <title>INTRANET</title>
-    <link rel="icon" type="image/png" href="/intranet/img/iconzk.png" />
+    <link rel="icon" type="image/png" href="/today_zk/img/iconzk.png" />
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!--jQuery-->
-    <script type="text/javascript" src="/intranet/libs/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="/today_zk/libs/jquery-3.2.1.min.js"></script>
 
     <!--Fonts Awesome-->
-    <link rel="stylesheet" href="/intranet/libs/fontawesome-free-5.4.2/css/all.min.css">
+    <link rel="stylesheet" href="/today_zk/libs/fontawesome-free-5.4.2/css/all.min.css">
 
     <!--Bootstrap-->
-    <link rel="stylesheet" href="/intranet/libs/bootstrap-4.3.1/css/bootstrap.min.css">
-    <script type="text/javascript" src="/intranet/libs/bootstrap-4.3.1/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="/today_zk/libs/bootstrap-4.3.1/css/bootstrap.min.css">
+    <script type="text/javascript" src="/today_zk/libs/bootstrap-4.3.1/js/bootstrap.bundle.min.js"></script>
 
 
     <!--Propias-->
@@ -54,7 +54,7 @@ if (!isset($_SESSION["sessionInfo"])) {
 
     <nav class="navbar navbar-expand-lg navbar-dark" style="background:#024a74;">
         <a class="navbar-brand ml-3" href="/intranet/index.php">
-            <img src="/intranet/img/zarkruse-logo-light.svg" style="height:30px;padding-right:10px;" alt="SkyBlue"/>
+            <img src="/today_zk/img/zarkruse-logo-light.svg" style="height:30px;padding-right:10px;" alt="SkyBlue"/>
         </a>
         <a class="navbar-brand ml-3" href="#">
             LogBook

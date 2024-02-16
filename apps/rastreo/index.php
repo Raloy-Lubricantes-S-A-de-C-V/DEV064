@@ -3,7 +3,7 @@
 <html>
 
 <head>
-    <script type="text/javascript" src="/intranet/libs/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="/today_zk/libs/jquery-3.2.1.min.js"></script>
     <script type="text/javascript" src="js/fRastreo.js"></script>
     <!-- bootstrap -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -131,7 +131,7 @@
     <!-- Header -->
     <header class="d-flex align-items-center p-2 m-0 w-100 bg-light" style='color:#301968;'>
         <h1 class="px-2">Rastreo de Pedidos Granel</h1>
-        <img class="ml-auto px-2" src="/intranet/img/Logo Skyblue horizontal.png" alt="SkyBlue" style='height:60px;' /></a>
+        <img class="ml-auto px-2" src="/today_zk/img/Logo Skyblue horizontal.png" alt="SkyBlue" style='height:60px;' /></a>
     </header>
 
     <div class="container-fluid">

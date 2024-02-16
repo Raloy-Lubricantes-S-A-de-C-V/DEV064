@@ -44,7 +44,7 @@ $(document).ready(function() {
                     $.get("/today.zar-kruse.com//php/fPasswordChange.php", param, function(response) {
                         if (response == "1") {
                             $("#res").html("Listo");
-                            location.href = "/intranet/login.html";
+                            location.href = "/today_zk/login.html";
                         } else {
                             $("#res").html("Error");
                         }

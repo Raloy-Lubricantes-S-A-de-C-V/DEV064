@@ -1,5 +1,6 @@
 <?php
 
+
 header('Content-Type: text/html; charset=utf-8');
 date_default_timezone_set('America/Mexico_City');
 
@@ -7,7 +8,7 @@ $title = "Today";
 $path = $title;
 $modulo = 9;
 
-require_once($_SERVER['DOCUMENT_ROOT']."/today.zar-kruse.com/php/session_check.php");
+require_once($_SERVER['DOCUMENT_ROOT']."/today_zk/php/session_check.php");
 if (session_check($_GET["t"]) != 1) {
     header('Location: /today_zk/login.html?app=today/index.php');
 }
@@ -101,7 +102,7 @@ $query = "  SELECT
                         <div class="dropdown-item" href="#"><?php echo $_SESSION["sessionInfo"]["sessionDate"]; ?></div>
                         <div class="dropdown-divider"></div>
                         <a class="dropdown-item" href="/intranet/password_change.php"><i class="fa fa-key" style="font-size:0.8em;"></i> Cambiar Password</a>
-                        <a class="dropdown-item" href="/intranet/login.html"><i class="fa fa-sign-out-alt" style="font-size:0.8em;"></i> Cerrar Sesión</a>
+                        <a class="dropdown-item" href="/today_zk/login.html"><i class="fa fa-sign-out-alt" style="font-size:0.8em;"></i> Cerrar Sesión</a>
                     </div>
                 </div>
             </div>

@@ -59,7 +59,7 @@ if (!isset($_SESSION["sessionInfo"])) {
                             <a class="dropdown-item" href="#"><i class="fa fa-cog" style="font-size:0.8em;"></i> Configuración</a>
                             <a class="dropdown-item" href="password_change.php"><i class="fa fa-key" style="font-size:0.8em;"></i> Cambiar Password</a>
                             <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="/intranet/login.html"><i class="fa fa-sign-out-alt" style="font-size:0.8em;"></i> Cerrar Sesión</a>
+                            <a class="dropdown-item" href="/today_zk/login.html"><i class="fa fa-sign-out-alt" style="font-size:0.8em;"></i> Cerrar Sesión</a>
                         </div>
                     </div>
                 </div>

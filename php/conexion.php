@@ -1,4 +1,7 @@
 <?php
+ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
+error_reporting(E_ALL);
 //$conn = mysql_connect("dbp.raloy.com.mx", "hyescas", "dub+but");
 //$conn2 = mysql_connect("dbp.raloy.com.mx:3385", "adblue", "Veoos133");
 $connRaloy = array("server" => "34.68.173.102", "user" => "hyescas", "password" => "dub+but", "db" => "scp9000", "port" => "3306");
@@ -24,10 +27,10 @@ function dataconn($source)
             "port" => "3306"
         ),
         "intranet" => array(
-            "host" => "10.180.0.125",
+            "host" => "localhost",
             "user" => "root",
-            "pass" => "Jn3:16&Ap3:20",
-            "db" => "today_zk",
+            "pass" => "",
+            "db" => "zk_today",
             "port" => "3306"
         ),
         "competitividad" => array(

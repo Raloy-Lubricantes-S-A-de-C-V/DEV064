@@ -1,9 +1,13 @@
 <?php
 
+error_reporting(E_ALL);
+
+// Display errors on the screen
+ini_set('display_errors', 1);
 
 date_default_timezone_set('America/Mexico_City');
 
-require_once($_SERVER['DOCUMENT_ROOT'] . "/today.zar-kruse.com/php/conexion.php");
+require_once($_SERVER['DOCUMENT_ROOT'] . "/today_zk/php/conexion.php");
 
 
 

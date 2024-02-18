@@ -3,7 +3,7 @@
 
 date_default_timezone_set('America/Mexico_City');
 
-require_once($_SERVER['DOCUMENT_ROOT'] . "/today_zk/php/conexion.php");
+require_once($_SERVER['DOCUMENT_ROOT'] . "/intranet//php/conexion.php");
 
 
 

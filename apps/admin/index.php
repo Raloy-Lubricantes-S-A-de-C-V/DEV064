@@ -18,7 +18,7 @@ require_once($_SERVER['DOCUMENT_ROOT']."/intranet/php/session_check.php");
 
 if (session_check($_GET["t"]) != 1) {
 
-    header('Location: /today_zk/login.html?app=today/index.php');
+    header('Location: /intranet/login.html?app=today/index.php');
 
 }
 
@@ -26,7 +26,7 @@ if (session_check($_GET["t"]) != 1) {
 
 if (!in_array($modulo, $_SESSION["sessionInfo"]["idsModulos"])) {
 
-    header('Location: /today_zk/index.php?t=' . $_GET["t"]);
+    header('Location: /intranet/index.php?t=' . $_GET["t"]);
 
 }
 
@@ -34,10 +34,10 @@ if (!in_array($modulo, $_SESSION["sessionInfo"]["idsModulos"])) {
 
 $query = "  SELECT 
 
-                modulos.id_modulo idmod,/today_zk/img/
+                modulos.id_modulo idmod,/intranet/img/
 
                 nombreModulo nommod,
-/today_zk/img/
+/intranet/img/
                 descModulo descmod,
 
                 relURL urlmod,
@@ -79,7 +79,7 @@ $query = "  SELECT
     <link rel="icon" href="/intranet/img/route.png" />
 
     <link rel="apple-touch-icon" sizes="72x72" href="/img/route.png" />
-/today_zk/img/
+/intranet/img/
     <meta name="apple-mobile-web-app-capable" content="yes">
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -90,13 +90,13 @@ $query = "  SELECT
 
     <!--jQuery-->
 
-    <script type="text/javascript" src="/today_zk/libs/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="/intranet/libs/jquery-3.2.1.min.js"></script>
 
 
 
     <!--Fonts Awesome-->
 
-    <link rel="stylesheet" href="/today_zk/libs/fontawesome-free-5.4.2/css/all.min.css">
+    <link rel="stylesheet" href="/intranet/libs/fontawesome-free-5.4.2/css/all.min.css">
 
 
 
@@ -119,7 +119,7 @@ $query = "  SELECT
     <style>
 
         html,
-/today_zk/img/
+/intranet/img/
         body {
 
             overscroll-behavior: none;
@@ -202,7 +202,7 @@ $query = "  SELECT
 
                         <a class="dropdown-item" href="/intranet/password_change.php"><i class="fa fa-key" style="font-size:0.8em;"></i> Cambiar Password</a>
 
-                        <a class="dropdown-item" href="/today_zk/login.html"><i class="fa fa-sign-out-alt" style="font-size:0.8em;"></i> Cerrar Sesión</a>
+                        <a class="dropdown-item" href="/intranet/login.html"><i class="fa fa-sign-out-alt" style="font-size:0.8em;"></i> Cerrar Sesión</a>
 
                     </div>
 

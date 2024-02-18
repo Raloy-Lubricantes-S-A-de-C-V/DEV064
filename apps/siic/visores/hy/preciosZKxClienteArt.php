@@ -18,7 +18,7 @@ require_once($_SERVER['DOCUMENT_ROOT']."/intranet/php/session_check.php");
 
 if (session_check($_GET["t"]) != 1) {
 
-    header('Location: /today_zk/login.html?app=siic/index.php');
+    header('Location: /intranet/login.html?app=siic/index.php');
 
 }
 
@@ -26,7 +26,7 @@ if (session_check($_GET["t"]) != 1) {
 
 if (!in_array($modulo, $_SESSION["sessionInfo"]["idsModulos"])) {
 
-    header('Location: /today_zk/index.php?t=' . $_GET["t"]);
+    header('Location: /intranet/index.php?t=' . $_GET["t"]);
 
 }
 
@@ -69,7 +69,7 @@ if (!in_array($modulo, $_SESSION["sessionInfo"]["idsModulos"])) {
     <link href="../../../../libs/webdatarocks-1.0.2/theme/skyblue/webdatarocks.css" rel="stylesheet" />
 
     <script src="../../../../libs/webdatarocks-1.0.2/webdatarocks.toolbar.min.js"></script>
-/today_zk/img/
+/intranet/img/
     <script src="../../../../libs/webdatarocks-1.0.2/webdatarocks.js"></script>
 
 
@@ -182,7 +182,7 @@ if (!in_array($modulo, $_SESSION["sessionInfo"]["idsModulos"])) {
 
                         <a class="dropdown-item" href="/intranet/password_change.php"><i class="fa fa-key" style="font-size:0.8em;"></i> Cambiar Password</a>
 
-                        <a class="dropdown-item" href="/today_zk/login.html"><i class="fa fa-sign-out-alt" style="font-size:0.8em;"></i> Cerrar Sesión</a>
+                        <a class="dropdown-item" href="/intranet/login.html"><i class="fa fa-sign-out-alt" style="font-size:0.8em;"></i> Cerrar Sesión</a>
 
                     </div>
 

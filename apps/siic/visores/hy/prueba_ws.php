@@ -2,7 +2,7 @@
 
 
 
-<head>/today_zk/libs/
+<head>/intranet/libs/
 
     <!--jQuery-->
 

@@ -6,13 +6,13 @@ $title = "Archivo de Cargas";
 $path = "<a href='index.php'>Today</a> / " . $title;
 $modulo = 17;
 
-require_once($_SERVER['DOCUMENT_ROOT']."/today_zk/php/session_check.php");
+require_once($_SERVER['DOCUMENT_ROOT']."/intranet/php/session_check.php");
 if (session_check($_GET["t"]) != 1) {
-    header('Location: /today_zk/login.html?app=today/index.php');
+    header('Location: /intranet/login.html?app=today/index.php');
 }
 
 if (!in_array($modulo, $_SESSION["sessionInfo"]["idsModulos"])) {
-    header('Location: /today_zk/index.php?t=' . $_GET["t"]);
+    header('Location: /intranet/index.php?t=' . $_GET["t"]);
 }
 ?>
 <!DOCTYPE html>
@@ -46,7 +46,7 @@ if (!in_array($modulo, $_SESSION["sessionInfo"]["idsModulos"])) {
 
     <!--Propias-->
     <script type="text/javascript" src="js/functions_archive.js?v=1.0"></script>
-    <link rel="stylesheet" href="/today_zk/css/sIndex.css">
+    <link rel="stylesheet" href="/intranet/css/sIndex.css">
     <link rel="stylesheet" href="css/style.css">
 
 </head>
@@ -109,7 +109,7 @@ if (!in_array($modulo, $_SESSION["sessionInfo"]["idsModulos"])) {
         </div>
         <nav class="navbar navbar-expand-lg navbar-dark px-3 m-0 w-100" style="background:#024a74;">
             <a class="navbar-brand" href="/intranet/index.php">
-                <img src="/today_zk/img/zarkruse-logo-light.svg" style="height:30px;padding-right:10px;" alt="SkyBlue" />
+                <img src="/intranet/img/zarkruse-logo-light.svg" style="height:30px;padding-right:10px;" alt="SkyBlue" />
             </a>
             <div class="navbar-brand" href="#">
                 <?php echo $path; ?>
@@ -130,7 +130,7 @@ if (!in_array($modulo, $_SESSION["sessionInfo"]["idsModulos"])) {
                             <div class="dropdown-item" href="#"><?php echo $_SESSION["sessionInfo"]["sessionDate"]; ?></div>
                             <div class="dropdown-divider"></div>
                             <a class="dropdown-item" href="/intranet/password_change.php"><i class="fa fa-key" style="font-size:0.8em;"></i> Cambiar Password</a>
-                            <a class="dropdown-item" href="/today_zk/login.html"><i class="fa fa-sign-out-alt" style="font-size:0.8em;"></i> Cerrar Sesión</a>
+                            <a class="dropdown-item" href="/intranet/login.html"><i class="fa fa-sign-out-alt" style="font-size:0.8em;"></i> Cerrar Sesión</a>
                         </div>
                     </div>
                 </div>

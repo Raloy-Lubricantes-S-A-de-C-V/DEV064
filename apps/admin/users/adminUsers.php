@@ -18,7 +18,7 @@ require_once($_SERVER['DOCUMENT_ROOT']."/intranet/php/session_check.php");
 
 if (session_check($_GET["t"]) != 1) {
 
-    header('Location: /today_zk/login.html?app=today/index.php');
+    header('Location: /intranet/login.html?app=today/index.php');
 
 }
 
@@ -26,7 +26,7 @@ if (session_check($_GET["t"]) != 1) {
 
 if (!in_array($modulo, $_SESSION["sessionInfo"]["idsModulos"])) {
 
-    header('Location: /today_zk/index.php?t=' . $_GET["t"]);
+    header('Location: /intranet/index.php?t=' . $_GET["t"]);
 
 }
 
@@ -59,7 +59,7 @@ $mysqli->set_charset("utf8");
 <head>
 
     <title>Usuarios</title>
-/today_zk/img/
+/intranet/img/
     <link rel="icon" type="image/png" href="../../../img/today.png" />
 
     <meta charset="UTF-8">
@@ -162,7 +162,7 @@ $mysqli->set_charset("utf8");
 
                         <a class="dropdown-item" href="/intranet/password_change.php"><i class="fa fa-key" style="font-size:0.8em;"></i> Cambiar Password</a>
 
-                        <a class="dropdown-item" href="/today_zk/login.html"><i class="fa fa-sign-out-alt" style="font-size:0.8em;"></i> Cerrar Sesión</a>
+                        <a class="dropdown-item" href="/intranet/login.html"><i class="fa fa-sign-out-alt" style="font-size:0.8em;"></i> Cerrar Sesión</a>
 
                     </div>
 

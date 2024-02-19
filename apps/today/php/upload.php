@@ -1,5 +1,6 @@
 <?php
-
+//error_reporting(E_ALL);
+//ini_set('display_errors', 1);
 date_default_timezone_set('America/Mexico_City');
 header('Content-Type: text/html; charset=utf-8');
 $fase = $_GET["fase"];
@@ -10,7 +11,7 @@ echo $response;
 function rootDirectory()
 {
     $rootDirectory = $_SERVER['DOCUMENT_ROOT'] . "/intranet/uploads";
-    $absolutePath= "https://".$_SERVER['SERVER_NAME']. "/intranet/uploads";
+    $absolutePath= "http://".$_SERVER['SERVER_NAME']. "/intranet/uploads";
     return array($rootDirectory,$absolutePath);
 }
 function upload()
@@ -78,6 +79,7 @@ function getFilesRemision()
     $path=$parentDir[1] . "/".$subdir;
     $respuesta["dir"] = $directory;
     $remisiones = array_diff(scandir($directory . "/remisiones"), array('..', '.'));
+//var_dump($remisiones);
     $aptIns = array_diff(scandir($directory . "/apt_ins"), array('..', '.'));
     $respuesta["status"] = 1;
     foreach ($remisiones as $filename) {

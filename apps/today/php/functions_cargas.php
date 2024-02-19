@@ -1,5 +1,6 @@
 <?php
-
+//error_reporting(E_ALL);
+//ini_set('display_errors', 1);
 header('Content-Type: text/html; charset=utf-8');
 date_default_timezone_set('America/Mexico_City');
 
@@ -1093,7 +1094,7 @@ function uploadFile()
     if (0 < $_FILES['file']['error']) {
         return 'Error: ' . $_FILES['file']['error'] . '<br>';
     } else {
-        move_uploaded_file($_FILES['file']['tmp_name'], 'https://suministroconfiable.com/intranet/uploads/today/' . $_FILES['file']['name']);
+        move_uploaded_file($_FILES['file']['tmp_name'], 'http://10.180.0.125/intranet/intranet/uploads/today/' . $_FILES['file']['name']);
         return "success";
     }
 }

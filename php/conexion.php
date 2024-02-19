@@ -24,10 +24,10 @@ function dataconn($source)
             "db" => "zk_zcp",
             "port" => "3306"
         ),
-        "intranet" => array(
-            "host" => "localhost",
-            "user" => "root",
-            "pass" => "",
+         "intranet" => array(
+            "host" => "34.134.239.97",
+            "user" => "zarkruse",
+            "pass" => "Totich182308",
             "db" => "zk_today",
             "port" => "3306"
         ),

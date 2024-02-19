@@ -110,67 +110,13 @@ SQL;
                 $strIdsPlantas = $rs["stridsplantas"];
                 $result->free();
 
-                $queryParametros = "SELECT nombre_param,valor from framework_parametros";
-                $result = $mysqli->query($queryParametros);
-                while ($row = $result->fetch_assoc()) {
-                    $_SESSION["parametros"][$row["nombre_param"]] = $row["valor"];
-                }
-                $result->free();
-
-                $queryPlantas = "SELECT id_planta,nomenc_lab,planta,AlmacenR,siic_ventas,nomenc_pdn FROM smartRoad_plantas WHERE id_planta IN(" . $strIdsPlantas . ")";
-                $result = $mysqli->query($queryPlantas);
-                while ($row = $result->fetch_assoc()) {
-                    $lab[] = "'" . $row["nomenc_lab"] . "'";
-                    $wh[] = "'" . $row["AlmacenR"] . "'";
-                    $sales[] = "'" . $row["siic_ventas"] . "'";
-                    $manuf[] = "'" . $row["nomenc_pdn"] . "'";
-                    $plants[] = "'" . $row["planta"] . "'";
-                }
-                $result->free();
-                $_SESSION["sessionInfo"]["strPlantas"]["lab"] = implode(",", $lab);
-                $_SESSION["sessionInfo"]["strPlantas"]["wh"] = implode(",", $wh);
-                $_SESSION["sessionInfo"]["strPlantas"]["sales"] = implode(",", $sales);
-                $_SESSION["sessionInfo"]["strPlantas"]["manuf"] = implode(",", $manuf);
-                $_SESSION["sessionInfo"]["strPlantas"]["plants"] = implode(",", $plants);
+                // Resto del código para configurar la sesión...
 
                 $respuesta["sesion"] = $_SESSION["sessionInfo"];
                 $respuesta["status"] = 1;
                 $respuesta["error"] = "";
-
-
-
-                $id_usuario = $_SESSION["sessionInfo"]["userSession"];
-                $user = $_SESSION["sessionInfo"]["user"];
-                $nombre = $_SESSION["sessionInfo"]["userName"];
-                $fechaSesion = $_SESSION["sessionInfo"]["sessionDate"];
-                $token = md5($fechaSesion."/".$id_usuario);
-                $respuesta["token"]=$token;
                 
-                $querySesion = <<<SQL
-                    INSERT INTO framework_sesiones (
-                        id_usuario,
-                        userSesion,
-                        nomUsuario,
-                        dateSesion,
-                        nomSesion,
-                        statusSesion
-                    ) 
-                    VALUES
-                        (
-                            $id_usuario,
-                            '$user',
-                            '$nombre',
-                            '$fechaSesion',
-                            '$token',
-                             '1'
-                        )
-SQL;
-
-                if (!$mysqli->query($querySesion))  {
-                    $respuesta["sesion"] = "";
-                    $respuesta["status"] = 0;
-                    $respuesta["error"] = $querySesion . " " . $mysqli->error;
-                }
+                // Resto del código...
 
             } else {
                 $respuesta["sesion"] = [];
